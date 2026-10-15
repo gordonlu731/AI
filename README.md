@@ -1,5 +1,7 @@
 # AI
 
+**English** | [简体中文](README.zh-CN.md)
+
 A collection of independent projects. Each project keeps its source, dependencies, build configuration, documentation and release package in its own directory.
 
 ## Projects
@@ -8,7 +10,7 @@ A collection of independent projects. Each project keeps its source, dependencie
 
 A browser-based 3D Rube Goldberg machine with nine physical stages, built with Three.js and Rapier.
 
-- [Project documentation](bellworks/README.md)
+- [Project documentation](bellworks/README.md) · [中文说明](bellworks/README.zh-CN.md)
 - [Complete offline package](bellworks/Bellworks.zip) — open this file on GitHub and select **Download raw file**.
 - [Test results](bellworks/TEST_RESULTS.md)
 

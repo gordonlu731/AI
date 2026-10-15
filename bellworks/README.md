@@ -1,5 +1,7 @@
 # The Bellworks
 
+**English** | [简体中文](README.zh-CN.md)
+
 An interactive, nine-stage Rube Goldberg sculpture. One steel ball descends a two-level, three-dimensional brass-and-timber machine, drives its passive mechanisms, and swings a mallet into a hanging bell.
 
 **Three.js 0.186.0 · Rapier 3D compat 0.20.0 · Vite · npm**
