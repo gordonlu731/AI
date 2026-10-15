@@ -1,0 +1,8 @@
+{
+  "tag": "bellworks-before-intervention-20261015",
+  "commit": "0f8d6c03d0709106674becd4b4abb721bd360e39",
+  "archive_sha256": "1527afb026de3a23f14f1b146b12f0fce8a43c2619188554e52748b8bbafe6cc",
+  "git_bundle_verified": true,
+  "restore": "Download the repository or Bellworks.zip at this Git tag. The local verified Git bundle is retained under bellworks/releases/.",
+  "baseline_first_bell_seconds": 14.825000773184001
+}

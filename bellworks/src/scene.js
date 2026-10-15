@@ -49,6 +49,7 @@ export class WorkshopScene {
       steel:new THREE.MeshStandardMaterial({color:'#717d78',roughness:.28,metalness:.9}),
       dark:new THREE.MeshStandardMaterial({color:'#20483c',roughness:.45,metalness:.25}),
       base:new THREE.MeshStandardMaterial({color:'#315447',roughness:.6,metalness:.12}),
+      barrier:new THREE.MeshStandardMaterial({color:'#bd352d',roughness:.35,metalness:.20}),
       black:new THREE.MeshStandardMaterial({color:'#364039',roughness:.4,metalness:.4}),
     };
     this.content=new THREE.Group();this.scene.add(this.content);this.dynamic=[];
@@ -116,6 +117,9 @@ export class WorkshopScene {
       }
       mesh.quaternion.copy(piece.q);
       const group=new THREE.Group();this.content.remove(mesh);group.add(mesh);this.content.add(group);
+      const dominoIndex=machine.dominoes.indexOf(piece.body);
+      if(dominoIndex>=0)group.name=`domino-${dominoIndex+1}`;
+      if(piece.body===machine.obstacle)group.name='physics-obstacle';
       group.position.copy(piece.body.translation());group.quaternion.copy(piece.body.rotation());
       if(piece.body.isDynamic())this.dynamic.push({group,body:piece.body});
       if(piece.body===machine.ball)this.ballMesh=group;
@@ -202,7 +206,7 @@ export class WorkshopScene {
     const batches=new Map(),remove=[];
     this.content.traverse(o=> {
       if(!o.isMesh||o.userData.ownMaterial||!Object.values(this.mat).includes(o.material))return;
-      for(let parent=o;parent;parent=parent.parent)if(moving.has(parent))return;
+      for(let parent=o;parent;parent=parent.parent)if(moving.has(parent)||parent.name==='physics-obstacle')return;
       let geometry=o.geometry.clone().applyMatrix4(o.matrixWorld);
       if(geometry.index){const old=geometry;geometry=geometry.toNonIndexed();old.dispose();}
       if(!batches.has(o.material))batches.set(o.material,[]);

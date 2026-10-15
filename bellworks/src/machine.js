@@ -20,7 +20,12 @@ export async function initPhysics() { await RAPIER.init(); }
 /** There are no timeline events, motors, forces after release, or stage callbacks
  * that alter the world. Only gravity, contacts, and passive revolute joints. */
 export class Machine {
-  constructor() {
+  constructor(interventions={}) {
+    this.interventions=Object.freeze({removeDomino:!!interventions.removeDomino,addObstacle:!!interventions.addObstacle});
+    this.obstacle=null;
+    this.obstacleHits=0;
+    this.firstObstacleHitTime=null;
+    this.removedDomino=null;
     this.world = new RAPIER.World({x:0,y:-9.81,z:0});
     this.world.timestep = 1/120;
     this.world.numSolverIterations = 12;
@@ -35,6 +40,7 @@ export class Machine {
     this.bellHits = 0;
     this.contacts = new Set();
     this.build();
+    this.applyInterventions();
   }
   body(p, q=Q(), dynamic=false) {
     const d = dynamic ? RAPIER.RigidBodyDesc.dynamic().setCanSleep(false).setCcdEnabled(true) : RAPIER.RigidBodyDesc.fixed();
@@ -174,6 +180,22 @@ export class Machine {
     this.fixedBox(b(-10.05).add(V(0,.40,0)),[.2,.9,1.95],'teal');
     this.markers=[a(-9),a(-5.5),a(.1),V(11.3,7.4,0),b(5.6),b(1),b(-4),b(-8),bellP];
   }
+  applyInterventions() {
+    // Applied only while constructing a fresh world, before release. Remove the
+    // final, full-width gate tile as a body (including its collider and mesh).
+    if(this.interventions.removeDomino) {
+      const body=this.dominoes.pop(),handle=body.handle;
+      this.removedDomino={index:7,bodyHandle:handle,colliderHandle:body.collider(0).handle};
+      this.pieces=this.pieces.filter(piece=>piece.body.handle!==handle);
+      this.world.removeRigidBody(body);
+    }
+    if(this.interventions.addObstacle) {
+      // Span both rails upstream of the dominoes. Bottom overlaps the floor;
+      // a 0.64-diameter ball cannot slip under, beside, or over this fixed wall.
+      this.obstacle=this.body(this.trackA(-7.9).add(V(0,.60,0)));
+      this.obstacleCollider=this.box(this.obstacle,[.26,1.5,2.4],V(),'barrier');
+    }
+  }
   release() {
     if(this.started) return;
     this.started=true;
@@ -191,6 +213,7 @@ export class Machine {
       const ba=ca?.parent(),bb=cb?.parent();
       if(!ba||!bb) return;
       const hits=(x,y)=> (ba.handle===x.handle&&bb.handle===y.handle)||(ba.handle===y.handle&&bb.handle===x.handle);
+      if(this.obstacle&&hits(this.ball,this.obstacle)) {this.obstacleHits++;this.firstObstacleHitTime??=this.time;this.contacts.add('obstacle');}
       if(hits(this.ball,this.gate)) this.contacts.add('gate');
       if(hits(this.ball,this.wheel)) this.contacts.add('wheel');
       if(hits(this.ball,this.lever)) this.contacts.add('lever');
@@ -208,6 +231,6 @@ export class Machine {
     if(this.contacts.has('bucket')&&Math.abs(this.bucket.rotation().x)>.12) this.mark(6);
     if(this.contacts.has('hammer')&&Math.abs(this.hammer.angvel().z)>.1) this.mark(7);
   }
-  report() { return {time:this.time,position:this.ball.translation(),velocity:this.ball.linvel(),stages:[...this.stages],stageTimes:[...this.stageTimes],bellHits:this.bellHits,contacts:[...this.contacts]}; }
+  report() { return {time:this.time,position:this.ball.translation(),velocity:this.ball.linvel(),stages:[...this.stages],stageTimes:[...this.stageTimes],bellHits:this.bellHits,contacts:[...this.contacts],interventions:{...this.interventions},dominoCount:this.dominoes.length,obstacleHits:this.obstacleHits,firstObstacleHitTime:this.firstObstacleHitTime}; }
   dispose() { this.events.free();this.world.free(); }
 }

@@ -63,6 +63,19 @@ npm run offline     # 仅使用 Node.js 内置模块提供 dist 静态服务
 
 阶段追踪读取真实运动和碰撞。只有发生**击槌与钟体的物理碰撞**，才会显示完成提示并播放钟声。完成后物理世界继续运行，让钟和其他机构自然稳定；完成计时记录首次撞钟的时刻。重置会保留当前视角和所选速度。
 
+## 物理干预模式
+
+新增的 **Physics Intervention** 面板提供两个独立开关，默认关闭，保留原有九阶段机器：
+
+- **Remove Domino（移除骨牌）**：移除第 **08** 块骨牌，即横跨轨道的末块闸片，同时移除它的刚体、碰撞体和可见模型。
+- **Add Obstacle（添加障碍）**：在第一段斜坡、骨牌前方加入红色固定挡板。挡板横跨两侧护栏，显示尺寸与 Rapier 方盒碰撞体一致。
+
+释放钢球前，点击开关会立即重建尚未启动的物理世界并应用设置。实验已经启动后（包括暂停状态），切换开关会暂存设置，面板显示“Changes queued”，点击 **Reset** 后才应用。重置时两个选项会一起生效；关闭两项并重置即可恢复原配置。原有开始、暂停、速度和相机控件继续可用。
+
+阶段追踪始终依据真实运动和碰撞。球被挡住时，模拟时间和其余物体仍正常运行，没有脚本判定失败或强行停止。实测红色挡板会拦住钢球；移除末块骨牌后，链条**仍能继续并更早撞钟**，因为原本横跨轨道的闸片不再阻挡通行。
+
+改动前版本保存在 Git 标签 [`bellworks-before-intervention-20261015`](https://github.com/gordonlu731/AI/tree/bellworks-before-intervention-20261015)，提交为 `0f8d6c0`。快照信息见 `snapshots/before-intervention.json`，详细干预验证记录见 [INTERVENTION_TEST_RESULTS.md（英文）](INTERVENTION_TEST_RESULTS.md)。
+
 ## 九个机械阶段
 
 | 阶段 | 机构 | 物理连接方式 |
@@ -85,9 +98,11 @@ npm run offline     # 仅使用 Node.js 内置模块提供 dist 静态服务
 
 ```sh
 npm run test:physics
+npm run test:interventions
 npm run build
 # 在另一个终端执行 npm run offline 后，再运行：
 npm run test:browser
+npm run test:interventions:browser
 ```
 
 浏览器测试使用 Playwright 和 Chrome／Chromium。Linux 默认使用 `/usr/bin/chromium`；其他平台默认使用 Playwright 安装的 Chromium。可以通过 `CHROME_PATH` 指定已安装的浏览器，也可以执行 `npx playwright install chromium` 安装测试浏览器。

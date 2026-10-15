@@ -60,6 +60,19 @@ The physics chunk is intentionally larger than typical web code: `rapier3d-compa
 
 The tracker observes actual motion and contacts. The final message and sound are produced only by a physical **mallet–bell contact**. The simulation keeps running after completion so the bell and other mechanisms can settle. The displayed finish time records the first strike. Reset keeps the current camera angle and selected speed.
 
+## Physics Intervention
+
+The lab panel adds two independent switches while preserving the default nine-stage machine:
+
+- **Remove Domino** removes tile **#08**, the full-width final gate domino, including its rigid body, collider and visible mesh.
+- **Add Obstacle** adds a fixed red barrier across both rails on the first descent, upstream of the dominoes. Its geometry matches its Rapier box collider.
+
+Before release, one click applies the selected setting to a fresh, unstarted world. During a running or paused experiment, switches queue settings for the next **Reset**; the note explicitly shows when changes are queued. Reset applies both selections together. Start, Pause, speed and camera controls remain available. Clearing both switches and resetting restores the original configuration.
+
+The tracker keeps observing actual motion and contacts. A blocked ball does not pause the world or trigger an artificial failure. In the measured runs, the barrier physically stops the ball; removing domino #08 **allows the chain to continue** and ring sooner because the final gate tile no longer obstructs the runway. Neither option forces a particular stage outcome.
+
+A recoverable baseline is saved at Git tag [`bellworks-before-intervention-20261015`](https://github.com/gordonlu731/AI/tree/bellworks-before-intervention-20261015), commit `0f8d6c0`. Snapshot metadata is in `snapshots/before-intervention.json`. Detailed scenarios and test evidence are in [INTERVENTION_TEST_RESULTS.md](INTERVENTION_TEST_RESULTS.md).
+
 ## The nine stages
 
 | # | Mechanism | Physical connection |
@@ -80,9 +93,11 @@ Eight stages precede the final bell. Mechanisms use gravity, collision response,
 
 ```sh
 npm run test:physics
+npm run test:interventions
 npm run build
 # Start npm run offline in a separate terminal, then:
 npm run test:browser
+npm run test:interventions:browser
 ```
 
 Browser tests use Playwright and an existing Chrome/Chromium. On Linux they default to `/usr/bin/chromium`; elsewhere Playwright's installed Chromium is used. Override with `CHROME_PATH`, or install Playwright Chromium with `npx playwright install chromium`. Windows PowerShell example:

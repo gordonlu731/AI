@@ -1,5 +1,7 @@
 # Verification — The Bellworks
 
+For the subsequent Physics Intervention feature and its separately repeated scenarios, see [INTERVENTION_TEST_RESULTS.md](INTERVENTION_TEST_RESULTS.md). The original baseline record follows.
+
 Verified on **2026-10-15** in the Linux cloud workspace, using Node.js 24.19.0 and the installed headless Chromium with SwiftShader. Windows Chrome is the intended delivery platform; a native Windows session was **not** available and was not tested.
 
 ## Final physics revision

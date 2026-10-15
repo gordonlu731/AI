@@ -5,6 +5,7 @@ import {WorkshopScene} from './scene.js';
 const $=id=>document.getElementById(id);
 let machine,view,running=false,speed=1,accumulator=0,previous=0,completed=false,sound=true,audio,master;
 let lastCount=-1,toastDeadline=0;
+const pendingInterventions={removeDomino:false,addObstacle:false};
 const rows=STAGES.map(([name,description,type],i)=> {
   const li=document.createElement('li');
   li.title=description;
@@ -52,18 +53,31 @@ function setRunning(value) {
 $('start').addEventListener('click',()=> {
   if(machine.started)return;
   try{audio??=new AudioContext();if(!master){master=audio.createGain();master.gain.value=sound?1:0;master.connect(audio.destination);}audio.resume();}catch{/* Audio is optional. */}
-  machine.release();setRunning(true);$('start').disabled=true;$('start').innerHTML='<span>●</span> In motion';$('pause').disabled=false;
+  machine.release();setRunning(true);updateInterventionNote();$('start').disabled=true;$('start').innerHTML='<span>●</span> In motion';$('pause').disabled=false;
 });
 $('pause').addEventListener('click',()=> {if(machine.started)setRunning(!running);});
-$('reset').addEventListener('click',()=> {
+function resetMachine() {
   running=false;accumulator=0;completed=false;lastCount=-1;document.body.classList.remove('running');
-  const old=machine;machine=new Machine();view.setMachine(machine);old.dispose();
+  const old=machine;machine=new Machine(pendingInterventions);view.setMachine(machine);old.dispose();
   $('start').disabled=false;$('start').innerHTML='<span>▶</span> Release the ball';
   $('pause').disabled=true;$('pause').innerHTML='<span>Ⅱ</span> Pause';
   $('state-label').textContent='Wound up. Ready to wonder.';
   view.follow=false;$('follow').setAttribute('aria-pressed','false');
-  $('toast').classList.remove('visible');updateUI();
-});
+  $('toast').classList.remove('visible');updateUI();updateInterventionNote();
+}
+$('reset').addEventListener('click',resetMachine);
+function updateInterventionNote() {
+  const queued=Object.keys(pendingInterventions).some(key=>pendingInterventions[key]!==machine.interventions[key]);
+  $('intervention-note').textContent=queued?'Changes queued — press Reset to apply.':machine.started?'Settings stay fixed for this run. Changes apply on Reset.':'Ready to release. Settings apply to this run.';
+  document.querySelector('.intervention-panel').classList.toggle('pending',queued);
+}
+for(const [id,key] of [['remove-domino','removeDomino'],['add-obstacle','addObstacle']]) {
+  $(id).addEventListener('change',()=> {
+    pendingInterventions[key]=$(id).checked;
+    if(!machine.started)resetMachine();
+    else updateInterventionNote();
+  });
+}
 document.querySelectorAll('[data-speed]').forEach(button=>button.addEventListener('click',()=> {
   speed=Number(button.dataset.speed);document.querySelectorAll('[data-speed]').forEach(b=>b.classList.toggle('active',b===button));
 }));
@@ -88,11 +102,15 @@ function tick(now) {
 }
 try {
   await initPhysics();machine=new Machine();view=new WorkshopScene($('world'));view.setMachine(machine);
-  updateUI();$('loading').classList.add('hidden');previous=performance.now();requestAnimationFrame(tick);
+  updateUI();updateInterventionNote();$('remove-domino').disabled=false;$('add-obstacle').disabled=false;$('loading').classList.add('hidden');previous=performance.now();requestAnimationFrame(tick);
   // Read-only diagnostics for inspection. Acceleration is exposed only in explicit test mode;
   // it executes the identical fixed-step solver and never assigns a stage or body position.
   window.__bellworks={report:()=>machine.report(),get running(){return running;},get speed(){return speed;},get camera(){return view.camera.position.toArray();},get renderInfo(){return {...view.renderer.info.render};}};
   if(new URLSearchParams(location.search).has('test')) {
+    window.__bellworks.interventionGeometry=()=>({
+      dominoes:view.content.children.filter(group=>group.name.startsWith('domino-')&&group.children.some(mesh=>mesh.isMesh&&mesh.visible)).length,
+      obstacle:!!view.content.getObjectByName('physics-obstacle')?.children.some(mesh=>mesh.isMesh&&mesh.visible),
+    });
     window.__bellworks.advance=(seconds)=> {
       if(!running)return machine.report();
       for(let i=0;i<Math.round(seconds*120);i++)machine.step();
