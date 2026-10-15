@@ -62,3 +62,7 @@ Initial iterations had self-toppling tiles, a pile of tiles obstructing the ball
 - The bell collision shape is a solid convex hull matching its outer profile. Its sound is synthesized rather than an acoustic simulation.
 - The return is a railed, descending half-turn rather than a multi-turn funnel. The sculpture uses passive mechanisms and a single continuous ball route.
 - The ready-to-run distribution is offline. Rebuilding source on a new machine requires either an initial npm installation with internet access or a populated npm cache. Node and Chrome must already be installed.
+
+## Repository organization check
+
+After relocation into `AI/bellworks/`, the production build and three physics runs passed again. A browser check against the relocated dependency-free server completed all nine stages at 14.825 simulated seconds with zero page exceptions and zero external requests. This check used the fixed-step accelerator. The standalone ZIP retains its self-contained `Bellworks/` directory.
