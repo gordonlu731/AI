@@ -1,0 +1,25 @@
+{
+  "name": "the-bellworks",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "build": "vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:physics": "node tests/physics.mjs",
+    "test:browser": "node tests/browser.mjs",
+    "offline": "node tools/serve.mjs"
+  },
+  "dependencies": {
+    "@dimforge/rapier3d-compat": "0.20.0",
+    "three": "0.186.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.61.1",
+    "vite": "7.3.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}
