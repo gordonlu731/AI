@@ -1,0 +1,109 @@
+{
+  "protocol_id": "BW-PREDICT-001",
+  "cases": [
+    {
+      "id": "X1",
+      "bell_by_30s": null,
+      "p_bell_by_30s": null,
+      "stages": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "contacts": {
+        "barrier": null,
+        "gate": null,
+        "wheel": null,
+        "lever": null,
+        "bucket": null,
+        "hammer": null
+      },
+      "predicted_first_bell_seconds": null,
+      "reasoning": "请填入基于几何、碰撞和动量的解释；指出不确定之处。"
+    },
+    {
+      "id": "X2",
+      "bell_by_30s": null,
+      "p_bell_by_30s": null,
+      "stages": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "contacts": {
+        "barrier": null,
+        "gate": null,
+        "wheel": null,
+        "lever": null,
+        "bucket": null,
+        "hammer": null
+      },
+      "predicted_first_bell_seconds": null,
+      "reasoning": "请填入基于几何、碰撞和动量的解释；指出不确定之处。"
+    },
+    {
+      "id": "X3",
+      "bell_by_30s": null,
+      "p_bell_by_30s": null,
+      "stages": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "contacts": {
+        "barrier": null,
+        "gate": null,
+        "wheel": null,
+        "lever": null,
+        "bucket": null,
+        "hammer": null
+      },
+      "predicted_first_bell_seconds": null,
+      "reasoning": "请填入基于几何、碰撞和动量的解释；指出不确定之处。"
+    },
+    {
+      "id": "X4",
+      "bell_by_30s": null,
+      "p_bell_by_30s": null,
+      "stages": [
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "contacts": {
+        "barrier": null,
+        "gate": null,
+        "wheel": null,
+        "lever": null,
+        "bucket": null,
+        "hammer": null
+      },
+      "predicted_first_bell_seconds": null,
+      "reasoning": "请填入基于几何、碰撞和动量的解释；指出不确定之处。"
+    }
+  ]
+}

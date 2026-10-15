@@ -1,0 +1,107 @@
+{
+  "protocol_id": "BW-PREDICT-001",
+  "generated_at": "2026-10-15T15:40:04.959Z",
+  "source_sha256": "3c85b9b5625330255f44f8be9c7ce21fec2d4225b51a2a2347599cd8e1301e25",
+  "input_manifest_sha256": "2a7b9edcfb501de330ee3e8c506a1dd45bfe5fef52eb314232a73eadec24722e",
+  "engine": "@dimforge/rapier3d-compat 0.20.0",
+  "repeats": 3,
+  "horizon_seconds": 30,
+  "cases": [
+    {
+      "id": "X1",
+      "bell_by_30s": false,
+      "stages": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "contacts": {
+        "barrier": true,
+        "gate": false,
+        "wheel": false,
+        "lever": false,
+        "bucket": false,
+        "hammer": false
+      },
+      "first_bell_seconds": null
+    },
+    {
+      "id": "X2",
+      "bell_by_30s": true,
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "contacts": {
+        "barrier": false,
+        "gate": true,
+        "wheel": true,
+        "lever": true,
+        "bucket": true,
+        "hammer": true
+      },
+      "first_bell_seconds": 14.825000773184001
+    },
+    {
+      "id": "X3",
+      "bell_by_30s": true,
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "contacts": {
+        "barrier": false,
+        "gate": true,
+        "wheel": true,
+        "lever": true,
+        "bucket": true,
+        "hammer": true
+      },
+      "first_bell_seconds": 12.966667342931032
+    },
+    {
+      "id": "X4",
+      "bell_by_30s": false,
+      "stages": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "contacts": {
+        "barrier": true,
+        "gate": false,
+        "wheel": false,
+        "lever": false,
+        "bucket": false,
+        "hammer": false
+      },
+      "first_bell_seconds": null
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "protocol_id": "BW-PREDICT-001",
+  "input_track": "images plus initial geometry and physical parameters",
+  "reference_fact": "REF is known to complete all nine stages within the same 30s observation window. No other configuration measurements are supplied.",
+  "files": {
+    "PROMPT.zh-CN.md": "9b7b77474606f9628c28e81178333ac8f372aadf1bb2b0929739017b833cd288",
+    "SCENE.zh-CN.md": "fee182551b782fda762cc384b50c2a2e57cd7ec6e944f8ad11c6068f65ad3f18",
+    "PHYSICS.json": "dc3207f721fa45d9bcb67709ede3812a0702008157ad096bb0bc8a33ace83f69",
+    "RESPONSE_TEMPLATE.json": "747e7dcb63fa3eac6268df27b48c55187018417d97093a6d33d2918819cdf941",
+    "01_REFERENCE_OVERVIEW.png": "ecf1753a736d505eecedb07ffddbfde1de9e38d22cd2c319b3f872860e69888c",
+    "02_REFERENCE_OVERHEAD.png": "8d7ca8dc0282e8a14c4b27620a74e24a2e94d8b0ad597881a92656f340fa503b",
+    "03_BARRIER_INITIAL.png": "d423ce48d5eee81be42a277d0e3d72c73f301f86d4bd9a398a1cd9ae099c77d2",
+    "04_DOMINO_REMOVED_INITIAL.png": "cdbc2c8f9581d0473854bd7035adac7cf486b2ff64eefddc2343c5cbb30fbf17"
+  }
+}

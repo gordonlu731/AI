@@ -4,3 +4,6 @@ artifacts/
 *.log
 
 releases/
+# Private model responses and local score receipts
+bellworks/evaluation/operator/attempts/
+bellworks/evaluation/response.json

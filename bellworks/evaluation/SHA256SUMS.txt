@@ -1,0 +1,2 @@
+e102e7c3aac4073066a51786fd60e01aa26b0498c2cf9ff9b742deee86a80742  Bellworks-AI-Input.zip
+b39dcde2c9eccc7a12896baf3c3d2496f807b6b38bd2b1ca3f6a51a0cb9284b9  Bellworks-Operator-Kit.zip

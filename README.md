@@ -13,6 +13,7 @@ A browser-based 3D Rube Goldberg machine with nine physical stages, built with T
 - [Project documentation](bellworks/README.md) · [中文说明](bellworks/README.zh-CN.md)
 - [Complete offline package](bellworks/Bellworks.zip) — open this file on GitHub and select **Download raw file**.
 - [Test results](bellworks/TEST_RESULTS.md)
+- [AI physics prediction kit](bellworks/evaluation/README.md)
 
 For development, start in the project directory:
 

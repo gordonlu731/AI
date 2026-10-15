@@ -121,6 +121,10 @@ npm run test:browser
 
 `?test=1` exposes an explicit test-only fixed-step accelerator. It runs exactly the same solver; it cannot assign stages, reposition objects, or inject impulses. Normal pages expose only read-only diagnostic snapshots at `window.__bellworks`.
 
+## AI physics prediction study
+
+A separate [evaluation kit](evaluation/README.md) lets a fresh AI conversation predict these intervention outcomes before seeing measurements. Only send the **[AI input package](evaluation/Bellworks-AI-Input.zip)** to the model; it contains initial images, geometry and a blank forecast template. The operator guide, measured labels and scorer stay separate. This small case study has not yet collected an independent model forecast.
+
 ## Practical limits
 
 Chrome with WebGL2 and working graphics drivers is required. Hardware acceleration is recommended; software-rendered browsers can take longer than wall-clock time to simulate a run. The fixed-step accumulator caps catch-up after a stall, and returning from a hidden tab does not fast-forward the machine. The bell uses a convex hull of its visible profile, with a solid interior, rather than a hollow acoustic shell. Sound is a local synthesized bell tone, not acoustic simulation. The return stage is a descending half-turn, not a multi-turn funnel. No assets or services are hosted externally.

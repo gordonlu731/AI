@@ -1,0 +1,83 @@
+{
+  "generated_at": "2026-10-15T15:34:41.409Z",
+  "captures": [
+    {
+      "file": "01_REFERENCE_OVERVIEW.png",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "initial_options": {
+        "removeDomino": false,
+        "addObstacle": false
+      }
+    },
+    {
+      "file": "02_REFERENCE_OVERHEAD.png",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "initial_options": {
+        "removeDomino": false,
+        "addObstacle": false
+      }
+    },
+    {
+      "file": "03_BARRIER_INITIAL.png",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "initial_options": {
+        "removeDomino": false,
+        "addObstacle": true
+      }
+    },
+    {
+      "file": "04_DOMINO_REMOVED_INITIAL.png",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "initial_options": {
+        "removeDomino": true,
+        "addObstacle": false
+      }
+    }
+  ],
+  "errors": [],
+  "external": []
+}

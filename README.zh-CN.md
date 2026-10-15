@@ -14,6 +14,7 @@
 - [英文项目说明](bellworks/README.md)
 - [完整离线包](bellworks/Bellworks.zip)：打开 GitHub 文件页面后，点击 **Download raw file** 下载。
 - [测试报告（英文）](bellworks/TEST_RESULTS.md)
+- [AI 物理预测盲测材料与操作指南](bellworks/evaluation/README.zh-CN.md)
 
 开发时，从仓库根目录进入项目子文件夹：
 
