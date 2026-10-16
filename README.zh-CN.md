@@ -27,3 +27,5 @@ npm run dev
 开发环境需要 Node.js 22.12+ 和 npm，首次安装依赖需要联网。
 
 离线使用时，提前安装 Node.js 22，下载并解压 `bellworks/Bellworks.zip`，双击解压目录中的 `start-offline.bat`，再在 Chrome 中打开 http://127.0.0.1:4173。运行预构建的离线包无需联网，也无需执行 `npm install`。
+
+[第二轮 AI 物理预测测试 / Round 2](bellworks/evaluation/round2/README.zh-CN.md)：初始输入与实测评分包分开提供。

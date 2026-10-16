@@ -1,0 +1,2 @@
+bd3646af32f90bdd4618b81f700f9761afd8663fdfdfe3400e6d15ca7f7dc5ab  Bellworks-Round2-AI-Input.zip
+f53b7ec2dbe9edbed8f2f258632cbdbf72aa6ff2295024b9d84fa9e1ed8b17c3  Bellworks-Round2-Operator-Kit.zip

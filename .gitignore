@@ -7,3 +7,10 @@ releases/
 # Private model responses and local score receipts
 bellworks/evaluation/operator/attempts/
 bellworks/evaluation/response.json
+
+# Round 2 private model submissions
+bellworks/evaluation/round2/operator/attempts/
+bellworks/evaluation/round2/response.json
+
+# Local Python packaging cache
+__pycache__/

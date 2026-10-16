@@ -1,0 +1,699 @@
+{
+  "generated_at": "2026-10-16T01:15:24.960Z",
+  "captures": [
+    {
+      "file": "00_REFERENCE_OVERVIEW.png",
+      "case": "REF",
+      "angle": "home",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "geometry": {
+        "dominoes": [
+          {
+            "ordinal": 1,
+            "position": {
+              "x": -6.823999881744385,
+              "y": 11.76200008392334,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 2,
+            "position": {
+              "x": -6.4039998054504395,
+              "y": 11.678000450134277,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 3,
+            "position": {
+              "x": -5.984000205993652,
+              "y": 11.593999862670898,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 4,
+            "position": {
+              "x": -5.564000129699707,
+              "y": 11.510000228881836,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 5,
+            "position": {
+              "x": -5.144000053405762,
+              "y": 11.425999641418457,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 6,
+            "position": {
+              "x": -4.723999977111816,
+              "y": 11.342000007629395,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 7,
+            "position": {
+              "x": -4.303999900817871,
+              "y": 11.258000373840332,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 8,
+            "position": {
+              "x": -3.884000062942505,
+              "y": 11.173999786376953,
+              "z": -3.4000000953674316
+            },
+            "colliderCount": 1
+          }
+        ],
+        "obstacle": null,
+        "ballRadius": 0.3199999928474426,
+        "visibleDominoes": 8,
+        "visibleObstacle": false
+      }
+    },
+    {
+      "file": "01_REFERENCE_RAMP.png",
+      "case": "REF",
+      "angle": "ramp",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "geometry": {
+        "dominoes": [
+          {
+            "ordinal": 1,
+            "position": {
+              "x": -6.823999881744385,
+              "y": 11.76200008392334,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 2,
+            "position": {
+              "x": -6.4039998054504395,
+              "y": 11.678000450134277,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 3,
+            "position": {
+              "x": -5.984000205993652,
+              "y": 11.593999862670898,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 4,
+            "position": {
+              "x": -5.564000129699707,
+              "y": 11.510000228881836,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 5,
+            "position": {
+              "x": -5.144000053405762,
+              "y": 11.425999641418457,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 6,
+            "position": {
+              "x": -4.723999977111816,
+              "y": 11.342000007629395,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 7,
+            "position": {
+              "x": -4.303999900817871,
+              "y": 11.258000373840332,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 8,
+            "position": {
+              "x": -3.884000062942505,
+              "y": 11.173999786376953,
+              "z": -3.4000000953674316
+            },
+            "colliderCount": 1
+          }
+        ],
+        "obstacle": null,
+        "ballRadius": 0.3199999928474426,
+        "visibleDominoes": 8,
+        "visibleObstacle": false
+      }
+    },
+    {
+      "file": "02_REFERENCE_DOMINOES.png",
+      "case": "REF",
+      "angle": "dominoes",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "geometry": {
+        "dominoes": [
+          {
+            "ordinal": 1,
+            "position": {
+              "x": -6.823999881744385,
+              "y": 11.76200008392334,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 2,
+            "position": {
+              "x": -6.4039998054504395,
+              "y": 11.678000450134277,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 3,
+            "position": {
+              "x": -5.984000205993652,
+              "y": 11.593999862670898,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 4,
+            "position": {
+              "x": -5.564000129699707,
+              "y": 11.510000228881836,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 5,
+            "position": {
+              "x": -5.144000053405762,
+              "y": 11.425999641418457,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 6,
+            "position": {
+              "x": -4.723999977111816,
+              "y": 11.342000007629395,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 7,
+            "position": {
+              "x": -4.303999900817871,
+              "y": 11.258000373840332,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 8,
+            "position": {
+              "x": -3.884000062942505,
+              "y": 11.173999786376953,
+              "z": -3.4000000953674316
+            },
+            "colliderCount": 1
+          }
+        ],
+        "obstacle": null,
+        "ballRadius": 0.3199999928474426,
+        "visibleDominoes": 8,
+        "visibleObstacle": false
+      }
+    },
+    {
+      "file": "03_Y1_INITIAL.png",
+      "case": "Y1",
+      "angle": "ramp",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "geometry": {
+        "dominoes": [
+          {
+            "ordinal": 1,
+            "position": {
+              "x": -6.823999881744385,
+              "y": 11.76200008392334,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 2,
+            "position": {
+              "x": -6.4039998054504395,
+              "y": 11.678000450134277,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 3,
+            "position": {
+              "x": -5.984000205993652,
+              "y": 11.593999862670898,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 4,
+            "position": {
+              "x": -5.564000129699707,
+              "y": 11.510000228881836,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 5,
+            "position": {
+              "x": -5.144000053405762,
+              "y": 11.425999641418457,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 6,
+            "position": {
+              "x": -4.723999977111816,
+              "y": 11.342000007629395,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 7,
+            "position": {
+              "x": -4.303999900817871,
+              "y": 11.258000373840332,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 8,
+            "position": {
+              "x": -3.884000062942505,
+              "y": 11.173999786376953,
+              "z": -3.4000000953674316
+            },
+            "colliderCount": 1
+          }
+        ],
+        "obstacle": {
+          "position": {
+            "x": -7.900000095367432,
+            "y": 11.579999923706055,
+            "z": -3.4000000953674316
+          },
+          "size": [
+            0.26,
+            0.3,
+            2.4
+          ]
+        },
+        "ballRadius": 0.3199999928474426,
+        "visibleDominoes": 8,
+        "visibleObstacle": true
+      }
+    },
+    {
+      "file": "04_Y2_INITIAL.png",
+      "case": "Y2",
+      "angle": "ramp",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "geometry": {
+        "dominoes": [
+          {
+            "ordinal": 1,
+            "position": {
+              "x": -6.823999881744385,
+              "y": 11.76200008392334,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 2,
+            "position": {
+              "x": -6.4039998054504395,
+              "y": 11.678000450134277,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 3,
+            "position": {
+              "x": -5.984000205993652,
+              "y": 11.593999862670898,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 4,
+            "position": {
+              "x": -5.564000129699707,
+              "y": 11.510000228881836,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 5,
+            "position": {
+              "x": -5.144000053405762,
+              "y": 11.425999641418457,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 6,
+            "position": {
+              "x": -4.723999977111816,
+              "y": 11.342000007629395,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 7,
+            "position": {
+              "x": -4.303999900817871,
+              "y": 11.258000373840332,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 8,
+            "position": {
+              "x": -3.884000062942505,
+              "y": 11.173999786376953,
+              "z": -3.4000000953674316
+            },
+            "colliderCount": 1
+          }
+        ],
+        "obstacle": {
+          "position": {
+            "x": -7.900000095367432,
+            "y": 12.180000305175781,
+            "z": -2.75
+          },
+          "size": [
+            0.26,
+            1.5,
+            0.6
+          ]
+        },
+        "ballRadius": 0.3199999928474426,
+        "visibleDominoes": 8,
+        "visibleObstacle": true
+      }
+    },
+    {
+      "file": "05_Y3_INITIAL.png",
+      "case": "Y3",
+      "angle": "dominoes",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "geometry": {
+        "dominoes": [
+          {
+            "ordinal": 1,
+            "position": {
+              "x": -6.823999881744385,
+              "y": 11.76200008392334,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 2,
+            "position": {
+              "x": -6.4039998054504395,
+              "y": 11.678000450134277,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 3,
+            "position": {
+              "x": -5.984000205993652,
+              "y": 11.593999862670898,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 5,
+            "position": {
+              "x": -5.144000053405762,
+              "y": 11.425999641418457,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 6,
+            "position": {
+              "x": -4.723999977111816,
+              "y": 11.342000007629395,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 7,
+            "position": {
+              "x": -4.303999900817871,
+              "y": 11.258000373840332,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 8,
+            "position": {
+              "x": -3.884000062942505,
+              "y": 11.173999786376953,
+              "z": -3.4000000953674316
+            },
+            "colliderCount": 1
+          }
+        ],
+        "obstacle": null,
+        "ballRadius": 0.3199999928474426,
+        "visibleDominoes": 7,
+        "visibleObstacle": false
+      }
+    },
+    {
+      "file": "06_Y4_INITIAL.png",
+      "case": "Y4",
+      "angle": "home",
+      "time": 0,
+      "stages": [
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "geometry": {
+        "dominoes": [
+          {
+            "ordinal": 1,
+            "position": {
+              "x": -6.823999881744385,
+              "y": 11.76200008392334,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 2,
+            "position": {
+              "x": -6.4039998054504395,
+              "y": 11.678000450134277,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 3,
+            "position": {
+              "x": -5.984000205993652,
+              "y": 11.593999862670898,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 4,
+            "position": {
+              "x": -5.564000129699707,
+              "y": 11.510000228881836,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 5,
+            "position": {
+              "x": -5.144000053405762,
+              "y": 11.425999641418457,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 6,
+            "position": {
+              "x": -4.723999977111816,
+              "y": 11.342000007629395,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 7,
+            "position": {
+              "x": -4.303999900817871,
+              "y": 11.258000373840332,
+              "z": -2.9700000286102295
+            },
+            "colliderCount": 1
+          },
+          {
+            "ordinal": 8,
+            "position": {
+              "x": -3.884000062942505,
+              "y": 11.173999786376953,
+              "z": -3.4000000953674316
+            },
+            "colliderCount": 1
+          }
+        ],
+        "obstacle": null,
+        "ballRadius": 0.3199999928474426,
+        "visibleDominoes": 8,
+        "visibleObstacle": false
+      }
+    }
+  ],
+  "errors": [],
+  "external": []
+}

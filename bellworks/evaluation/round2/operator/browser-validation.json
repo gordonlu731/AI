@@ -1,0 +1,2839 @@
+{
+  "generated_at": "2026-10-16T01:26:52.005Z",
+  "success": true,
+  "controls": {
+    "pauseAndReset": true,
+    "queuedConfiguration": true,
+    "speedButtons": true,
+    "resume": true,
+    "camera": true,
+    "realtimeBaseline": true
+  },
+  "runs": [
+    {
+      "case": "REF",
+      "repeat": 1,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": false
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "REF",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "REF",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "REF",
+      "repeat": 2,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": false
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "REF",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "REF",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "REF",
+      "repeat": 3,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": false
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "REF",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "REF",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y1",
+      "repeat": 1,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": true
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y1",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": {
+            "position": {
+              "x": -7.900000095367432,
+              "y": 11.579999923706055,
+              "z": -3.4000000953674316
+            },
+            "size": [
+              0.26,
+              0.3,
+              2.4
+            ]
+          },
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": true
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -2.009406328201294,
+        "y": 10.72995662689209,
+        "z": -4.040005683898926
+      },
+      "velocity": {
+        "x": -0.00005350524588720873,
+        "y": 0.000010701031897042412,
+        "z": 4.0339827478419465e-8
+      },
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.783333530649543,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.291666734032333,
+      "experiment": "Y1",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y1",
+      "repeat": 2,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": true
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y1",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": {
+            "position": {
+              "x": -7.900000095367432,
+              "y": 11.579999923706055,
+              "z": -3.4000000953674316
+            },
+            "size": [
+              0.26,
+              0.3,
+              2.4
+            ]
+          },
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": true
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -2.009406328201294,
+        "y": 10.72995662689209,
+        "z": -4.040005683898926
+      },
+      "velocity": {
+        "x": -0.00005350524588720873,
+        "y": 0.000010701031897042412,
+        "z": 4.0339827478419465e-8
+      },
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.783333530649543,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.291666734032333,
+      "experiment": "Y1",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y1",
+      "repeat": 3,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": true
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y1",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": {
+            "position": {
+              "x": -7.900000095367432,
+              "y": 11.579999923706055,
+              "z": -3.4000000953674316
+            },
+            "size": [
+              0.26,
+              0.3,
+              2.4
+            ]
+          },
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": true
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -2.009406328201294,
+        "y": 10.72995662689209,
+        "z": -4.040005683898926
+      },
+      "velocity": {
+        "x": -0.00005350524588720873,
+        "y": 0.000010701031897042412,
+        "z": 4.0339827478419465e-8
+      },
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.783333530649543,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.291666734032333,
+      "experiment": "Y1",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y2",
+      "repeat": 1,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": true
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y2",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": {
+            "position": {
+              "x": -7.900000095367432,
+              "y": 12.180000305175781,
+              "z": -2.75
+            },
+            "size": [
+              0.26,
+              1.5,
+              0.6
+            ]
+          },
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": true
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y2",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y2",
+      "repeat": 2,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": true
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y2",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": {
+            "position": {
+              "x": -7.900000095367432,
+              "y": 12.180000305175781,
+              "z": -2.75
+            },
+            "size": [
+              0.26,
+              1.5,
+              0.6
+            ]
+          },
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": true
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y2",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y2",
+      "repeat": 3,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": true
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y2",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": {
+            "position": {
+              "x": -7.900000095367432,
+              "y": 12.180000305175781,
+              "z": -2.75
+            },
+            "size": [
+              0.26,
+              1.5,
+              0.6
+            ]
+          },
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": true
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y2",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y3",
+      "repeat": 1,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": true,
+            "addObstacle": false
+          },
+          "dominoCount": 7,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y3",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 7,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561771392822266,
+        "y": 1.819010615348816,
+        "z": 4.040117263793945
+      },
+      "velocity": {
+        "x": 0.00010326765186619014,
+        "y": 0.000022875012291478924,
+        "z": -1.7462298274040222e-10
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.6416668565943837,
+        3.941666872240603,
+        7.875000410713255,
+        9.541667164303362,
+        10.58333388529718,
+        12.033333960920572,
+        12.758333998732269,
+        12.816667335107923
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": false
+      },
+      "dominoCount": 7,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y3",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y3",
+      "repeat": 2,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": true,
+            "addObstacle": false
+          },
+          "dominoCount": 7,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y3",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 7,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561771392822266,
+        "y": 1.819010615348816,
+        "z": 4.040117263793945
+      },
+      "velocity": {
+        "x": 0.00010326765186619014,
+        "y": 0.000022875012291478924,
+        "z": -1.7462298274040222e-10
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.6416668565943837,
+        3.941666872240603,
+        7.875000410713255,
+        9.541667164303362,
+        10.58333388529718,
+        12.033333960920572,
+        12.758333998732269,
+        12.816667335107923
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": false
+      },
+      "dominoCount": 7,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y3",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y3",
+      "repeat": 3,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": true,
+            "addObstacle": false
+          },
+          "dominoCount": 7,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y3",
+          "ballDensity": 24,
+          "ballMass": 3.294198513031006
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 7,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561771392822266,
+        "y": 1.819010615348816,
+        "z": 4.040117263793945
+      },
+      "velocity": {
+        "x": 0.00010326765186619014,
+        "y": 0.000022875012291478924,
+        "z": -1.7462298274040222e-10
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.6416668565943837,
+        3.941666872240603,
+        7.875000410713255,
+        9.541667164303362,
+        10.58333388529718,
+        12.033333960920572,
+        12.758333998732269,
+        12.816667335107923
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": false
+      },
+      "dominoCount": 7,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y3",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y4",
+      "repeat": 1,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": false
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y4",
+          "ballDensity": 2.4000000953674316,
+          "ballMass": 0.329419881105423
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -2.108853816986084,
+        "y": 10.749759674072266,
+        "z": -4.040061950683594
+      },
+      "velocity": {
+        "x": -0.00002877599763451144,
+        "y": 0.000005755329311796231,
+        "z": 1.6997676155483532e-8
+      },
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.041666825301945,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y4",
+      "ballDensity": 2.4000000953674316,
+      "ballMass": 0.329419881105423
+    },
+    {
+      "case": "Y4",
+      "repeat": 2,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": false
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y4",
+          "ballDensity": 2.4000000953674316,
+          "ballMass": 0.329419881105423
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -2.108853816986084,
+        "y": 10.749759674072266,
+        "z": -4.040061950683594
+      },
+      "velocity": {
+        "x": -0.00002877599763451144,
+        "y": 0.000005755329311796231,
+        "z": 1.6997676155483532e-8
+      },
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.041666825301945,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y4",
+      "ballDensity": 2.4000000953674316,
+      "ballMass": 0.329419881105423
+    },
+    {
+      "case": "Y4",
+      "repeat": 3,
+      "initial": {
+        "r": {
+          "time": 0,
+          "position": {
+            "x": -9.350000381469727,
+            "y": 12.25,
+            "z": -3.4000000953674316
+          },
+          "velocity": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "stages": [
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false,
+            false
+          ],
+          "stageTimes": [
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null,
+            null
+          ],
+          "bellHits": 0,
+          "contacts": [],
+          "interventions": {
+            "removeDomino": false,
+            "addObstacle": false
+          },
+          "dominoCount": 8,
+          "obstacleHits": 0,
+          "firstObstacleHitTime": null,
+          "experiment": "Y4",
+          "ballDensity": 2.4000000953674316,
+          "ballMass": 0.329419881105423
+        },
+        "g": {
+          "dominoes": [
+            {
+              "ordinal": 1,
+              "position": {
+                "x": -6.823999881744385,
+                "y": 11.76200008392334,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 2,
+              "position": {
+                "x": -6.4039998054504395,
+                "y": 11.678000450134277,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 3,
+              "position": {
+                "x": -5.984000205993652,
+                "y": 11.593999862670898,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 4,
+              "position": {
+                "x": -5.564000129699707,
+                "y": 11.510000228881836,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 5,
+              "position": {
+                "x": -5.144000053405762,
+                "y": 11.425999641418457,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 6,
+              "position": {
+                "x": -4.723999977111816,
+                "y": 11.342000007629395,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 7,
+              "position": {
+                "x": -4.303999900817871,
+                "y": 11.258000373840332,
+                "z": -2.9700000286102295
+              },
+              "colliderCount": 1
+            },
+            {
+              "ordinal": 8,
+              "position": {
+                "x": -3.884000062942505,
+                "y": 11.173999786376953,
+                "z": -3.4000000953674316
+              },
+              "colliderCount": 1
+            }
+          ],
+          "obstacle": null,
+          "ballRadius": 0.3199999928474426,
+          "visibleDominoes": 8,
+          "visibleObstacle": false
+        }
+      },
+      "time": 30.000001564621925,
+      "position": {
+        "x": -2.108853816986084,
+        "y": 10.749759674072266,
+        "z": -4.040061950683594
+      },
+      "velocity": {
+        "x": -0.00002877599763451144,
+        "y": 0.000005755329311796231,
+        "z": 1.6997676155483532e-8
+      },
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.041666825301945,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y4",
+      "ballDensity": 2.4000000953674316,
+      "ballMass": 0.329419881105423
+    }
+  ],
+  "realtime_report": {
+    "time": 14.825000773184001,
+    "position": {
+      "x": -7.687180042266846,
+      "y": 2.0139503479003906,
+      "z": 3.141707181930542
+    },
+    "velocity": {
+      "x": -1.7527287006378174,
+      "y": -0.264163613319397,
+      "z": -0.2843603193759918
+    },
+    "stages": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "stageTimes": [
+      0.9916667183861136,
+      3.1250001629814506,
+      4.241666887886822,
+      9.133333809673786,
+      10.975000572390854,
+      12.066667295992374,
+      13.525000705383718,
+      14.716667434200644,
+      14.825000773184001
+    ],
+    "bellHits": 1,
+    "contacts": [
+      "gate",
+      "wheel",
+      "lever",
+      "bucket",
+      "hammer"
+    ],
+    "interventions": {
+      "removeDomino": false,
+      "addObstacle": false
+    },
+    "dominoCount": 8,
+    "obstacleHits": 0,
+    "firstObstacleHitTime": null,
+    "experiment": "REF",
+    "ballDensity": 24,
+    "ballMass": 3.294198513031006
+  },
+  "failure": null,
+  "errors": [],
+  "external": []
+}

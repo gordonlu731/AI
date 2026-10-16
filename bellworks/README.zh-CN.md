@@ -143,3 +143,11 @@ npm run test:browser
 - 钟体使用与外形匹配的实心凸包碰撞体，并非中空声学模型；钟声为本地合成音效，不是声学仿真。
 - 回旋阶段是下降半圈弯道，不是多圈漏斗。
 - 成品运行不依赖外部资源或服务。新电脑从源码重新构建时，需要先联网安装 npm 依赖，或提前准备完整 npm 缓存；Node.js 和 Chrome 也需预先安装。
+
+## 第二轮 AI 物理预测实验
+
+独立页面为 `http://127.0.0.1:4173/round2.html`，原首页保持不变。新页面允许选择 REF 和四个独立初始配置，保留原有交互与九阶段观测规则。
+
+测试 AI 时，只给它 [第二轮 A 包](evaluation/round2/Bellworks-Round2-AI-Input.zip)；[第二轮 B 包](evaluation/round2/Bellworks-Round2-Operator-Kit.zip) 包含实测答案，留给主持人评分。上传方法、预测锁定与评分命令见 [第二轮中文指南](evaluation/round2/README.zh-CN.md)。不要把整个项目或评分包上传给被测 AI。
+
+第二轮改动前的恢复点为 Git 标签 `bellworks-before-round2-20261016`，信息见 `snapshots/before-round2.json`。

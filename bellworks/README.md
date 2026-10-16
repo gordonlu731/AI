@@ -128,3 +128,7 @@ A separate [evaluation kit](evaluation/README.md) lets a fresh AI conversation p
 ## Practical limits
 
 Chrome with WebGL2 and working graphics drivers is required. Hardware acceleration is recommended; software-rendered browsers can take longer than wall-clock time to simulate a run. The fixed-step accumulator caps catch-up after a stall, and returning from a hidden tab does not fast-forward the machine. The bell uses a convex hull of its visible profile, with a solid interior, rather than a hollow acoustic shell. Sound is a local synthesized bell tone, not acoustic simulation. The return stage is a descending half-turn, not a multi-turn funnel. No assets or services are hosted externally.
+
+## Round 2 prediction experiments
+
+The separate `/round2.html` page provides REF and four initial variations without changing the original homepage or runtime sources. See the [round 2 guide](evaluation/round2/README.zh-CN.md). Give only the AI Input ZIP to the prediction model; the Operator Kit contains measured answers. Recover the pre-change project at Git tag `bellworks-before-round2-20261016`.

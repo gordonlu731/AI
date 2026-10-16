@@ -1,0 +1,61 @@
+{
+  "protocol_id": "BW-PREDICT-002",
+  "locked_at": "2026-10-16T01:14:23.786Z",
+  "source_sha256": {
+    "src/machine.js": "3c85b9b5625330255f44f8be9c7ce21fec2d4225b51a2a2347599cd8e1301e25",
+    "evaluation/round2/config/experiments.mjs": "e257dff786fad301c0fc429909cf84710f159f11f820ce740a3017f6d088f767",
+    "evaluation/round2/config/parameters.mjs": "5b95520f286d3a95e0594608d8e0724a41806b62190b202f7059babbbf2b3470"
+  },
+  "initial_configurations": [
+    {
+      "id": "REF",
+      "label": "Reference / 原始配置",
+      "ballDensity": 24,
+      "removeDominoOrdinal": null,
+      "barrier": null
+    },
+    {
+      "id": "Y1",
+      "label": "Lower barrier / 降低挡板",
+      "ballDensity": 24,
+      "removeDominoOrdinal": null,
+      "barrier": {
+        "x": -7.9,
+        "zOffset": 0,
+        "height": 0.3,
+        "width": 2.4,
+        "thickness": 0.26,
+        "bottomRelativeToTrack": -0.15
+      }
+    },
+    {
+      "id": "Y2",
+      "label": "Narrow offset barrier / 缩窄并偏移挡板",
+      "ballDensity": 24,
+      "removeDominoOrdinal": null,
+      "barrier": {
+        "x": -7.9,
+        "zOffset": 0.65,
+        "height": 1.5,
+        "width": 0.6,
+        "thickness": 0.26,
+        "bottomRelativeToTrack": -0.15
+      }
+    },
+    {
+      "id": "Y3",
+      "label": "Remove domino 04 / 移除中间骨牌",
+      "ballDensity": 24,
+      "removeDominoOrdinal": 4,
+      "barrier": null
+    },
+    {
+      "id": "Y4",
+      "label": "Lower ball density / 降低首球密度",
+      "ballDensity": 2.4,
+      "removeDominoOrdinal": null,
+      "barrier": null
+    }
+  ],
+  "selection": "Y1 height=20% of original full barrier, retaining its bottom; Y2 width=25%, offset +0.65z; Y3 removes tile04 of08; Y4 density=10%. Fixed before collecting any round2 outcomes. No outcome-based tuning."
+}

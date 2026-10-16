@@ -1,0 +1,148 @@
+{
+  "protocol_id": "BW-PREDICT-002",
+  "generated_at": "2026-10-16T01:16:06.103Z",
+  "source_sha256": {
+    "src/machine.js": "3c85b9b5625330255f44f8be9c7ce21fec2d4225b51a2a2347599cd8e1301e25",
+    "evaluation/round2/config/experiments.mjs": "e257dff786fad301c0fc429909cf84710f159f11f820ce740a3017f6d088f767",
+    "evaluation/round2/config/parameters.mjs": "5b95520f286d3a95e0594608d8e0724a41806b62190b202f7059babbbf2b3470"
+  },
+  "input_manifest_sha256": "36733cd9c7667eaaf47dfe864d2e0d67dbeeecb28ab6d1156ab0378f69506773",
+  "design_lock_sha256": "288fdf87e48ac54fef0a6c826b249dba6f704f4a71436370a332a857e596863d",
+  "engine": "@dimforge/rapier3d-compat 0.20.0",
+  "horizon_seconds": 30,
+  "repeats": 3,
+  "reference_matches_original": true,
+  "scoring_ready": true,
+  "reference": {
+    "id": "REF",
+    "stable": true,
+    "repeats": 3,
+    "bell_by_30s": true,
+    "stages": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "contacts": {
+      "barrier": false,
+      "gate": true,
+      "wheel": true,
+      "lever": true,
+      "bucket": true,
+      "hammer": true
+    },
+    "first_bell_seconds": 14.825000773184001
+  },
+  "cases": [
+    {
+      "id": "Y1",
+      "stable": true,
+      "repeats": 3,
+      "bell_by_30s": false,
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "contacts": {
+        "barrier": true,
+        "gate": false,
+        "wheel": false,
+        "lever": false,
+        "bucket": false,
+        "hammer": false
+      },
+      "first_bell_seconds": null
+    },
+    {
+      "id": "Y2",
+      "stable": true,
+      "repeats": 3,
+      "bell_by_30s": true,
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "contacts": {
+        "barrier": false,
+        "gate": true,
+        "wheel": true,
+        "lever": true,
+        "bucket": true,
+        "hammer": true
+      },
+      "first_bell_seconds": 14.825000773184001
+    },
+    {
+      "id": "Y3",
+      "stable": true,
+      "repeats": 3,
+      "bell_by_30s": true,
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "contacts": {
+        "barrier": false,
+        "gate": true,
+        "wheel": true,
+        "lever": true,
+        "bucket": true,
+        "hammer": true
+      },
+      "first_bell_seconds": 12.816667335107923
+    },
+    {
+      "id": "Y4",
+      "stable": true,
+      "repeats": 3,
+      "bell_by_30s": false,
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "contacts": {
+        "barrier": false,
+        "gate": false,
+        "wheel": false,
+        "lever": false,
+        "bucket": false,
+        "hammer": false
+      },
+      "first_bell_seconds": null
+    }
+  ]
+}

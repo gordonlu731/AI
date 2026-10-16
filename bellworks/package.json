@@ -11,7 +11,9 @@
     "test:browser": "node tests/browser.mjs",
     "offline": "node tools/serve.mjs",
     "test:interventions": "node tests/interventions.mjs",
-    "test:interventions:browser": "node tests/interventions-browser.mjs"
+    "test:interventions:browser": "node tests/interventions-browser.mjs",
+    "test:round2": "node --test tests/round2.mjs",
+    "test:round2:browser": "node evaluation/round2/tools/verify-browser.mjs"
   },
   "dependencies": {
     "@dimforge/rapier3d-compat": "0.20.0",

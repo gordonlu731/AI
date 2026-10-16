@@ -1,0 +1,20 @@
+
+> the-bellworks@1.0.0 test:round2
+> node --test tests/round2.mjs
+
+✔ experiment changes only the intended initial bodies, colliders and density (76.962356ms)
+✔ initial-state export matches frozen experiment parameters and unchanged source (7.831814ms)
+✔ fifteen stable real-solver runs back the key and retain actual contact evidence (6.263618ms)
+✔ browser runs, time-zero screenshots and controls were actually verified (1.711997ms)
+✔ only initial attachments and null answer placeholders are in the AI dataset (12.110944ms)
+✔ score weights, probability loss, optional time and unstable-run guard (1.717966ms)
+✔ malformed and wrong-round answers are rejected; one JSON fence can be parsed (0.556888ms)
+✔ freeze/score preserves original bytes, prevents overwrite and detects tampering (63.922692ms)
+ℹ tests 8
+ℹ suites 0
+ℹ pass 8
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 346.738808

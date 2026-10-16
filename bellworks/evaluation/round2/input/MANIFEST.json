@@ -1,0 +1,17 @@
+{
+  "protocol_id": "BW-PREDICT-002",
+  "reference_fact": "REF completes all nine stages within 30 simulated seconds.",
+  "files": {
+    "00_REFERENCE_OVERVIEW.png": "9e80f25bf23db9f33da39fd72d369e5bb3ed7295efd28fc0d2010a4f132cc057",
+    "01_REFERENCE_RAMP.png": "ccc1a113102c9e625d3ad83d7a87b1ed30f4eb05f5cddd0c252484d99ed98572",
+    "02_REFERENCE_DOMINOES.png": "d999db5916876275174e10c56c2c6ad8b9ae54ece98f5b28f353b7a63bc5c416",
+    "03_Y1_INITIAL.png": "759973ec1d9e1600f6fb52c1623d88b7bccd8934cf601ced9cf72cb405eca546",
+    "04_Y2_INITIAL.png": "09cc2310e29936caf67f9933a8c6ca56fec98be44f0b350bbfc655dcfd54a2da",
+    "05_Y3_INITIAL.png": "ac5fcdcb566b1ae2b70c286445ed962720170a7034933fd5620e26257608bc67",
+    "06_Y4_INITIAL.png": "9e80f25bf23db9f33da39fd72d369e5bb3ed7295efd28fc0d2010a4f132cc057",
+    "PHYSICS.json": "550a2e9a2ca1b39bd79746d18b52d7b6fef0c49ed5cdab507f062f583a31e7e3",
+    "PROMPT.zh-CN.md": "84388deb5c25b52ccd48159c5d9252e088a583eb8f6dabb781f6483b322275a5",
+    "RESPONSE_TEMPLATE.json": "51324d2cec23726af2bc79486581d27632b60ef65250ca3af7cf3c90731f4d3f",
+    "SCENE.zh-CN.md": "4704dd14f94d36d1bc02224134a08fa41f0e50ebee4960c4fee36ee2a4c9a82c"
+  }
+}

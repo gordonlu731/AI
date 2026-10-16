@@ -1,0 +1,783 @@
+{
+  "generatedAt": "2026-10-16T01:18:08.249Z",
+  "baselineCommit": "0f8d6c03d0709106674becd4b4abb721bd360e39",
+  "runs": [
+    {
+      "scenario": "A default",
+      "run": 1,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "B obstacle enabled",
+      "run": 1,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.349934577941895,
+        "y": 11.99799919128418,
+        "z": -3.4000000953674316
+      },
+      "velocity": {
+        "x": -3.2741809263825417e-11,
+        "y": -0.000011913884009118192,
+        "z": -5.987369888771354e-8
+      },
+      "stages": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.2250000638887286,
+      "maxBallX": -8.349934577941895
+    },
+    {
+      "scenario": "C obstacle disabled again",
+      "run": 1,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "D final domino removed",
+      "run": 1,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561566352844238,
+        "y": 1.819077491760254,
+        "z": 2.7598965167999268
+      },
+      "velocity": {
+        "x": 0.0000419088828493841,
+        "y": 0.000009961190698959399,
+        "z": 1.3460521586239338e-10
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.633333522826433,
+        3.9000002034008503,
+        7.933333747088909,
+        9.550000498071313,
+        10.558333883993328,
+        11.958333957009017,
+        12.825000668875873,
+        12.966667342931032
+      ],
+      "bellHits": 8,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": false
+      },
+      "dominoCount": 7,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "Independent options combined",
+      "run": 1,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.349934577941895,
+        "y": 11.99799919128418,
+        "z": -3.4000000953674316
+      },
+      "velocity": {
+        "x": -3.2741809263825417e-11,
+        "y": -0.000011913884009118192,
+        "z": -5.987369888771354e-8
+      },
+      "stages": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": true
+      },
+      "dominoCount": 7,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.2250000638887286,
+      "maxBallX": -8.349934577941895
+    },
+    {
+      "scenario": "A default",
+      "run": 2,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "B obstacle enabled",
+      "run": 2,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.349934577941895,
+        "y": 11.99799919128418,
+        "z": -3.4000000953674316
+      },
+      "velocity": {
+        "x": -3.2741809263825417e-11,
+        "y": -0.000011913884009118192,
+        "z": -5.987369888771354e-8
+      },
+      "stages": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.2250000638887286,
+      "maxBallX": -8.349934577941895
+    },
+    {
+      "scenario": "C obstacle disabled again",
+      "run": 2,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "D final domino removed",
+      "run": 2,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561566352844238,
+        "y": 1.819077491760254,
+        "z": 2.7598965167999268
+      },
+      "velocity": {
+        "x": 0.0000419088828493841,
+        "y": 0.000009961190698959399,
+        "z": 1.3460521586239338e-10
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.633333522826433,
+        3.9000002034008503,
+        7.933333747088909,
+        9.550000498071313,
+        10.558333883993328,
+        11.958333957009017,
+        12.825000668875873,
+        12.966667342931032
+      ],
+      "bellHits": 8,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": false
+      },
+      "dominoCount": 7,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "Independent options combined",
+      "run": 2,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.349934577941895,
+        "y": 11.99799919128418,
+        "z": -3.4000000953674316
+      },
+      "velocity": {
+        "x": -3.2741809263825417e-11,
+        "y": -0.000011913884009118192,
+        "z": -5.987369888771354e-8
+      },
+      "stages": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": true
+      },
+      "dominoCount": 7,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.2250000638887286,
+      "maxBallX": -8.349934577941895
+    },
+    {
+      "scenario": "A default",
+      "run": 3,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "B obstacle enabled",
+      "run": 3,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.349934577941895,
+        "y": 11.99799919128418,
+        "z": -3.4000000953674316
+      },
+      "velocity": {
+        "x": -3.2741809263825417e-11,
+        "y": -0.000011913884009118192,
+        "z": -5.987369888771354e-8
+      },
+      "stages": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.2250000638887286,
+      "maxBallX": -8.349934577941895
+    },
+    {
+      "scenario": "C obstacle disabled again",
+      "run": 3,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561541557312012,
+        "y": 1.8191174268722534,
+        "z": 2.759860038757324
+      },
+      "velocity": {
+        "x": 0.0002740199852269143,
+        "y": 0.00004077306584804319,
+        "z": -6.912159733474255e-11
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.1250001629814506,
+        4.241666887886822,
+        9.133333809673786,
+        10.975000572390854,
+        12.066667295992374,
+        13.525000705383718,
+        14.716667434200644,
+        14.825000773184001
+      ],
+      "bellHits": 7,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "D final domino removed",
+      "run": 3,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.561566352844238,
+        "y": 1.819077491760254,
+        "z": 2.7598965167999268
+      },
+      "velocity": {
+        "x": 0.0000419088828493841,
+        "y": 0.000009961190698959399,
+        "z": 1.3460521586239338e-10
+      },
+      "stages": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.633333522826433,
+        3.9000002034008503,
+        7.933333747088909,
+        9.550000498071313,
+        10.558333883993328,
+        11.958333957009017,
+        12.825000668875873,
+        12.966667342931032
+      ],
+      "bellHits": 8,
+      "contacts": [
+        "gate",
+        "wheel",
+        "lever",
+        "bucket",
+        "hammer"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": false
+      },
+      "dominoCount": 7,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null
+    },
+    {
+      "scenario": "Independent options combined",
+      "run": 3,
+      "secondsSimulated": 30,
+      "time": 30.000001564621925,
+      "position": {
+        "x": -8.349934577941895,
+        "y": 11.99799919128418,
+        "z": -3.4000000953674316
+      },
+      "velocity": {
+        "x": -3.2741809263825417e-11,
+        "y": -0.000011913884009118192,
+        "z": -5.987369888771354e-8
+      },
+      "stages": [
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": true,
+        "addObstacle": true
+      },
+      "dominoCount": 7,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.2250000638887286,
+      "maxBallX": -8.349934577941895
+    }
+  ]
+}

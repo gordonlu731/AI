@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-10-16T01:27:51.655Z",
+  "records": [
+    {
+      "case": "Y1",
+      "file": "screenshots/Y1_30s_CLOSEUP.png",
+      "time": 30.000001564621925,
+      "position": {
+        "x": -2.009406328201294,
+        "y": 10.72995662689209,
+        "z": -4.040005683898926
+      },
+      "velocity": {
+        "x": -0.00005350524588720873,
+        "y": 0.000010701031897042412,
+        "z": 4.0339827478419465e-8
+      },
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.783333530649543,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [
+        "obstacle"
+      ],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": true
+      },
+      "dominoCount": 8,
+      "obstacleHits": 1,
+      "firstObstacleHitTime": 1.291666734032333,
+      "experiment": "Y1",
+      "ballDensity": 24,
+      "ballMass": 3.294198513031006
+    },
+    {
+      "case": "Y4",
+      "file": "screenshots/Y4_30s_CLOSEUP.png",
+      "time": 30.000001564621925,
+      "position": {
+        "x": -2.108853816986084,
+        "y": 10.749759674072266,
+        "z": -4.040061950683594
+      },
+      "velocity": {
+        "x": -0.00002877599763451144,
+        "y": 0.000005755329311796231,
+        "z": 1.6997676155483532e-8
+      },
+      "stages": [
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      "stageTimes": [
+        0.9916667183861136,
+        3.041666825301945,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      "bellHits": 0,
+      "contacts": [],
+      "interventions": {
+        "removeDomino": false,
+        "addObstacle": false
+      },
+      "dominoCount": 8,
+      "obstacleHits": 0,
+      "firstObstacleHitTime": null,
+      "experiment": "Y4",
+      "ballDensity": 2.4000000953674316,
+      "ballMass": 0.329419881105423
+    }
+  ],
+  "errors": [],
+  "external": []
+}

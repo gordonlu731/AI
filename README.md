@@ -24,3 +24,5 @@ npm run dev
 ```
 
 For offline execution, extract `bellworks/Bellworks.zip`, install Node.js 22 in advance, and run `start-offline.bat` in the extracted folder.
+
+[第二轮 AI 物理预测测试 / Round 2](bellworks/evaluation/round2/README.zh-CN.md)：初始输入与实测评分包分开提供。
