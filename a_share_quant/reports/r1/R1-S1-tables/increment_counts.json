@@ -1,0 +1,56 @@
+[
+  {
+    "group": "add:wave_size_speed",
+    "comparisons": 16,
+    "positive_delta_count": 4,
+    "cluster_interval_wholly_positive": 0
+  },
+  {
+    "group": "add:wave_volume_efficiency",
+    "comparisons": 16,
+    "positive_delta_count": 8,
+    "cluster_interval_wholly_positive": 0
+  },
+  {
+    "group": "add:retracement",
+    "comparisons": 16,
+    "positive_delta_count": 10,
+    "cluster_interval_wholly_positive": 0
+  },
+  {
+    "group": "add:center_damage",
+    "comparisons": 16,
+    "positive_delta_count": 5,
+    "cluster_interval_wholly_positive": 0
+  },
+  {
+    "group": "add:wicks_close",
+    "comparisons": 16,
+    "positive_delta_count": 0,
+    "cluster_interval_wholly_positive": 0
+  },
+  {
+    "group": "add:reclaim",
+    "comparisons": 16,
+    "positive_delta_count": 3,
+    "cluster_interval_wholly_positive": 0
+  },
+  {
+    "group": "add:round_changes",
+    "comparisons": 16,
+    "positive_delta_count": 0,
+    "cluster_interval_wholly_positive": 0
+  },
+  {
+    "group": "add:center_lifecycle",
+    "comparisons": 16,
+    "positive_delta_count": 3,
+    "cluster_interval_wholly_positive": 0
+  },
+  {
+    "group": "add:bottom_shape",
+    "comparisons": 16,
+    "positive_delta_count": 7,
+    "cluster_interval_wholly_positive": 0
+  }
+]

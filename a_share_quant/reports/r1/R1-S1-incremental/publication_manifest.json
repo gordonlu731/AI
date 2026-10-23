@@ -1,0 +1,30 @@
+[
+  {
+    "source_file": "incremental_metrics.csv",
+    "published_file": "incremental_metrics.csv",
+    "source_sha256": "6e245b93c7a1f0b140e290fe55d5627f46584434479eabd7fd8b09f0f248b7fc",
+    "published_sha256": "6e245b93c7a1f0b140e290fe55d5627f46584434479eabd7fd8b09f0f248b7fc",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "incremental_metrics.json",
+    "published_file": "incremental_metrics.json.gz",
+    "source_sha256": "40c8d65da9f5a4e25c5a4b7ec3da6e5495bf1f75497fe4f3ce41634e17779f81",
+    "published_sha256": "84a442d18e384ba324cd2b56c4dc83bf54bdba6d0731fb86888a22a7f6802f2c",
+    "lossless_gzip": true
+  },
+  {
+    "source_file": "model_protocol_audit.json",
+    "published_file": "model_protocol_audit.json",
+    "source_sha256": "5e61c0eb80dfce97c592d6e11e338489197bb7a706d4c55e970307c57b05df17",
+    "published_sha256": "5e61c0eb80dfce97c592d6e11e338489197bb7a706d4c55e970307c57b05df17",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "trained_model_audit.json",
+    "published_file": "trained_model_audit.json.gz",
+    "source_sha256": "b2addf8f239b8de100f289b3cff5d3d5fae2bc7e02effaa68d25df1f089eb781",
+    "published_sha256": "a99db5cbc4d2023a4001cd62b17c4bd8006e91735bf7455dacd94fbe081dd4de",
+    "lossless_gzip": true
+  }
+]

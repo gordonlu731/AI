@@ -12,7 +12,7 @@ from ashare_quant.r1.structures import ATRChanges, Config, StructureStream, Zone
 from ashare_quant.r1.features import bottom_state, feature_row
 from ashare_quant.r1.outcomes import event_labels, first_touch, split_name
 from ashare_quant.structure import identify
-from ashare_quant.r1.review import review_scores
+from ashare_quant.r1.review import review_scores, render_chart
 
 
 class R1StructureTests(unittest.TestCase):
@@ -179,6 +179,14 @@ class R1OutcomeTests(unittest.TestCase):
 
 
 class HumanReviewTests(unittest.TestCase):
+    def test_chart_rejects_future_bars_before_loading_plotting_library(self):
+        stream = StructureStream()
+        bars = synthetic_bars([100] * 25)
+        for b in bars[:20]:
+            snapshot = stream.update(b)
+        with self.assertRaises(ValueError):
+            render_chart(bars, snapshot, Path('/tmp/never-render-future'), 'as-of guard test')
+
     def test_pending_human_is_not_zero_error(self):
         result = review_scores([{'case_id': 'B001', 'reviewed': 'no'}], [])
         self.assertEqual(result['status'], 'pending_real_human_annotations')

@@ -1,0 +1,83 @@
+[
+  {
+    "method": "atr_intersection",
+    "total_observed": 190,
+    "legal_two_boundaries": 49,
+    "median_lower_distance": 0.0543187889581479,
+    "median_upper_distance": 0.0157032816556939,
+    "ambiguous": 1,
+    "missing_barriers": 141
+  },
+  {
+    "method": "density",
+    "total_observed": 190,
+    "legal_two_boundaries": 99,
+    "median_lower_distance": 0.0432176310092649,
+    "median_upper_distance": 0.01809121078211584,
+    "ambiguous": 0,
+    "missing_barriers": 91
+  },
+  {
+    "method": "density_no_flip",
+    "total_observed": 190,
+    "legal_two_boundaries": 85,
+    "median_lower_distance": 0.04007913428442955,
+    "median_upper_distance": 0.014438671850275142,
+    "ambiguous": 0,
+    "missing_barriers": 105
+  },
+  {
+    "method": "density_perpetual",
+    "total_observed": 190,
+    "legal_two_boundaries": 103,
+    "median_lower_distance": 0.04322521431837811,
+    "median_upper_distance": 0.014237414272049165,
+    "ambiguous": 0,
+    "missing_barriers": 87
+  },
+  {
+    "method": "r0_legacy",
+    "total_observed": 190,
+    "legal_two_boundaries": 91,
+    "median_lower_distance": 0.07079381197223678,
+    "median_upper_distance": 0.020182721483110733,
+    "ambiguous": 0,
+    "missing_barriers": 99
+  },
+  {
+    "method": "rolling20",
+    "total_observed": 190,
+    "legal_two_boundaries": 190,
+    "median_lower_distance": 0.04290402956547884,
+    "median_upper_distance": 0.06467710463190124,
+    "ambiguous": 0,
+    "missing_barriers": 0
+  },
+  {
+    "method": "support",
+    "total_observed": 190,
+    "legal_two_boundaries": 80,
+    "median_lower_distance": 0.13756409971226674,
+    "median_upper_distance": 0.020554757784469246,
+    "ambiguous": 1,
+    "missing_barriers": 110
+  },
+  {
+    "method": "support_no_flip",
+    "total_observed": 190,
+    "legal_two_boundaries": 81,
+    "median_lower_distance": 0.13946549039958478,
+    "median_upper_distance": 0.020182721483110733,
+    "ambiguous": 1,
+    "missing_barriers": 109
+  },
+  {
+    "method": "support_perpetual",
+    "total_observed": 190,
+    "legal_two_boundaries": 115,
+    "median_lower_distance": 0.1335118665811419,
+    "median_upper_distance": 0.016655497451467882,
+    "ambiguous": 1,
+    "missing_barriers": 75
+  }
+]

@@ -1,6 +1,17 @@
 {
   "stage": "structure_and_case_diagnostics_complete",
   "preregister_sha256": "f7eb69cdc8f233a157d324c2468d1895ab1245516ad9163f7af75f01b8a33956",
+  "code_commit": "2e8f8244428b4d0d29662f27386cf401e1b4e442",
+  "working_tree_dirty": false,
+  "source_code_sha256": {
+    "models.py": "f8fbaea6124266a8ead73df2b3cd8c26af1a73a7b50e9deb070b74f0e87d6303",
+    "outcomes.py": "27b079c813884e7aefba8fd281ddbffe7a833c33deef2a5bb94dab341a49fb64",
+    "__init__.py": "f38c0e5763db270cbfb57f316494db412c12b53c335350fd53a19a6b237f233b",
+    "features.py": "47c8b57ea1e30acbbc16235ca96eea3ffd1ad5184c5895e80e308ce2bc2742fc",
+    "review.py": "4f8ec63fcbbf01235e4c8ce3873b6be40c695c40c2b504417787ab5677376d6c",
+    "io.py": "628c26081a24025774fc54f87df430659f6568ba47ad07d59bd218cfacd2fb90",
+    "structures.py": "5004314a7fc97a8a71facf8f18f65d50df26074bc423680005ea6213e5a1ce43"
+  },
   "data_manifests": [
     {
       "schema_version": 1,

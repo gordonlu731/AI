@@ -1,0 +1,58 @@
+[
+  {
+    "source_file": "algorithm_judgments_template.csv",
+    "published_file": "algorithm_judgments_template.csv",
+    "source_sha256": "b168217994dae165958062e624d9a6ac0c4e3cb607adef26c4ecb6b92d5919c9",
+    "published_sha256": "b168217994dae165958062e624d9a6ac0c4e3cb607adef26c4ecb6b92d5919c9",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "case_summary.json",
+    "published_file": "case_summary.json",
+    "source_sha256": "70116631560a0e2fc59f5670ca9963bd95b5e37ac2f878246f79958544ef9dbb",
+    "published_sha256": "70116631560a0e2fc59f5670ca9963bd95b5e37ac2f878246f79958544ef9dbb",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "chart_inventory.json",
+    "published_file": "chart_inventory.json",
+    "source_sha256": "2b883aaf650e7da20517669d88ff9b895276a68ae82ebea4978d9516d00fffd6",
+    "published_sha256": "2b883aaf650e7da20517669d88ff9b895276a68ae82ebea4978d9516d00fffd6",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "human_agreement.json",
+    "published_file": "human_agreement.json",
+    "source_sha256": "a0d8e569e34f15b670b82d7e90492e49836bfd585877b3052cfb9677bcf213a2",
+    "published_sha256": "a0d8e569e34f15b670b82d7e90492e49836bfd585877b3052cfb9677bcf213a2",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "human_regions_template.csv",
+    "published_file": "human_regions_template.csv",
+    "source_sha256": "8c06787871d50b8d2bc346607ac503e8e9d1f553ae1b42d20cdbab64d8495956",
+    "published_sha256": "8c06787871d50b8d2bc346607ac503e8e9d1f553ae1b42d20cdbab64d8495956",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "structure_stage.json",
+    "published_file": "structure_stage.json",
+    "source_sha256": "e5c173a616367349fb5bc968ac1e803c39f458c776161c5b86e14af03029817a",
+    "published_sha256": "e5c173a616367349fb5bc968ac1e803c39f458c776161c5b86e14af03029817a",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "sz002349-daily-diagnostics.json",
+    "published_file": "sz002349-daily-diagnostics.json.gz",
+    "source_sha256": "4324c28f389fead156b2dabaeffd2de40f455d2d1834864b9490b74e4540416d",
+    "published_sha256": "26284245b62235252283b09caf3ce38ddc67bde88c8d979f2d93069e0cef6841",
+    "lossless_gzip": true
+  },
+  {
+    "source_file": "sz300620-daily-diagnostics.json",
+    "published_file": "sz300620-daily-diagnostics.json.gz",
+    "source_sha256": "bcd9b7027f5b3f7cb3fcbe85c8504985365cf4f598180f69b607c3d34cb1e060",
+    "published_sha256": "4b110c0b52ff3a561b7df2f220039450859fedee900c186f1a0f33138d63cd2d",
+    "lossless_gzip": true
+  }
+]

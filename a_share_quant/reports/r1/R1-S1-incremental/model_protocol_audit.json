@@ -1,0 +1,77 @@
+{
+  "preregister_sha256": "f7eb69cdc8f233a157d324c2468d1895ab1245516ad9163f7af75f01b8a33956",
+  "code_commit": "2e8f8244428b4d0d29662f27386cf401e1b4e442",
+  "working_tree_dirty": false,
+  "input_features_sha256": "80c2a17fedf220a2d9edfa955ca322813592591198cdba427d21d1b4fd4751ad",
+  "input_labels_sha256": "a86989c670b810ecb93cb2ca052caffd41467dfc847986f912eba1d57966eec8",
+  "model_source_sha256": "f8fbaea6124266a8ead73df2b3cd8c26af1a73a7b50e9deb070b74f0e87d6303",
+  "actual_ridge_fits": 2112,
+  "variant_count": 22,
+  "model_runs": 1,
+  "hyperparameter_search_runs": 0,
+  "sealed_test_labels_computed": 0,
+  "case_stocks_used_for_fit_or_validation": 0,
+  "feature_groups": {
+    "wave_size_speed": [
+      "up_abs_return",
+      "down_abs_return",
+      "up_duration",
+      "down_duration",
+      "up_speed",
+      "down_speed"
+    ],
+    "wave_volume_efficiency": [
+      "up_relative_volume",
+      "down_relative_volume",
+      "up_efficiency",
+      "down_efficiency"
+    ],
+    "retracement": [
+      "retracement",
+      "drawdown20",
+      "rebound20"
+    ],
+    "center_damage": [
+      "center_damage",
+      "lower_damage",
+      "close_to_centroid",
+      "band_width"
+    ],
+    "wicks_close": [
+      "lower_wick",
+      "upper_wick",
+      "close_location"
+    ],
+    "reclaim": [
+      "breach_age",
+      "reclaim_sessions",
+      "reclaim_fraction"
+    ],
+    "round_changes": [
+      "up_size_change",
+      "down_size_change",
+      "up_speed_change",
+      "down_speed_change",
+      "up_volume_change",
+      "down_volume_change"
+    ],
+    "center_lifecycle": [
+      "zone_present",
+      "zone_age",
+      "zone_tests",
+      "zone_flips",
+      "recent_invalidations"
+    ],
+    "bottom_shape": [
+      "bottom_shape",
+      "bottom_depth",
+      "first_rebound",
+      "second_low_difference",
+      "bottom_confirmation_age"
+    ]
+  },
+  "alpha": 10.0,
+  "numpy_version": "2.3.5",
+  "uncertainty": "descriptive stock-and-time-block cluster resampling; six-stock survivor convenience sample; no significance claim",
+  "interpretation": "negative and positive incremental errors retained; no best-model selection from these metrics"
+}
