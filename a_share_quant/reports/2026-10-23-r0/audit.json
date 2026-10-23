@@ -1,8 +1,8 @@
 [
   {
     "version": "0.1.0",
-    "code_commit": "87dbd93339f446ce589ff92006089473e7ff1789",
-    "working_tree_dirty": true,
+    "code_commit": "5dd6396a7bf4f191ae254bea2e81aa73329c91bd",
+    "working_tree_dirty": false,
     "code_sha256": {
       "__init__.py": "26ec624ad09e37ad1c1b36c66e5d01da0f7aef5d93475014332f2db61ce2e987",
       "__main__.py": "6d2e02cdbabf0dea6f3a2437756caad0eced35c7c65c8ef206184e1f2e6ebd41",
@@ -11,7 +11,7 @@
       "strategy.py": "bd5c8aad9c014d084f6edf38afb57beade8e925ee67b43ccb2ffcce077878629",
       "structure.py": "78c5cde0b3c3f7a93df2e8cc1ebf8d78b05b8ac4707b2244ffcd402cb229df62"
     },
-    "generated_at_utc": "2026-10-23T15:20:38.575022+00:00",
+    "generated_at_utc": "2026-10-23T15:30:44.739248+00:00",
     "study_type": "overlapping_event_labels_not_portfolio_backtest",
     "verification": "UNVERIFIED_SNAPSHOT_EXPLORATION",
     "execution_constraints_verified": false,
@@ -658,8 +658,8 @@
   },
   {
     "version": "0.1.0",
-    "code_commit": "87dbd93339f446ce589ff92006089473e7ff1789",
-    "working_tree_dirty": true,
+    "code_commit": "5dd6396a7bf4f191ae254bea2e81aa73329c91bd",
+    "working_tree_dirty": false,
     "code_sha256": {
       "__init__.py": "26ec624ad09e37ad1c1b36c66e5d01da0f7aef5d93475014332f2db61ce2e987",
       "__main__.py": "6d2e02cdbabf0dea6f3a2437756caad0eced35c7c65c8ef206184e1f2e6ebd41",
@@ -668,7 +668,7 @@
       "strategy.py": "bd5c8aad9c014d084f6edf38afb57beade8e925ee67b43ccb2ffcce077878629",
       "structure.py": "78c5cde0b3c3f7a93df2e8cc1ebf8d78b05b8ac4707b2244ffcd402cb229df62"
     },
-    "generated_at_utc": "2026-10-23T15:20:38.062731+00:00",
+    "generated_at_utc": "2026-10-23T15:30:44.683269+00:00",
     "study_type": "overlapping_event_labels_not_portfolio_backtest",
     "verification": "UNVERIFIED_SNAPSHOT_EXPLORATION",
     "execution_constraints_verified": false,
