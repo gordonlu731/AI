@@ -44,15 +44,25 @@ def main():
         daily_case = []
         for first, end in session_segments(dataset.bars, dataset.calendar):
             stream = StructureStream(config)
+            last_breakout = None
             for global_i in range(first, end):
                 bar = dataset.bars[global_i]
                 snapshot = stream.update(bar)
                 day = bar.date.isoformat()
+                recent = stream.bars[-21:-1]
+                volume_ratio = bar.volume / (sum(x.volume for x in recent) / 20) if len(recent) == 20 and sum(x.volume for x in recent) > 0 else None
+                breakout_today = bool(volume_ratio is not None and volume_ratio >= 1.5 and bar.close > max(x.high for x in recent))
+                prior_breakout_date = last_breakout
+                if breakout_today:
+                    last_breakout = day
                 diagnostic_window = (symbol == 'sz300620' and '2026-06-01' <= day <= '2026-08-31') or (symbol == 'sz002349' and ('2014-09-01' <= day <= '2014-12-31' or '2022-02-01' <= day <= '2022-04-30'))
                 if case and diagnostic_window and (day, 'bottom_reversal') in assessment_map:
                     bottom = assessment_map[(day, 'bottom_reversal')]
                     trend = assessment_map[(day, 'trend_pullback')]
                     row = {'symbol': symbol, 'date': day, 'r0_bottom': explain_r0_bottom(stream.bars, snapshot.fixed_pivots, snapshot.fixed_legs, bottom),
+                           'volume_ratio_prior20': volume_ratio, 'volume_breakout_today': breakout_today,
+                           'last_prior_volume_breakout': prior_breakout_date,
+                           'live_drawdown_from_recent20_peak': 1 - bar.close / max(x.close for x in stream.bars[-20:]),
                            'r0_trend_rejections': list(trend.reasons), 'r0_trend_emitted': trend.emitted,
                            'r1_fixed_bottom': bottom_state(stream.bars, snapshot.fixed_pivots, config),
                            'r1_atr_bottom': bottom_state(stream.bars, snapshot.atr_pivots, config),
