@@ -1,0 +1,70 @@
+[
+  {
+    "symbol": "sz002349",
+    "sina_sha256": "6ebdc7e02cccf109f602c8bbb8d233b5855a96c0e4cd2d13feb9b2eebfc1a8d1",
+    "tencent_raw_sha256": "b29f0fb443b29d196dfe3e12f68533cfccf9b7920ebc4261945ad6b97bdf9dfa",
+    "date_coverage_equal": true,
+    "overlap": 3829,
+    "comparison_tolerance": {
+      "price_cny": 0.0101,
+      "volume_shares": 101
+    },
+    "volume_conversion_assumption": "Tencent lots x100; historical lot rounding allowed",
+    "issue_count": 7,
+    "issues": [
+      {
+        "date": "2010-03-12",
+        "ohlc_mismatch": true,
+        "volume_mismatch": true
+      },
+      {
+        "date": "2011-12-02",
+        "ohlc_mismatch": false,
+        "volume_mismatch": true
+      },
+      {
+        "date": "2011-12-05",
+        "ohlc_mismatch": false,
+        "volume_mismatch": true
+      },
+      {
+        "date": "2011-12-13",
+        "ohlc_mismatch": true,
+        "volume_mismatch": true
+      },
+      {
+        "date": "2011-12-14",
+        "ohlc_mismatch": true,
+        "volume_mismatch": true
+      },
+      {
+        "date": "2011-12-15",
+        "ohlc_mismatch": true,
+        "volume_mismatch": true
+      },
+      {
+        "date": "2014-04-23",
+        "ohlc_mismatch": true,
+        "volume_mismatch": true
+      }
+    ],
+    "action": "retain separate sources; no automatic merge or repair",
+    "point_in_time_verified": false
+  },
+  {
+    "symbol": "sz300620",
+    "sina_sha256": "03d1022cf3c698b3e89629f720e52d18d5ab9414df6198c092afdd4428fddf0b",
+    "tencent_raw_sha256": "b5c0f4c6f04bdae83af656e7de18734b220b43608e11db6ed5b8a897ddedc408",
+    "date_coverage_equal": true,
+    "overlap": 2325,
+    "comparison_tolerance": {
+      "price_cny": 0.0101,
+      "volume_shares": 101
+    },
+    "volume_conversion_assumption": "Tencent lots x100; historical lot rounding allowed",
+    "issue_count": 0,
+    "issues": [],
+    "action": "retain separate sources; no automatic merge or repair",
+    "point_in_time_verified": false
+  }
+]
