@@ -1,0 +1,32 @@
+# Data acquisition environment resolved on Python 3.12 / Linux, 2026-10-23.
+# Core/CI have no external dependencies. Re-resolve deliberately on platform change.
+akracer==0.0.14
+akshare==1.19.3
+beautifulsoup4==4.15.0
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.2
+curl-cffi==0.16.3
+decorator==5.3.1
+et-xmlfile==2.0.0
+html5lib==1.1
+idna==3.18
+jsonpath==0.82.2
+lxml==6.1.1
+numpy==2.3.5
+openpyxl==3.1.5
+pandas==2.2.3
+py-mini-racer==0.6.0
+pycparser==3.0
+python-dateutil==2.9.0.post0
+pytz==2026.5
+requests==2.34.2
+six==1.17.0
+soupsieve==3.0.4
+tabulate==0.10.0
+tqdm==4.70.1
+typing-extensions==4.16.0
+tzdata==2026.5
+urllib3==2.8.0
+webencodings==0.6.1
+xlrd==2.0.1
