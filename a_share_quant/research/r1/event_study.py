@@ -43,6 +43,17 @@ def distribution(values):
             'q90': quantile(.9), 'min': values[0], 'max': values[-1]}
 
 
+def unavailable_sessions(bars, calendar):
+    known = {b.date: b for b in bars}
+    for day in calendar:
+        if not bars[0].date <= day <= bars[-1].date:
+            continue
+        if day not in known:
+            yield day, 'data_gap_unknown_status'
+        elif known[day].volume <= 0:
+            yield day, 'zero_volume_unavailable'
+
+
 def aggregate(rows, group_fields):
     groups = defaultdict(list)
     for r in rows:
@@ -88,11 +99,14 @@ def main():
             manifests.append(data.manifest)
             positions = {d: i for i, d in enumerate(data.calendar)}
             r0 = {(a.date, a.strategy): a for a in assess_sessions(data.bars, data.calendar)}
-            known_days = {b.date for b in data.bars}
             counts = Counter()
-            for missing in (d for d in data.calendar if data.bars[0].date <= d <= data.bars[-1].date and d not in known_days and d.isoformat() >= registration['splits']['train'][0]):
-                daily_file.write(json.dumps({'symbol': symbol, 'date': missing.isoformat(), 'status': 'data_gap_unknown_status', 'reason': 'no_bar_not_assumed_suspension'}) + '\n')
-                counts['data_gap_days'] += 1
+            for missing, unavailable_status in unavailable_sessions(data.bars, data.calendar):
+                if missing.isoformat() < registration['splits']['train'][0]:
+                    continue
+                daily_file.write(json.dumps({'symbol': symbol, 'date': missing.isoformat(), 'status': unavailable_status,
+                                            'reason': 'no_bar_not_assumed_suspension' if unavailable_status == 'data_gap_unknown_status'
+                                            else 'zero_volume_not_assumed_tradable'}) + '\n')
+                counts['data_gap_days' if unavailable_status == 'data_gap_unknown_status' else 'zero_volume_days'] += 1
                 if positions[missing] % registration['event_sampling']['calendar_stride'] == 0:
                     split = 'case_only' if is_case else split_name(missing, data.calendar, registration['splits'])
                     anchors.append({'symbol': symbol, 'date': missing.isoformat(), 'cohort': 'case' if is_case else 'independent',

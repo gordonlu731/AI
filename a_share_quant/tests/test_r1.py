@@ -142,6 +142,18 @@ class R1StructureTests(unittest.TestCase):
 
 
 class R1OutcomeTests(unittest.TestCase):
+    def test_daily_register_retains_zero_volume_and_missing_sessions(self):
+        import importlib.util
+        script = Path(__file__).resolve().parents[1] / 'research/r1/event_study.py'
+        spec = importlib.util.spec_from_file_location('r1_event_test', script)
+        module = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(module)
+        bars = synthetic_bars([100] * 4)
+        calendar = [b.date for b in bars]
+        bars[1] = replace(bars[1], volume=0)
+        result = list(module.unavailable_sessions(bars[:2] + bars[3:], calendar))
+        self.assertEqual(result, [(calendar[1], 'zero_volume_unavailable'), (calendar[2], 'data_gap_unknown_status')])
+
     def test_daily_order_ambiguous_not_guessed_from_close(self):
         b = synthetic_bars([100])[0]
         both = replace(b, low=85, high=115, close=110)
