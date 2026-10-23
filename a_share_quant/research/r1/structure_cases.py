@@ -5,6 +5,7 @@ import argparse
 import hashlib
 import json
 import sys
+import subprocess
 from collections import Counter
 from dataclasses import asdict
 from pathlib import Path
@@ -72,7 +73,12 @@ def main():
                 chart_inventory.append({'case_id': case_id, 'cohort': 'independent_blind' if is_blind else 'designated_case',
                     'asof_visible_only': True, 'snapshot_verified_pit': False, 'path': str(chart_path.relative_to(args.output)) + '.png',
                     'status': 'not_rendered' if args.no_plots else 'rendered_local_only'})
-                snapshots.append({'case_id': case_id, 'symbol': symbol, 'asof': day, 'snapshot': asdict(snapshot)})
+                date_fields = ('formed_index', 'confirmed_index', 'last_test_index', 'invalid_index', 'structural_closed_index')
+                dated_zones = {m: [{**asdict(z), **{key.replace('_index', '_date'): stream.bars[getattr(z, key)].date.isoformat()
+                    if getattr(z, key) is not None else None for key in date_fields},
+                    'member_kind': 'leg_ids' if m in ('r0_legacy', 'atr_intersection') else 'bar_indices'} for z in zones]
+                    for m, zones in snapshot.zones.items()}
+                snapshots.append({'case_id': case_id, 'symbol': symbol, 'asof': day, 'snapshot': asdict(snapshot), 'dated_zones': dated_zones})
                 if is_blind:
                     blind_key.append({'case_id': case_id, 'symbol': symbol, 'asof': day, 'algorithm_key': dict(zip('ABCD', methods))})
                     human_rows.append({'case_id': case_id, 'reviewed': 'no', 'no_center': '', 'lower': '', 'upper': '', 'centroid': '', 'reviewer': '', 'notes': ''})
@@ -81,7 +87,8 @@ def main():
                         valid = [z for z in snapshot.zones[method] if z.valid]
                         # Compare all valid centers, even when only four can fit in the image.
                         for z in valid:
-                            region_rows.append({'case_id': case_id, 'algorithm_label': label, 'zone_id': z.id,
+                            masked_id = hashlib.sha256(f'{case_id}:{label}:{z.id}'.encode()).hexdigest()[:12]
+                            region_rows.append({'case_id': case_id, 'algorithm_label': label, 'zone_id': masked_id,
                                 'lower': z.lower * scale, 'upper': z.upper * scale, 'centroid': z.centroid * scale,
                                 'atr_units': snapshot.atr * scale if snapshot.atr else None})
                         if not valid:
@@ -103,6 +110,9 @@ def main():
     write_json(args.public / 'chart_inventory.json', chart_inventory)
     write_json(args.public / 'case_summary.json', case_rows)
     write_json(args.public / 'structure_stage.json', {'stage': 'structure_and_case_diagnostics_complete', 'preregister_sha256': sha256(registry),
+               'code_commit': subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip(),
+               'working_tree_dirty': bool(subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT, text=True)),
+               'source_code_sha256': {p.name: sha256(p) for p in (ROOT / 'src/ashare_quant/r1').glob('*.py')},
                'data_manifests': audit, 'parameters': asdict(config), 'local_price_figures_only': True,
                'human_scoring': 'pending_real_annotations', 'requested_charts': len(chart_inventory),
                'rendered': not args.no_plots, 'failed_or_missing_samples': sorted(set(f'{s}-{d}' for s in r['case_symbols'] for d in r['case_dates'][s]) - {x['case_id'] for x in chart_inventory if x['cohort'] == 'designated_case'})})

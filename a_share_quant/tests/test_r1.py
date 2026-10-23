@@ -4,6 +4,7 @@ from dataclasses import asdict, replace
 from datetime import date
 from pathlib import Path
 import unittest
+import importlib.util
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 from test_research import synthetic_bars
@@ -11,6 +12,7 @@ from ashare_quant.r1.structures import ATRChanges, Config, StructureStream, Zone
 from ashare_quant.r1.features import bottom_state, feature_row
 from ashare_quant.r1.outcomes import event_labels, first_touch, split_name
 from ashare_quant.structure import identify
+from ashare_quant.r1.review import review_scores
 
 
 class R1StructureTests(unittest.TestCase):
@@ -123,6 +125,16 @@ class R1StructureTests(unittest.TestCase):
         self.assertEqual(z.reclaim_sessions, 2)
         self.assertAlmostEqual(z.reclaim_fraction, 101 / 95 - 1)
 
+    def test_invalidated_atr_zone_geometry_is_frozen(self):
+        book = ZoneBook(Config(), max_age=None, allow_flip=False)
+        z = Zone('a', 'atr_intersection', 0, 0, 95, 105, 100, (0, 1, 2))
+        for i, b in enumerate(synthetic_bars([100, 90, 90])):
+            last = book.update(i, b, [z] if i == 0 else [])[0]
+        self.assertEqual(last.status, 'invalidated')
+        updated = replace(z, lower=99, upper=101, centroid=100, members=(0, 1, 2, 3))
+        frozen = book.update(3, synthetic_bars([100, 90, 90, 100])[-1], [updated])[0]
+        self.assertEqual(frozen, last)
+
     def test_invalid_config_is_rejected(self):
         for args in [{'atr_window': 0}, {'density_window': 1}, {'atr_fraction_floor': 0.5}, {'max_age': 1.5}]:
             with self.subTest(args=args), self.assertRaises(ValueError):
@@ -164,6 +176,53 @@ class R1OutcomeTests(unittest.TestCase):
         self.assertEqual(split_name(date(2021, 1, 10), days, splits), 'embargo')
         self.assertEqual(split_name(date(2021, 6, 1), days, splits), 'validation')
         self.assertEqual(split_name(date(2024, 1, 1), days, splits), 'sealed_test')
+
+
+class HumanReviewTests(unittest.TestCase):
+    def test_pending_human_is_not_zero_error(self):
+        result = review_scores([{'case_id': 'B001', 'reviewed': 'no'}], [])
+        self.assertEqual(result['status'], 'pending_real_human_annotations')
+        self.assertEqual(result['comparisons'], [])
+
+    def test_real_regions_report_location_and_count_errors(self):
+        human = [{'case_id': 'B001', 'reviewed': 'yes', 'no_center': 'no', 'lower': '90', 'upper': '110', 'centroid': '100'}]
+        algorithm = [{'case_id': 'B001', 'algorithm_label': 'A', 'zone_id': 'masked1', 'lower': '95', 'upper': '115', 'centroid': '105', 'atr_units': '5'}]
+        result = review_scores(human, algorithm)
+        comparison = result['comparisons'][0]
+        self.assertAlmostEqual(comparison['matches'][0]['iou'], 15 / 25)
+        self.assertEqual(comparison['matches'][0]['centroid_error_atr'], 1)
+        self.assertEqual(len(result['errors']), 3)  # Other algorithms have an omission.
+
+    def test_no_center_preserves_algorithm_false_detection(self):
+        human = [{'case_id': 'B001', 'reviewed': 'yes', 'no_center': 'yes'}]
+        algorithm = [{'case_id': 'B001', 'algorithm_label': 'A', 'zone_id': 'masked1', 'lower': '95', 'upper': '115', 'centroid': '105'}]
+        result = review_scores(human, algorithm)
+        self.assertEqual(result['errors'][0]['error'], 'false_detection')
+
+
+@unittest.skipUnless(importlib.util.find_spec('numpy'), 'optional numpy; mandatory in r1-research CI job')
+class R1ModelTests(unittest.TestCase):
+    def test_training_only_scaling_missingness_and_validation_isolation(self):
+        import numpy as np
+        from ashare_quant.r1.models import fit_ridge
+        rows = [{'x': float(i), 'missing': None} for i in range(20)]
+        model = fit_ridge(rows, [2 * i + 1 for i in range(20)], ['x', 'missing'])
+        frozen = model.audit()
+        predictions = model.predict([{'x': 10, 'missing': None}, {'x': 1e10, 'missing': 5}])
+        self.assertTrue(np.isfinite(predictions).all())
+        self.assertEqual(model.audit(), frozen)
+        self.assertEqual(model.centers[0], 9.5)
+        self.assertEqual(model.medians[1], 0)
+        # Neither future rows nor labels enter fitting; a rerun on the same train data agrees.
+        self.assertEqual(fit_ridge(rows, [2 * i + 1 for i in range(20)], ['x', 'missing']).audit(), frozen)
+
+    def test_correlated_rows_share_bootstrap_cluster_weight(self):
+        import numpy as np
+        from ashare_quant.r1.models import cluster_weights
+        rows = [{'symbol': 'a', 'time_block': 1}, {'symbol': 'a', 'time_block': 1}, {'symbol': 'b', 'time_block': 2}]
+        weights = cluster_weights(rows, 50)
+        self.assertTrue(np.allclose(weights[:, 0], weights[:, 1]))
+        self.assertTrue(np.allclose(weights.sum(axis=1), 1))
 
 
 if __name__ == '__main__':

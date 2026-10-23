@@ -132,8 +132,9 @@ class ZoneBook:
                 self.zones[z.id] = replace(z, role="support" if bar.close >= z.centroid else "resistance")
             elif self.legacy or z.algorithm == "atr_intersection":
                 old = self.zones[z.id]
-                self.zones[z.id] = replace(old, lower=z.lower, upper=z.upper, centroid=z.centroid,
-                                           members=z.members, structural_closed_index=z.structural_closed_index)
+                if old.valid:
+                    self.zones[z.id] = replace(old, lower=z.lower, upper=z.upper, centroid=z.centroid,
+                                               members=z.members, structural_closed_index=z.structural_closed_index)
         p = self.config
         for key, z in list(self.zones.items()):
             if not z.valid:
