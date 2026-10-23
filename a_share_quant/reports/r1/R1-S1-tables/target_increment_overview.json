@@ -1,0 +1,56 @@
+[
+  {
+    "target": "net_return",
+    "add_positive": 40,
+    "add_total": 144,
+    "add_interval_wholly_positive": 0,
+    "full_positive": 0,
+    "full_total": 16,
+    "full_interval_wholly_positive": 0
+  },
+  {
+    "target": "excess_return",
+    "add_positive": 34,
+    "add_total": 144,
+    "add_interval_wholly_positive": 0,
+    "full_positive": 0,
+    "full_total": 16,
+    "full_interval_wholly_positive": 0
+  },
+  {
+    "target": "mae",
+    "add_positive": 53,
+    "add_total": 144,
+    "add_interval_wholly_positive": 0,
+    "full_positive": 0,
+    "full_total": 16,
+    "full_interval_wholly_positive": 0
+  },
+  {
+    "target": "mfe",
+    "add_positive": 54,
+    "add_total": 144,
+    "add_interval_wholly_positive": 0,
+    "full_positive": 0,
+    "full_total": 16,
+    "full_interval_wholly_positive": 0
+  },
+  {
+    "target": "path_drawdown",
+    "add_positive": 54,
+    "add_total": 144,
+    "add_interval_wholly_positive": 1,
+    "full_positive": 0,
+    "full_total": 16,
+    "full_interval_wholly_positive": 0
+  },
+  {
+    "target": "upper_first",
+    "add_positive": 92,
+    "add_total": 144,
+    "add_interval_wholly_positive": 3,
+    "full_positive": 16,
+    "full_total": 16,
+    "full_interval_wholly_positive": 0
+  }
+]

@@ -46,6 +46,18 @@ for name, rows in [('validation_unconditional', unconditional), ('net20_rmse', r
                    ('barrier_geometry', geometries), ('h3_validation', h3)]:
     write_json(args.output / f'{name}.json', rows)
     write_csv(args.output / f'{name}.csv', rows)
+targets, positive_intervals = [], []
+for target in ('net_return', 'excess_return', 'mae', 'mfe', 'path_drawdown', 'upper_first'):
+    additions = [r for r in metrics if r.get('target') == target and r.get('variant', '').startswith('add:')]
+    fulls = [r for r in metrics if r.get('target') == target and r.get('variant') == 'full']
+    targets.append({'target': target, 'add_positive': sum(r['delta_loss_positive_better'] > 0 for r in additions),
+                    'add_total': len(additions), 'add_interval_wholly_positive': sum(r['descriptive_two_way_cluster_interval'][0] > 0 for r in additions),
+                    'full_positive': sum(r['delta_loss_positive_better'] > 0 for r in fulls), 'full_total': len(fulls),
+                    'full_interval_wholly_positive': sum(r['descriptive_two_way_cluster_interval'][0] > 0 for r in fulls)})
+    positive_intervals.extend(r for r in additions if r['descriptive_two_way_cluster_interval'][0] > 0)
+for name, rows in [('target_increment_overview', targets), ('positive_cluster_intervals', positive_intervals)]:
+    write_json(args.output / f'{name}.json', rows)
+    write_csv(args.output / f'{name}.csv', rows)
 import os
 os.environ.setdefault('MPLCONFIGDIR', '/tmp/ashare-r1-mpl')
 import matplotlib
