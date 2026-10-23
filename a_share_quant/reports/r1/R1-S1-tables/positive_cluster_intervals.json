@@ -1,0 +1,82 @@
+[
+  {
+    "method": "r0_legacy",
+    "horizon": 20,
+    "target": "path_drawdown",
+    "train_n": 511,
+    "validation_n": 190,
+    "excluded_target_unavailable": 0,
+    "evaluation": "validation_only",
+    "stock_clusters": 6,
+    "variant": "add:center_lifecycle",
+    "status": "evaluated",
+    "mse_or_brier": 0.002048888698698122,
+    "mean_error": 0.008803180129190749,
+    "comparison_reference": "baseline",
+    "delta_loss_positive_better": 5.6574422344866075e-05,
+    "descriptive_two_way_cluster_interval": [
+      7.873169296663057e-07,
+      0.00012192588124717737
+    ]
+  },
+  {
+    "method": "density",
+    "horizon": 5,
+    "target": "upper_first",
+    "train_n": 211,
+    "validation_n": 73,
+    "excluded_target_unavailable": 425,
+    "evaluation": "validation_only",
+    "stock_clusters": 6,
+    "variant": "add:center_damage",
+    "status": "evaluated",
+    "mse_or_brier": 0.17581137134239894,
+    "mean_error": 0.10088191230599744,
+    "comparison_reference": "baseline",
+    "delta_loss_positive_better": 0.04869935031227299,
+    "descriptive_two_way_cluster_interval": [
+      0.007803639926236421,
+      0.106210546885595
+    ]
+  },
+  {
+    "method": "density",
+    "horizon": 10,
+    "target": "upper_first",
+    "train_n": 233,
+    "validation_n": 83,
+    "excluded_target_unavailable": 389,
+    "evaluation": "validation_only",
+    "stock_clusters": 6,
+    "variant": "add:center_damage",
+    "status": "evaluated",
+    "mse_or_brier": 0.17959343666137684,
+    "mean_error": 0.09744440786103586,
+    "comparison_reference": "baseline",
+    "delta_loss_positive_better": 0.04594454422815432,
+    "descriptive_two_way_cluster_interval": [
+      0.009113215696481833,
+      0.09887335750549314
+    ]
+  },
+  {
+    "method": "density",
+    "horizon": 20,
+    "target": "upper_first",
+    "train_n": 254,
+    "validation_n": 87,
+    "excluded_target_unavailable": 360,
+    "evaluation": "validation_only",
+    "stock_clusters": 6,
+    "variant": "add:center_damage",
+    "status": "evaluated",
+    "mse_or_brier": 0.17761270042752103,
+    "mean_error": 0.08740624713240712,
+    "comparison_reference": "baseline",
+    "delta_loss_positive_better": 0.04348333652333706,
+    "descriptive_two_way_cluster_interval": [
+      0.003641886959289787,
+      0.0948306362804357
+    ]
+  }
+]

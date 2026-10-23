@@ -1,0 +1,352 @@
+[
+  {
+    "path": "cases/sz002349-2014-10-31.pdf",
+    "sha256": "dca5dc742f477fe50516c5bda95ed46e8b143ac9900d763e3a31292d6deaf3a4",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2014-10-31.png",
+    "sha256": "a1e0c6dffe34ba3669fb2e8c31d4e598010da6e019225609c84d42b8835cca20",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2014-11-07.pdf",
+    "sha256": "49ca28b06a7b0833947b386aa2bc2acbaf2ed1bc207d11874e1508213441e518",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2014-11-07.png",
+    "sha256": "335b4e6e2cbfb0e8c2256c94c70d9f6f59b546ab44c648d2148166a12deee484",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2014-11-14.pdf",
+    "sha256": "7a760571a735411e07b11fd06c0af27721a90a6cb97f941b42d7735436730156",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2014-11-14.png",
+    "sha256": "9f234eae443458bb7e0ad8b616b1c3f1783c79409a1be64af570c6cfa57c141e",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2022-03-08.pdf",
+    "sha256": "6f42a3f149c9e86fae480d53ed4c3e5752a47f96a5ecd8a896dd0167b9b05d4c",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2022-03-08.png",
+    "sha256": "702d0f7eda5597d68f64b9c1ea57dbae3ca59f17b214a15d3880970146be30a6",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2022-03-22.pdf",
+    "sha256": "7ae5e45507aedba44848daeb4442133b85e89c6fa70871579ec70b772ee5a355",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2022-03-22.png",
+    "sha256": "e84b1915831f1694cdc9682e271e5f28dcb3f3ee3697508266f031b3ea816d28",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2022-04-08.pdf",
+    "sha256": "2820bbbbf4ef8c583387dbb62835bc5f6d5c07385fa2965bc67188e614cac1fb",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz002349-2022-04-08.png",
+    "sha256": "d019ec2f061c1b9a16fda5a4b5fee91c7c6d7cae19859edd093687797fb52597",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-06-30.pdf",
+    "sha256": "af689fd09e0930874e0e04e9562116eea0e5419e43afd066cf874f729848100a",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-06-30.png",
+    "sha256": "f0f4a743a6119416c5edac4d5bd67ce3bce045176dd096de7df855f0d881ce0c",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-07-10.pdf",
+    "sha256": "4bc3fb5c8b21ce375f170011324bff7106374bf94685dc35ccd97b7eec816646",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-07-10.png",
+    "sha256": "52a6ef6f78b3fa82b05fec68096c6d432f8064b41e7341ab2ae7ec7626050178",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-07-20.pdf",
+    "sha256": "3d4d783df94a035c5e0f2446aa18eacffe10ccc80f94b0ad8ff772dc24339ddf",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-07-20.png",
+    "sha256": "5c267c68dcad4a4e3afb354f8c226e07a469ba9a4037854c1a3d631664156241",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-07-31.pdf",
+    "sha256": "1ebee229ee12349ef8127e35e5feef69aaf804931dcf2a8990c12e938e3f2d2c",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-07-31.png",
+    "sha256": "acc308785469500d4dd4127998c74ad112aaa9d144fd722b06f39cc09215a79c",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-08-14.pdf",
+    "sha256": "538795919a25b2ba745e6264a9b72da185179679264482b4910d07e06421d11a",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "cases/sz300620-2026-08-14.png",
+    "sha256": "07052d994ace0ab28796d47eadaaa4aa8318175be17d7546e4105724904f6c2b",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B001-blank.pdf",
+    "sha256": "f349594855704226f604e027b0bdf1b383fd0a08db9501e94eee05c6cfe5e5d0",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B001-blank.png",
+    "sha256": "47cd8c31e09cafde72342f42ecd58c6f20eabbcd56dfb7c7a803646d1d778910",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B001.pdf",
+    "sha256": "ea33a31906ed607b8cf9db0b3d93825d68e002fe5c7c970da816412b5665d10d",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B001.png",
+    "sha256": "cc07887374f7487633fb9e963f7973ffaf20ca79d0554fd0c06feb11c08c4d57",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B002-blank.pdf",
+    "sha256": "6fcc2891b96ba6a5b663a16d9d050f071ecac5a741f6a53aff4447c85b2ec1ec",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B002-blank.png",
+    "sha256": "157931e6ea1e932d14c3508d7fe6bdeb655280206c8dfc630df6b130d4af1bf6",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B002.pdf",
+    "sha256": "571bc140a6357027352ccdb64a03598d20f6af2772511d963fdf2dcfc3e50094",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B002.png",
+    "sha256": "23ae0f2c8e85e8c38c8bcc1f18d5f4d76bdc5aff5ce513d798de2197fbc11638",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B003-blank.pdf",
+    "sha256": "9c1809d4b58b2b000813ac4f7fdde31844cb24cfad573a315bf7ba0f905053bf",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B003-blank.png",
+    "sha256": "b1a20b5c588ce261c448e18b426d93219c0e71a246df33739b7c47c04e38609e",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B003.pdf",
+    "sha256": "9ec667acb41802f901d578a1c0519a1e8ece694b518b0ca9ba769919c955dbd6",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B003.png",
+    "sha256": "5f57463175c78e290364f5176a2e1b7d9580104645c47997638354c9a28652ea",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B004-blank.pdf",
+    "sha256": "0a46983ceda09821ed281fa2bfbdde23383056a959879d28b2daf70b8f7716fd",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B004-blank.png",
+    "sha256": "9e2fa5bb266843c56f829b8c8043f5f4964a09b447f59bb787852c3859624e92",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B004.pdf",
+    "sha256": "ccfa1dea834080125360166ad28834cbbea9933c45d861c4234a7763bcd7a194",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B004.png",
+    "sha256": "49a52d432af5264c94f375a1ec211e9b2c0f99511fe5ea3cee2ebb784b0ed744",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B005-blank.pdf",
+    "sha256": "268f17bea7257789692b6d93d7a818d6c5159ea70bac209361822bab1bba6649",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B005-blank.png",
+    "sha256": "3994f32ecee11cbd0660ebd5121be329a7ecd7e0eea7e152e6614b9b5a90755d",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B005.pdf",
+    "sha256": "501cd0e30b7fd32a8d387500f9c39a5a7aae52ea378221203efcf9190ae898ca",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B005.png",
+    "sha256": "50f3d11a4df69f450a293951a1fb48d3a38536e9ff4012103baf6788d35ca079",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B006-blank.pdf",
+    "sha256": "5f9b32bba80342099911365f9875f5878ac1eeb372734c3b2a5edbb69e0e2c7b",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B006-blank.png",
+    "sha256": "9f01b0b9f6e0e03487ac5d9c33582ce7fd270021a6e6bc046d2c685156f7dfdf",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B006.pdf",
+    "sha256": "29c5e2d2084935d7190bb89290a693a8e14dcb038ec25eea466f54ecddd2dbd2",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B006.png",
+    "sha256": "d3b5324b0f1952e8008a09d3e12a2fccae88a94afb9dedb8adfc89c4f57e7070",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B007-blank.pdf",
+    "sha256": "c89bb5425f83bf456cb275a8b68b843de8b9cfc19477550f22846f8d5afb96c2",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B007-blank.png",
+    "sha256": "531334793a2043dfdc0909e2cdaf119fa7a3ed0989af708232127ec5e174a1cd",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B007.pdf",
+    "sha256": "6e8d9b41b8b30ed529fd348a1edb77700c88c37b13de7abe65705736d1205524",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B007.png",
+    "sha256": "334d3b79d2c4154879aa922399d80de95bab5826df519acf0ba25150a016f002",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B008-blank.pdf",
+    "sha256": "0f45424386ce57848523759ed55da5095b0923fea83bc0705b41af61583df2b9",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B008-blank.png",
+    "sha256": "78dfe408d3d7400abff128cbf6af411cad28e767d1d91dedd967412208186bba",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B008.pdf",
+    "sha256": "556f423120d441888f48c10ee95dbbff50829e3bce6c5b689d5f3e2cd5f03687",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B008.png",
+    "sha256": "eb35a6c8e35204d76ca7173f0019328b5d5ece5b5218df093756788d58b9f793",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B009-blank.pdf",
+    "sha256": "0f3aa6cc5d26ce026913d496a3b38e573deb297bdb4ffc9d8959a351f21603f8",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B009-blank.png",
+    "sha256": "e63c523bbbf5e306157f3da4f91343a30be16afa0d073311f87ef0648db96c2e",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B009.pdf",
+    "sha256": "bf7b55c8421c8d8831fcc21837f5524498c6c0f894d1757ac1408da5a38afbc5",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B009.png",
+    "sha256": "727d65cc41d5dc881c02039e62b2d10ba5a86dc3cd86f30b4a8aca514884f92f",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B010-blank.pdf",
+    "sha256": "b797c7202a2d3c7eb6f7b17bc64f324fbcf60e594e8067b057ed8ca8cc37e8aa",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B010-blank.png",
+    "sha256": "5d852b1fde5fcba74d3c14a086b8aa10ba055d0a423a93dbcaa1f4912cbac159",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B010.pdf",
+    "sha256": "974ef9750ea4573ca8428c8ecaabc947d10eb8b15430411917d669a62c56638b",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B010.png",
+    "sha256": "43e16e95bdc9a9a76e7ba12b9c048553e1a2aafe83bb2f0b66ae0ccca383b007",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B011-blank.pdf",
+    "sha256": "187de0445252dee7781e0f02804e403d85be0d86c21c9d07f546d4d2ebeb1679",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B011-blank.png",
+    "sha256": "07530ec6470d5567a2e4c888c905044cd963cf8454fa10700ceab2d951f9f7ea",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B011.pdf",
+    "sha256": "db16157e329035ff09339fc362ff4719f8f9ff96275904435ed16ff4707a9b86",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B011.png",
+    "sha256": "09b72d49c02f85dfbbe60340688c563482751a53c587339feba04689d955f75c",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B012-blank.pdf",
+    "sha256": "229a866c207c0d6687ddb3cd9feeacf87d1c510819632e438fdbe024ad34ef87",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B012-blank.png",
+    "sha256": "b1c4e456a5f54fe89dec0def221854692b986f2ca317d1cc32323b499c5fe8be",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B012.pdf",
+    "sha256": "3145754430797610f7de46fd9232aaf8207441c6bd03fb22210f1c83ef43b8bd",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  },
+  {
+    "path": "blind/B012.png",
+    "sha256": "7597164b9cdbf0fc447afd1964108bae6158d17c880e8339d924446884dd6843",
+    "cutoff_rule": "no bars beyond corresponding snapshot cutoff"
+  }
+]

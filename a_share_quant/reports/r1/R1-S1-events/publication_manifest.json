@@ -1,0 +1,65 @@
+[
+  {
+    "source_file": "all_daily_states.jsonl.gz",
+    "published_file": "all_daily_states.jsonl.gz",
+    "source_sha256": "46fdb4ec4b0e0aea50edcbdf30fd612ea98107c0b6b295e6b4811aa565e44702",
+    "published_sha256": "46fdb4ec4b0e0aea50edcbdf30fd612ea98107c0b6b295e6b4811aa565e44702",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "all_event_labels.csv.gz",
+    "published_file": "all_event_labels.csv.gz",
+    "source_sha256": "1e420239a3936d5d48cd2ac823f8dd22ed7e3f7a113fa347037e76da23c86c52",
+    "published_sha256": "1e420239a3936d5d48cd2ac823f8dd22ed7e3f7a113fa347037e76da23c86c52",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "anchor_features.csv.gz",
+    "published_file": "anchor_features.csv.gz",
+    "source_sha256": "ac0c84b52944f1929a802ffdb87cbff7e22b63c1e7545c2eaab65474913c872b",
+    "published_sha256": "ac0c84b52944f1929a802ffdb87cbff7e22b63c1e7545c2eaab65474913c872b",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "anchor_register.csv",
+    "published_file": "anchor_register.csv",
+    "source_sha256": "280eb6b1561840dc7ff0a42f0ed06c1ba0e16c20a082162b1480b1bbdcef62e1",
+    "published_sha256": "280eb6b1561840dc7ff0a42f0ed06c1ba0e16c20a082162b1480b1bbdcef62e1",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "bottom_shape_summary.json",
+    "published_file": "bottom_shape_summary.json.gz",
+    "source_sha256": "46fc6030a3a659aaf578fd9d1b40d9f172225553dc9d3ebb151b8281e438207e",
+    "published_sha256": "8ea27354b58c23e16ed6b6404ce8d687e3ad1b642f1a3ad4aff2ce998858f2be",
+    "lossless_gzip": true
+  },
+  {
+    "source_file": "coverage.json",
+    "published_file": "coverage.json",
+    "source_sha256": "1141e4a04d3754619fb4a52887a48b366ddb55b908185ec0a2778def351d2591",
+    "published_sha256": "1141e4a04d3754619fb4a52887a48b366ddb55b908185ec0a2778def351d2591",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "event_audit.json",
+    "published_file": "event_audit.json",
+    "source_sha256": "996986a7009b855139fc3dfbf16172a6de8f131d2bde43b1a14005d63c8da9a6",
+    "published_sha256": "996986a7009b855139fc3dfbf16172a6de8f131d2bde43b1a14005d63c8da9a6",
+    "lossless_gzip": false
+  },
+  {
+    "source_file": "event_summary.json",
+    "published_file": "event_summary.json.gz",
+    "source_sha256": "627270268cb87b07bed3e36b3d73dd81a96e61b78ba7ea081dfff8b25a93e119",
+    "published_sha256": "6032b78ce97a65033786d39d6d16b6b35ae4fcb9b65e77b35f74cf54c5c867ea",
+    "lossless_gzip": true
+  },
+  {
+    "source_file": "year_regime_summary.json",
+    "published_file": "year_regime_summary.json.gz",
+    "source_sha256": "8edb35478f17b92004bfe0dcbb70a6c743f0158f444db9b8c1485f1a85f87db4",
+    "published_sha256": "2675539d3c315b10a085bfc425b321ac5bd191362691c97f4eb66dfc79143ec0",
+    "lossless_gzip": true
+  }
+]

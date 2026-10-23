@@ -1,0 +1,132 @@
+[
+  {
+    "symbol": "sz002349",
+    "cohort": "case",
+    "bars": 3829,
+    "first": "2010-02-03",
+    "last": "2026-10-22",
+    "counts": {
+      "data_gap_days": 227,
+      "warmup": 1160,
+      "anchors_warmup": 58,
+      "assessed": 2669,
+      "anchors_ready": 134
+    }
+  },
+  {
+    "symbol": "sz300620",
+    "cohort": "case",
+    "bars": 2325,
+    "first": "2017-03-10",
+    "last": "2026-10-22",
+    "counts": {
+      "data_gap_days": 10,
+      "warmup": 238,
+      "anchors_warmup": 12,
+      "assessed": 2087,
+      "anchors_ready": 105
+    }
+  },
+  {
+    "symbol": "sz000001",
+    "cohort": "independent",
+    "bars": 8458,
+    "first": "1991-04-03",
+    "last": "2026-10-22",
+    "counts": {
+      "data_gap_days": 70,
+      "warmup": 866,
+      "anchors_warmup": 43,
+      "assessed": 3142,
+      "anchors_ready": 120,
+      "anchors_purged": 2,
+      "anchors_embargo": 1,
+      "anchors_sealed_not_evaluated": 34
+    }
+  },
+  {
+    "symbol": "sz000333",
+    "cohort": "independent",
+    "bars": 3117,
+    "first": "2013-09-18",
+    "last": "2026-10-22",
+    "counts": {
+      "data_gap_days": 62,
+      "warmup": 816,
+      "anchors_warmup": 38,
+      "assessed": 2301,
+      "anchors_ready": 79,
+      "anchors_purged": 2,
+      "anchors_embargo": 1,
+      "anchors_sealed_not_evaluated": 34
+    }
+  },
+  {
+    "symbol": "sz000858",
+    "cohort": "independent",
+    "bars": 6770,
+    "first": "1998-04-27",
+    "last": "2026-10-22",
+    "counts": {
+      "data_gap_days": 64,
+      "warmup": 635,
+      "anchors_warmup": 31,
+      "assessed": 3379,
+      "anchors_ready": 133,
+      "anchors_purged": 2,
+      "anchors_embargo": 1,
+      "anchors_sealed_not_evaluated": 34
+    }
+  },
+  {
+    "symbol": "sh600276",
+    "cohort": "independent",
+    "bars": 6261,
+    "first": "2000-10-18",
+    "last": "2026-10-22",
+    "counts": {
+      "data_gap_days": 7,
+      "assessed": 3518,
+      "anchors_ready": 139,
+      "warmup": 553,
+      "anchors_warmup": 28,
+      "anchors_purged": 2,
+      "anchors_embargo": 1,
+      "anchors_sealed_not_evaluated": 34
+    }
+  },
+  {
+    "symbol": "sh600900",
+    "cohort": "independent",
+    "bars": 5143,
+    "first": "2003-11-18",
+    "last": "2026-10-22",
+    "counts": {
+      "data_gap_days": 128,
+      "warmup": 1118,
+      "anchors_warmup": 56,
+      "assessed": 2832,
+      "anchors_ready": 105,
+      "anchors_purged": 2,
+      "anchors_embargo": 1,
+      "anchors_sealed_not_evaluated": 34
+    }
+  },
+  {
+    "symbol": "sh601088",
+    "cohort": "independent",
+    "bars": 4548,
+    "first": "2007-10-09",
+    "last": "2026-10-22",
+    "counts": {
+      "data_gap_days": 77,
+      "assessed": 3464,
+      "anchors_ready": 143,
+      "warmup": 537,
+      "anchors_warmup": 21,
+      "anchors_purged": 2,
+      "anchors_embargo": 1,
+      "anchors_sealed_not_evaluated": 33
+    }
+  }
+]

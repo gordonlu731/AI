@@ -9,6 +9,9 @@ description = "Causal daily-structure A-share research baseline, not live tradin
 requires-python = ">=3.11"
 dependencies = []
 
+[project.optional-dependencies]
+research = ["numpy==2.3.5", "matplotlib==3.10.8"]
+
 [project.scripts]
 ashare-quant = "ashare_quant.__main__:main"
 

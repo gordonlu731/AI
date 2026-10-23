@@ -1,0 +1,186 @@
+[
+  {
+    "case_id": "sz002349-2014-10-31",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz002349-2014-10-31.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz002349-2014-11-07",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz002349-2014-11-07.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz002349-2014-11-14",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz002349-2014-11-14.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz002349-2022-03-08",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz002349-2022-03-08.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz002349-2022-03-22",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz002349-2022-03-22.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz002349-2022-04-08",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz002349-2022-04-08.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz300620-2026-06-30",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz300620-2026-06-30.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz300620-2026-07-10",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz300620-2026-07-10.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz300620-2026-07-20",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz300620-2026-07-20.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz300620-2026-07-31",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz300620-2026-07-31.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "sz300620-2026-08-14",
+    "cohort": "designated_case",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "cases/sz300620-2026-08-14.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B001",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B001.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B002",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B002.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B003",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B003.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B004",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B004.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B005",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B005.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B006",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B006.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B007",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B007.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B008",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B008.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B009",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B009.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B010",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B010.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B011",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B011.png",
+    "status": "rendered_local_only"
+  },
+  {
+    "case_id": "B012",
+    "cohort": "independent_blind",
+    "asof_visible_only": true,
+    "snapshot_verified_pit": false,
+    "path": "blind/B012.png",
+    "status": "rendered_local_only"
+  }
+]

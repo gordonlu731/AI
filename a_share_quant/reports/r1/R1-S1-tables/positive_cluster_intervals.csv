@@ -1,0 +1,5 @@
+method,horizon,target,train_n,validation_n,excluded_target_unavailable,evaluation,stock_clusters,variant,status,mse_or_brier,mean_error,comparison_reference,delta_loss_positive_better,descriptive_two_way_cluster_interval
+r0_legacy,20,path_drawdown,511,190,0,validation_only,6,add:center_lifecycle,evaluated,0.002048888698698122,0.008803180129190749,baseline,5.6574422344866075e-05,"[7.873169296663057e-07, 0.00012192588124717737]"
+density,5,upper_first,211,73,425,validation_only,6,add:center_damage,evaluated,0.17581137134239894,0.10088191230599744,baseline,0.04869935031227299,"[0.007803639926236421, 0.106210546885595]"
+density,10,upper_first,233,83,389,validation_only,6,add:center_damage,evaluated,0.17959343666137684,0.09744440786103586,baseline,0.04594454422815432,"[0.009113215696481833, 0.09887335750549314]"
+density,20,upper_first,254,87,360,validation_only,6,add:center_damage,evaluated,0.17761270042752103,0.08740624713240712,baseline,0.04348333652333706,"[0.003641886959289787, 0.0948306362804357]"

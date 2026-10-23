@@ -1,0 +1,86 @@
+[
+  {
+    "method": "r0_legacy",
+    "horizon": 20,
+    "variant": "null_mean",
+    "validation_n": 190,
+    "rmse": 0.08983936945492085
+  },
+  {
+    "method": "r0_legacy",
+    "horizon": 20,
+    "variant": "baseline",
+    "validation_n": 190,
+    "rmse": 0.08997516207998249
+  },
+  {
+    "method": "r0_legacy",
+    "horizon": 20,
+    "variant": "full",
+    "validation_n": 190,
+    "rmse": 0.09265523382809465
+  },
+  {
+    "method": "atr_intersection",
+    "horizon": 20,
+    "variant": "null_mean",
+    "validation_n": 190,
+    "rmse": 0.08983936945492085
+  },
+  {
+    "method": "atr_intersection",
+    "horizon": 20,
+    "variant": "baseline",
+    "validation_n": 190,
+    "rmse": 0.08997516207998249
+  },
+  {
+    "method": "atr_intersection",
+    "horizon": 20,
+    "variant": "full",
+    "validation_n": 190,
+    "rmse": 0.09653088370033117
+  },
+  {
+    "method": "density",
+    "horizon": 20,
+    "variant": "null_mean",
+    "validation_n": 190,
+    "rmse": 0.08983936945492085
+  },
+  {
+    "method": "density",
+    "horizon": 20,
+    "variant": "baseline",
+    "validation_n": 190,
+    "rmse": 0.08997516207998249
+  },
+  {
+    "method": "density",
+    "horizon": 20,
+    "variant": "full",
+    "validation_n": 190,
+    "rmse": 0.09349281396400608
+  },
+  {
+    "method": "support",
+    "horizon": 20,
+    "variant": "null_mean",
+    "validation_n": 190,
+    "rmse": 0.08983936945492085
+  },
+  {
+    "method": "support",
+    "horizon": 20,
+    "variant": "baseline",
+    "validation_n": 190,
+    "rmse": 0.08997516207998249
+  },
+  {
+    "method": "support",
+    "horizon": 20,
+    "variant": "full",
+    "validation_n": 190,
+    "rmse": 0.09620346188716772
+  }
+]

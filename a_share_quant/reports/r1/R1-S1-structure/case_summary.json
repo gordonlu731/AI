@@ -1,0 +1,38 @@
+[
+  {
+    "symbol": "sz002349",
+    "diagnostic_days": 140,
+    "r0_bottom_signals": 1,
+    "r0_bottom_rejection_counts": {
+      "rr_below_min": 121,
+      "not_deep_decline": 119,
+      "retest_outside_band": 125,
+      "selling_not_decaying": 127,
+      "missing_rr": 28,
+      "recovery_not_confirmed": 94,
+      "unconfirmed_bottom_sequence": 68,
+      "weak_first_rebound": 80
+    },
+    "r0_trend_signals": 1,
+    "r1_fixed_bottom_shape_days": 0,
+    "r1_atr_bottom_shape_days": 35
+  },
+  {
+    "symbol": "sz300620",
+    "diagnostic_days": 65,
+    "r0_bottom_signals": 0,
+    "r0_bottom_rejection_counts": {
+      "rr_below_min": 59,
+      "not_deep_decline": 44,
+      "selling_not_decaying": 37,
+      "recovery_not_confirmed": 39,
+      "missing_rr": 12,
+      "unconfirmed_bottom_sequence": 25,
+      "weak_first_rebound": 35,
+      "retest_outside_band": 57
+    },
+    "r0_trend_signals": 0,
+    "r1_fixed_bottom_shape_days": 1,
+    "r1_atr_bottom_shape_days": 0
+  }
+]
