@@ -1,0 +1,5 @@
+{"id":"R1-S1-registration","action":"freeze structure parameters, panel, nulls, temporal splits and model budget","commit":"4eccb0f","outcome":"registered before R1 outcomes","return_parameter_searches":0}
+{"id":"R1-S1-data-panel","action":"fetch six fixed independent stock snapshots with existing audited adapter","outcome":"6 succeeded; no symbol substitutions","pit_verified":false}
+{"id":"R1-S1-benchmark-attempt1","action":"validate entire decoded benchmark history","outcome":"failed OHLC at 1991-05-09; outside registered study period; failed file retained locally"}
+{"id":"R1-S1-benchmark-attempt2","action":"load only preregistered 2010-01-01 through 2026-10-22","outcome":"4078 benchmark rows passed OHLC validation; no quote repair"}
+{"id":"R1-S1-structure-run1","action":"four causal structure families with fixed lifecycle ablations","outcome":"23 as-of review samples; 39 tests passed; real-human scores pending","structural_parameter_presets":1,"return_parameter_searches":0}
