@@ -1,0 +1,27 @@
+{
+  "tests_passed": 68,
+  "raw_input_byte_identical": true,
+  "revision_history_preserved": 133,
+  "unique_reviewed_cases": 6,
+  "new_cases": 5,
+  "unchanged_prior_cases": [
+    "B001"
+  ],
+  "post_reveal_revisions": [],
+  "human_center_regions": 6,
+  "human_bottom_regions": 11,
+  "human_centroids_imputed": 0,
+  "prior_B001_all_pairs_unchanged": true,
+  "frozen_asof_snapshots_reproduced": 6,
+  "combined_pdf_pages": 30,
+  "full_png_count": 30,
+  "overview_png_count": 6,
+  "private_cli_validations_passed": 6,
+  "public_derivative_price_checks": "passed",
+  "later_six_revealed": false,
+  "original_blind_tool_and_images_unchanged": true,
+  "new_fits": 0,
+  "parameter_searches": 0,
+  "independent_test_outcomes_computed": 0,
+  "manual_algorithm_judgments": "pending"
+}

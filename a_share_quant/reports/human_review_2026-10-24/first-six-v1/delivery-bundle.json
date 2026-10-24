@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "name": "first-six-comparisons.pdf",
+      "bytes": 1294510,
+      "sha256": "8e9b0f67decd220203008bc788c448301160b0e7277ad0a95922070a6de449c0"
+    },
+    {
+      "name": "六张算法对照.html",
+      "bytes": 3387143,
+      "sha256": "f3c88df1b026c6252cc790f10a38f16eb8b9c68892ffe54823e909df7027c50a"
+    },
+    {
+      "name": "首批六张-算法对照与汇总.zip",
+      "bytes": 17817783,
+      "sha256": "ae53058cdd799a1ed9bb07e27040ef185102e797c08701e319d11ab959f19eb2"
+    }
+  ],
+  "direct_session_overviews": [
+    "B002",
+    "B003",
+    "B004",
+    "B005",
+    "B006"
+  ],
+  "public_price_hosting": false,
+  "private_keys_and_vendor_validation_in_bundle": false
+}

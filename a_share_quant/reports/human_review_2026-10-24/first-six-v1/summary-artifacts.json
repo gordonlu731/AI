@@ -1,0 +1,33 @@
+{
+  "source_script_sha256": "0ad11a83b74ccff5165f5a612d70cffc5300f3c41f2d7d6afa10e080f776a826",
+  "protocol_sha256": "ef4da22bff129704f3a101dd77160bc408c8c02205dbbe45e583abbe0caeea31",
+  "images": [
+    {
+      "name": "B001-overview.png",
+      "sha256": "d1cc907f7cce70330af2f783c3ec409d57643267c5199082e9c5c7ed22ff8a08"
+    },
+    {
+      "name": "B002-overview.png",
+      "sha256": "77e0ed68a04be4591cfae8fa634a61ef8df72772fbe93eca36c88beb1cbd0702"
+    },
+    {
+      "name": "B003-overview.png",
+      "sha256": "23abec7a62c5c09ea9b52e484ed39080da381d4c17069ffc04318a9fa3be2e33"
+    },
+    {
+      "name": "B004-overview.png",
+      "sha256": "9dc967fd67b1ad8f99312de8ba49fe0d7badac9cac66ceee9dd5ad2a6f7f91a4"
+    },
+    {
+      "name": "B005-overview.png",
+      "sha256": "0f3d7b345b204680cb7e0bee6870318eb825fccee6917053b68310c55dcce3ca"
+    },
+    {
+      "name": "B006-overview.png",
+      "sha256": "58ed1e5e2ca7d53c69bd87f113afea3998e6b7a25c2bb09628db10b20122ff75"
+    }
+  ],
+  "combined_pdf_sha256": "8e9b0f67decd220203008bc788c448301160b0e7277ad0a95922070a6de449c0",
+  "local_only": true,
+  "human_correctness_judgments": "pending"
+}

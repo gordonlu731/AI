@@ -1,0 +1,4114 @@
+{
+  "status": "descriptive_first_six_complete_manual_algorithm_judgments_pending",
+  "unique_first_review_cases": 6,
+  "registered_cases_total": 12,
+  "withheld_cases": [
+    "B007",
+    "B008",
+    "B009",
+    "B010",
+    "B011",
+    "B012"
+  ],
+  "stock_group_count": 3,
+  "cases_are_not_independent_stock_samples": true,
+  "human_center_regions": 6,
+  "human_bottom_regions": 11,
+  "manual_none_case_ids": [
+    "B002"
+  ],
+  "human_centroid_errors": "unavailable_not_imputed",
+  "manual_correctness_judgments": "pending",
+  "scopes": [
+    "end_inventory",
+    "end_window",
+    "historical_window"
+  ],
+  "methods": {
+    "r0_legacy": {
+      "end_inventory": {
+        "human_region_denominator": 6,
+        "with_candidate": 6,
+        "without_candidate": 0,
+        "candidates_but_no_positive_price_overlap": 3,
+        "positive_overlap": 3,
+        "median_maximum_iou_given_candidate": 0.025340480624095878,
+        "maximum_iou_values_given_candidate": [
+          0.29719071900249966,
+          0.251190574399532,
+          0.050680961248191755,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positive_overlap_edge_denominator": 3,
+        "median_width_ratio_given_positive_overlap": 0.251190574399532,
+        "median_lower_delta_human_width": 0.5128907779647194,
+        "median_upper_delta_human_width": -0.2593254493090276,
+        "narrower_than_human": 3,
+        "wider_than_human": 0,
+        "both_edges_higher": 0,
+        "both_edges_lower": 1,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 21,
+          "B002": 23,
+          "B003": 3,
+          "B004": 1,
+          "B005": 7,
+          "B006": 18
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      },
+      "end_window": {
+        "human_region_denominator": 6,
+        "with_candidate": 6,
+        "without_candidate": 0,
+        "candidates_but_no_positive_price_overlap": 3,
+        "positive_overlap": 3,
+        "median_maximum_iou_given_candidate": 0.025340480624095878,
+        "maximum_iou_values_given_candidate": [
+          0.09736373372736933,
+          0.251190574399532,
+          0.050680961248191755,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positive_overlap_edge_denominator": 3,
+        "median_width_ratio_given_positive_overlap": 0.09736373372736933,
+        "median_lower_delta_human_width": 0.6899935894427807,
+        "median_upper_delta_human_width": -0.2359186476357486,
+        "narrower_than_human": 3,
+        "wider_than_human": 0,
+        "both_edges_higher": 0,
+        "both_edges_lower": 0,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 2,
+          "B002": 2,
+          "B003": 2,
+          "B004": 1,
+          "B005": 2,
+          "B006": 1
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      },
+      "historical_window": {
+        "human_region_denominator": 6,
+        "with_candidate": 6,
+        "without_candidate": 0,
+        "candidates_but_no_positive_price_overlap": 3,
+        "positive_overlap": 3,
+        "median_maximum_iou_given_candidate": 0.025340480624095878,
+        "maximum_iou_values_given_candidate": [
+          0.09736373372736933,
+          0.251190574399532,
+          0.050680961248191755,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "positive_overlap_edge_denominator": 3,
+        "median_width_ratio_given_positive_overlap": 0.09736373372736933,
+        "median_lower_delta_human_width": 0.6899935894427807,
+        "median_upper_delta_human_width": -0.2359186476357486,
+        "narrower_than_human": 3,
+        "wider_than_human": 0,
+        "both_edges_higher": 0,
+        "both_edges_lower": 0,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 2,
+          "B002": 2,
+          "B003": 2,
+          "B004": 1,
+          "B005": 2,
+          "B006": 1
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      }
+    },
+    "atr_intersection": {
+      "end_inventory": {
+        "human_region_denominator": 6,
+        "with_candidate": 3,
+        "without_candidate": 3,
+        "candidates_but_no_positive_price_overlap": 0,
+        "positive_overlap": 3,
+        "median_maximum_iou_given_candidate": 0.3780003780003767,
+        "maximum_iou_values_given_candidate": [
+          0.3780003780003767,
+          0.050680961248191755,
+          0.6805400527917802
+        ],
+        "positive_overlap_edge_denominator": 3,
+        "median_width_ratio_given_positive_overlap": 0.3780003780003767,
+        "median_lower_delta_human_width": 0.48812448812449005,
+        "median_upper_delta_human_width": -0.1338751338751332,
+        "narrower_than_human": 3,
+        "wider_than_human": 0,
+        "both_edges_higher": 0,
+        "both_edges_lower": 0,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 1,
+          "B002": 2,
+          "B003": 0,
+          "B004": 1,
+          "B005": 0,
+          "B006": 2
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      },
+      "end_window": {
+        "human_region_denominator": 6,
+        "with_candidate": 3,
+        "without_candidate": 3,
+        "candidates_but_no_positive_price_overlap": 0,
+        "positive_overlap": 3,
+        "median_maximum_iou_given_candidate": 0.3780003780003767,
+        "maximum_iou_values_given_candidate": [
+          0.3780003780003767,
+          0.050680961248191755,
+          0.6805400527917802
+        ],
+        "positive_overlap_edge_denominator": 3,
+        "median_width_ratio_given_positive_overlap": 0.3780003780003767,
+        "median_lower_delta_human_width": 0.48812448812449005,
+        "median_upper_delta_human_width": -0.1338751338751332,
+        "narrower_than_human": 3,
+        "wider_than_human": 0,
+        "both_edges_higher": 0,
+        "both_edges_lower": 0,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 1,
+          "B002": 2,
+          "B003": 0,
+          "B004": 1,
+          "B005": 0,
+          "B006": 2
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      },
+      "historical_window": {
+        "human_region_denominator": 6,
+        "with_candidate": 6,
+        "without_candidate": 0,
+        "candidates_but_no_positive_price_overlap": 2,
+        "positive_overlap": 4,
+        "median_maximum_iou_given_candidate": 0.3324084190106042,
+        "maximum_iou_values_given_candidate": [
+          0.3780003780003767,
+          0.4289776360970891,
+          0.0,
+          0.0,
+          0.28681646002083167,
+          0.6805400527917802
+        ],
+        "positive_overlap_edge_denominator": 4,
+        "median_width_ratio_given_positive_overlap": 0.5547588444444347,
+        "median_lower_delta_human_width": 0.3648276401681032,
+        "median_upper_delta_human_width": -0.10977787115748684,
+        "narrower_than_human": 4,
+        "wider_than_human": 0,
+        "both_edges_higher": 0,
+        "both_edges_lower": 1,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 3,
+          "B002": 3,
+          "B003": 1,
+          "B004": 2,
+          "B005": 1,
+          "B006": 2
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      }
+    },
+    "density": {
+      "end_inventory": {
+        "human_region_denominator": 6,
+        "with_candidate": 6,
+        "without_candidate": 0,
+        "candidates_but_no_positive_price_overlap": 0,
+        "positive_overlap": 6,
+        "median_maximum_iou_given_candidate": 0.37342443754512655,
+        "maximum_iou_values_given_candidate": [
+          0.3264223606040603,
+          0.2693193771662564,
+          0.5414052535497899,
+          0.12681005890656608,
+          0.42042651448619284,
+          0.4780372828033676
+        ],
+        "positive_overlap_edge_denominator": 6,
+        "median_width_ratio_given_positive_overlap": 0.39773646402691776,
+        "median_lower_delta_human_width": 0.3243999428847275,
+        "median_upper_delta_human_width": -0.24655593879033705,
+        "narrower_than_human": 6,
+        "wider_than_human": 0,
+        "both_edges_higher": 2,
+        "both_edges_lower": 0,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 3,
+          "B002": 3,
+          "B003": 1,
+          "B004": 5,
+          "B005": 2,
+          "B006": 2
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      },
+      "end_window": {
+        "human_region_denominator": 6,
+        "with_candidate": 6,
+        "without_candidate": 0,
+        "candidates_but_no_positive_price_overlap": 0,
+        "positive_overlap": 6,
+        "median_maximum_iou_given_candidate": 0.37342443754512655,
+        "maximum_iou_values_given_candidate": [
+          0.3264223606040603,
+          0.2693193771662564,
+          0.5414052535497899,
+          0.12681005890656608,
+          0.42042651448619284,
+          0.4780372828033676
+        ],
+        "positive_overlap_edge_denominator": 6,
+        "median_width_ratio_given_positive_overlap": 0.39773646402691776,
+        "median_lower_delta_human_width": 0.3243999428847275,
+        "median_upper_delta_human_width": -0.24655593879033705,
+        "narrower_than_human": 6,
+        "wider_than_human": 0,
+        "both_edges_higher": 2,
+        "both_edges_lower": 0,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 3,
+          "B002": 3,
+          "B003": 1,
+          "B004": 5,
+          "B005": 2,
+          "B006": 2
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      },
+      "historical_window": {
+        "human_region_denominator": 6,
+        "with_candidate": 6,
+        "without_candidate": 0,
+        "candidates_but_no_positive_price_overlap": 0,
+        "positive_overlap": 6,
+        "median_maximum_iou_given_candidate": 0.37342443754512655,
+        "maximum_iou_values_given_candidate": [
+          0.3264223606040603,
+          0.2915199551559263,
+          0.5414052535497899,
+          0.12681005890656608,
+          0.42042651448619284,
+          0.4780372828033676
+        ],
+        "positive_overlap_edge_denominator": 6,
+        "median_width_ratio_given_positive_overlap": 0.39773646402691776,
+        "median_lower_delta_human_width": 0.4482581444272102,
+        "median_upper_delta_human_width": -0.15609722867009407,
+        "narrower_than_human": 6,
+        "wider_than_human": 0,
+        "both_edges_higher": 2,
+        "both_edges_lower": 0,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 6,
+          "B002": 7,
+          "B003": 9,
+          "B004": 7,
+          "B005": 6,
+          "B006": 7
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      }
+    },
+    "support": {
+      "end_inventory": {
+        "human_region_denominator": 6,
+        "with_candidate": 5,
+        "without_candidate": 1,
+        "candidates_but_no_positive_price_overlap": 1,
+        "positive_overlap": 4,
+        "median_maximum_iou_given_candidate": 0.5468334837957339,
+        "maximum_iou_values_given_candidate": [
+          0.764076218621674,
+          0.15736051966088047,
+          0.5468334837957339,
+          0.6095920250115333,
+          0.0
+        ],
+        "positive_overlap_edge_denominator": 4,
+        "median_width_ratio_given_positive_overlap": 0.6868341218166036,
+        "median_lower_delta_human_width": -0.10231044118767013,
+        "median_upper_delta_human_width": -0.20023667177477183,
+        "narrower_than_human": 3,
+        "wider_than_human": 1,
+        "both_edges_higher": 0,
+        "both_edges_lower": 2,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 1,
+          "B002": 0,
+          "B003": 1,
+          "B004": 1,
+          "B005": 1,
+          "B006": 0
+        },
+        "manual_none_disagreement_case_ids": []
+      },
+      "end_window": {
+        "human_region_denominator": 6,
+        "with_candidate": 5,
+        "without_candidate": 1,
+        "candidates_but_no_positive_price_overlap": 1,
+        "positive_overlap": 4,
+        "median_maximum_iou_given_candidate": 0.5468334837957339,
+        "maximum_iou_values_given_candidate": [
+          0.764076218621674,
+          0.15736051966088047,
+          0.5468334837957339,
+          0.6095920250115333,
+          0.0
+        ],
+        "positive_overlap_edge_denominator": 4,
+        "median_width_ratio_given_positive_overlap": 0.6868341218166036,
+        "median_lower_delta_human_width": -0.10231044118767013,
+        "median_upper_delta_human_width": -0.20023667177477183,
+        "narrower_than_human": 3,
+        "wider_than_human": 1,
+        "both_edges_higher": 0,
+        "both_edges_lower": 2,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 1,
+          "B002": 0,
+          "B003": 1,
+          "B004": 1,
+          "B005": 1,
+          "B006": 0
+        },
+        "manual_none_disagreement_case_ids": []
+      },
+      "historical_window": {
+        "human_region_denominator": 6,
+        "with_candidate": 5,
+        "without_candidate": 1,
+        "candidates_but_no_positive_price_overlap": 1,
+        "positive_overlap": 4,
+        "median_maximum_iou_given_candidate": 0.48352470065035513,
+        "maximum_iou_values_given_candidate": [
+          0.764076218621674,
+          0.48352470065035513,
+          0.0,
+          0.6095920250115333,
+          0.33845920644500344
+        ],
+        "positive_overlap_edge_denominator": 4,
+        "median_width_ratio_given_positive_overlap": 0.6868341218166036,
+        "median_lower_delta_human_width": 0.10873474904816893,
+        "median_upper_delta_human_width": -0.16458580670246128,
+        "narrower_than_human": 3,
+        "wider_than_human": 1,
+        "both_edges_higher": 0,
+        "both_edges_lower": 0,
+        "all_edges_are_descriptive_not_human_error_labels": true,
+        "case_inventory_counts": {
+          "B001": 2,
+          "B002": 1,
+          "B003": 3,
+          "B004": 2,
+          "B005": 3,
+          "B006": 1
+        },
+        "manual_none_disagreement_case_ids": [
+          "B002"
+        ]
+      }
+    }
+  },
+  "cases": [
+    {
+      "case_id": "B001",
+      "human_center_count": 1,
+      "human_bottom_count": 1,
+      "human_center_judgment": "regions",
+      "methods": {
+        "r0_legacy": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 21,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 21,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "0e1764d54bdd",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -3.9311378920285276,
+                    "upper_delta_human_width": -4.60012805447283,
+                    "width_ratio": 0.33100983755569796,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "3ddec1c8dac1",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -2.4579622413685547,
+                    "upper_delta_human_width": -3.036015635253599,
+                    "width_ratio": 0.4219466061149559,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "dbe800a96804",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.8294707045436884,
+                    "upper_delta_human_width": -1.256994416505709,
+                    "width_ratio": 0.5724762880379795,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "4e4c88f22b6d",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.6045155252720313,
+                    "upper_delta_human_width": -2.172956477366477,
+                    "width_ratio": 0.4315590479055541,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "f45e56fb36fe",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -2.4103859922793403,
+                    "upper_delta_human_width": -3.3619456909838195,
+                    "width_ratio": 0.04844030129552097,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "3eb910fd2fb0",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -3.0797428829083624,
+                    "upper_delta_human_width": -4.044513572875257,
+                    "width_ratio": 0.035229310033105414,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "5049bdebb896",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -2.7277387368918733,
+                    "upper_delta_human_width": -3.4005962201015034,
+                    "width_ratio": 0.3271425167903696,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "b1fd5f3d25e6",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.6556799933445907,
+                    "upper_delta_human_width": -2.49788044932471,
+                    "width_ratio": 0.15779954401988053,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "4dea205fdd8c",
+                    "price_iou": 0.29719071900249966,
+                    "lower_delta_human_width": -0.1484222797753833,
+                    "upper_delta_human_width": -0.658699556955064,
+                    "width_ratio": 0.4897227228203193,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "4acdc2b6d6e0",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.2149295428063032,
+                    "upper_delta_human_width": -2.138750452589809,
+                    "width_ratio": 0.07617909021649397,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "2c26a586ea5c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -2.7231994859738133,
+                    "upper_delta_human_width": -3.3694730830646726,
+                    "width_ratio": 0.35372640290914087,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "c5482383cfed",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -2.1262861810646396,
+                    "upper_delta_human_width": -2.8112486034736874,
+                    "width_ratio": 0.31503757759095224,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "20205a93c359",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.8550819206099189,
+                    "upper_delta_human_width": -1.435031817155315,
+                    "width_ratio": 0.420050103454604,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "e55e5492876f",
+                    "price_iou": 0.13409518981190305,
+                    "lower_delta_human_width": 0.318970724292321,
+                    "upper_delta_human_width": -0.546934085895776,
+                    "width_ratio": 0.13409518981190305,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "533f90ce4ad0",
+                    "price_iou": 0.03216370940233857,
+                    "lower_delta_human_width": 0.9670974750498602,
+                    "upper_delta_human_width": 0.02297047080482157,
+                    "width_ratio": 0.055872995754961324,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "5759f497f62f",
+                    "price_iou": 0.18269587445968996,
+                    "lower_delta_human_width": -0.052131401463480456,
+                    "upper_delta_human_width": -0.8077799335631303,
+                    "width_ratio": 0.24435146790035014,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "e4e9b5d94f37",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.749386590975422,
+                    "upper_delta_human_width": 1.8346254751267064,
+                    "width_ratio": 0.08523888415128462,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "f47c3456f931",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 4.573498711812922,
+                    "upper_delta_human_width": 3.931502025248318,
+                    "width_ratio": 0.3580033134353963,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "04e0cbd8a500",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.5728538455811183,
+                    "upper_delta_human_width": 2.1341271341271333,
+                    "width_ratio": 0.5612732885460149,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "a5c7700e365a",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.7137620773984394,
+                    "upper_delta_human_width": 1.2177625813989472,
+                    "width_ratio": 0.5040005040005078,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "80c6a0ec9c1c",
+                    "price_iou": 0.09736373372736933,
+                    "lower_delta_human_width": 0.8603975876703166,
+                    "upper_delta_human_width": -0.04223867860231413,
+                    "width_ratio": 0.09736373372736933,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.29719071900249966,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "4dea205fdd8c",
+                  "price_iou": 0.29719071900249966,
+                  "lower_delta_human_width": -0.1484222797753833,
+                  "upper_delta_human_width": -0.658699556955064,
+                  "width_ratio": 0.4897227228203193,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": false
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "a5c7700e365a",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.7137620773984394,
+                    "upper_delta_human_width": 1.2177625813989472,
+                    "width_ratio": 0.5040005040005078,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "80c6a0ec9c1c",
+                    "price_iou": 0.09736373372736933,
+                    "lower_delta_human_width": 0.8603975876703166,
+                    "upper_delta_human_width": -0.04223867860231413,
+                    "width_ratio": 0.09736373372736933,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.09736373372736933,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "80c6a0ec9c1c",
+                  "price_iou": 0.09736373372736933,
+                  "lower_delta_human_width": 0.8603975876703166,
+                  "upper_delta_human_width": -0.04223867860231413,
+                  "width_ratio": 0.09736373372736933,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "a5c7700e365a",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.7137620773984394,
+                    "upper_delta_human_width": 1.2177625813989472,
+                    "width_ratio": 0.5040005040005078,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "80c6a0ec9c1c",
+                    "price_iou": 0.09736373372736933,
+                    "lower_delta_human_width": 0.8603975876703166,
+                    "upper_delta_human_width": -0.04223867860231413,
+                    "width_ratio": 0.09736373372736933,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.09736373372736933,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "80c6a0ec9c1c",
+                  "price_iou": 0.09736373372736933,
+                  "lower_delta_human_width": 0.8603975876703166,
+                  "upper_delta_human_width": -0.04223867860231413,
+                  "width_ratio": 0.09736373372736933,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "atr_intersection": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "4cb2b1c4485b",
+                    "price_iou": 0.3780003780003767,
+                    "lower_delta_human_width": 0.48812448812449005,
+                    "upper_delta_human_width": -0.1338751338751332,
+                    "width_ratio": 0.3780003780003767,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.3780003780003767,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "4cb2b1c4485b",
+                  "price_iou": 0.3780003780003767,
+                  "lower_delta_human_width": 0.48812448812449005,
+                  "upper_delta_human_width": -0.1338751338751332,
+                  "width_ratio": 0.3780003780003767,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "4cb2b1c4485b",
+                    "price_iou": 0.3780003780003767,
+                    "lower_delta_human_width": 0.48812448812449005,
+                    "upper_delta_human_width": -0.1338751338751332,
+                    "width_ratio": 0.3780003780003767,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.3780003780003767,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "4cb2b1c4485b",
+                  "price_iou": 0.3780003780003767,
+                  "lower_delta_human_width": 0.48812448812449005,
+                  "upper_delta_human_width": -0.1338751338751332,
+                  "width_ratio": 0.3780003780003767,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "071b59ff6681",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.38958093503548,
+                    "upper_delta_human_width": 1.395308213490032,
+                    "width_ratio": 0.005727278454551745,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "f2a2bb640c4d",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.7137620773984394,
+                    "upper_delta_human_width": 1.2177625813989472,
+                    "width_ratio": 0.5040005040005078,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "4cb2b1c4485b",
+                    "price_iou": 0.3780003780003767,
+                    "lower_delta_human_width": 0.48812448812449005,
+                    "upper_delta_human_width": -0.1338751338751332,
+                    "width_ratio": 0.3780003780003767,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.3780003780003767,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "4cb2b1c4485b",
+                  "price_iou": 0.3780003780003767,
+                  "lower_delta_human_width": 0.48812448812449005,
+                  "upper_delta_human_width": -0.1338751338751332,
+                  "width_ratio": 0.3780003780003767,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "density": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "e4ab68556c0c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.3448258814968879,
+                    "upper_delta_human_width": 0.7052225435750594,
+                    "width_ratio": 0.3603966620781716,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "c65903da43b5",
+                    "price_iou": 0.14505373299636806,
+                    "lower_delta_human_width": 0.8303001858110793,
+                    "upper_delta_human_width": 0.16991000978354456,
+                    "width_ratio": 0.3396098239724652,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "c7d8df38d78a",
+                    "price_iou": 0.3264223606040603,
+                    "lower_delta_human_width": 0.5038778252070191,
+                    "upper_delta_human_width": -0.16969981418892063,
+                    "width_ratio": 0.3264223606040603,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.3264223606040603,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "c7d8df38d78a",
+                  "price_iou": 0.3264223606040603,
+                  "lower_delta_human_width": 0.5038778252070191,
+                  "upper_delta_human_width": -0.16969981418892063,
+                  "width_ratio": 0.3264223606040603,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "e4ab68556c0c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.3448258814968879,
+                    "upper_delta_human_width": 0.7052225435750594,
+                    "width_ratio": 0.3603966620781716,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "c65903da43b5",
+                    "price_iou": 0.14505373299636806,
+                    "lower_delta_human_width": 0.8303001858110793,
+                    "upper_delta_human_width": 0.16991000978354456,
+                    "width_ratio": 0.3396098239724652,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "c7d8df38d78a",
+                    "price_iou": 0.3264223606040603,
+                    "lower_delta_human_width": 0.5038778252070191,
+                    "upper_delta_human_width": -0.16969981418892063,
+                    "width_ratio": 0.3264223606040603,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.3264223606040603,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "c7d8df38d78a",
+                  "price_iou": 0.3264223606040603,
+                  "lower_delta_human_width": 0.5038778252070191,
+                  "upper_delta_human_width": -0.16969981418892063,
+                  "width_ratio": 0.3264223606040603,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 6,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 6,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "f0e4697f3588",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.4702841681912457,
+                    "upper_delta_human_width": 1.8761493450518687,
+                    "width_ratio": 0.405865176860623,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "1ff7119b1eaa",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.080179230801181,
+                    "upper_delta_human_width": 1.4702841681912457,
+                    "width_ratio": 0.3901049373900648,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "dc0be6e042fe",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.7052225435750594,
+                    "upper_delta_human_width": 1.080179230801181,
+                    "width_ratio": 0.3749566872261215,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "e4ab68556c0c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.3448258814968879,
+                    "upper_delta_human_width": 0.7052225435750594,
+                    "width_ratio": 0.3603966620781716,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "c65903da43b5",
+                    "price_iou": 0.14505373299636806,
+                    "lower_delta_human_width": 0.8303001858110793,
+                    "upper_delta_human_width": 0.16991000978354456,
+                    "width_ratio": 0.3396098239724652,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "c7d8df38d78a",
+                    "price_iou": 0.3264223606040603,
+                    "lower_delta_human_width": 0.5038778252070191,
+                    "upper_delta_human_width": -0.16969981418892063,
+                    "width_ratio": 0.3264223606040603,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.3264223606040603,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "c7d8df38d78a",
+                  "price_iou": 0.3264223606040603,
+                  "lower_delta_human_width": 0.5038778252070191,
+                  "upper_delta_human_width": -0.16969981418892063,
+                  "width_ratio": 0.3264223606040603,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "support": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "2dba9bdd30b5",
+                    "price_iou": 0.764076218621674,
+                    "lower_delta_human_width": 0.1806841806841817,
+                    "upper_delta_human_width": -0.05523960069414436,
+                    "width_ratio": 0.764076218621674,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.764076218621674,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "2dba9bdd30b5",
+                  "price_iou": 0.764076218621674,
+                  "lower_delta_human_width": 0.1806841806841817,
+                  "upper_delta_human_width": -0.05523960069414436,
+                  "width_ratio": 0.764076218621674,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "2dba9bdd30b5",
+                    "price_iou": 0.764076218621674,
+                    "lower_delta_human_width": 0.1806841806841817,
+                    "upper_delta_human_width": -0.05523960069414436,
+                    "width_ratio": 0.764076218621674,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.764076218621674,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "2dba9bdd30b5",
+                  "price_iou": 0.764076218621674,
+                  "lower_delta_human_width": 0.1806841806841817,
+                  "upper_delta_human_width": -0.05523960069414436,
+                  "width_ratio": 0.764076218621674,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B001_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "c6d87181f8ad",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.2615762615762627,
+                    "upper_delta_human_width": 1.4892355801446715,
+                    "width_ratio": 0.2276593185684086,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B001_r1",
+                    "zone_id": "2dba9bdd30b5",
+                    "price_iou": 0.764076218621674,
+                    "lower_delta_human_width": 0.1806841806841817,
+                    "upper_delta_human_width": -0.05523960069414436,
+                    "width_ratio": 0.764076218621674,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.764076218621674,
+                "best_positive_overlap": {
+                  "human_region_id": "B001_r1",
+                  "zone_id": "2dba9bdd30b5",
+                  "price_iou": 0.764076218621674,
+                  "lower_delta_human_width": 0.1806841806841817,
+                  "upper_delta_human_width": -0.05523960069414436,
+                  "width_ratio": 0.764076218621674,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B002",
+      "human_center_count": 0,
+      "human_bottom_count": 2,
+      "human_center_judgment": "none",
+      "methods": {
+        "r0_legacy": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 23,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          }
+        },
+        "atr_intersection": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          }
+        },
+        "density": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 7,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          }
+        },
+        "support": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 0,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 0,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [],
+            "manual_none_algorithm_output_disagreement": true
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B003",
+      "human_center_count": 1,
+      "human_bottom_count": 2,
+      "human_center_judgment": "regions",
+      "methods": {
+        "r0_legacy": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "5bb18cb63f4c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -3.102378631026352,
+                    "upper_delta_human_width": -4.025896925497698,
+                    "width_ratio": 0.07648170552865423,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "a7e10f3e5174",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.5270487453715984,
+                    "upper_delta_human_width": -1.8147097349718428,
+                    "width_ratio": 0.7123390103997557,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "be385e3ba31e",
+                    "price_iou": 0.251190574399532,
+                    "lower_delta_human_width": 0.5128907779647194,
+                    "upper_delta_human_width": -0.2359186476357486,
+                    "width_ratio": 0.251190574399532,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.251190574399532,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "be385e3ba31e",
+                  "price_iou": 0.251190574399532,
+                  "lower_delta_human_width": 0.5128907779647194,
+                  "upper_delta_human_width": -0.2359186476357486,
+                  "width_ratio": 0.251190574399532,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "a7e10f3e5174",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.5270487453715984,
+                    "upper_delta_human_width": -1.8147097349718428,
+                    "width_ratio": 0.7123390103997557,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "be385e3ba31e",
+                    "price_iou": 0.251190574399532,
+                    "lower_delta_human_width": 0.5128907779647194,
+                    "upper_delta_human_width": -0.2359186476357486,
+                    "width_ratio": 0.251190574399532,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.251190574399532,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "be385e3ba31e",
+                  "price_iou": 0.251190574399532,
+                  "lower_delta_human_width": 0.5128907779647194,
+                  "upper_delta_human_width": -0.2359186476357486,
+                  "width_ratio": 0.251190574399532,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "a7e10f3e5174",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.5270487453715984,
+                    "upper_delta_human_width": -1.8147097349718428,
+                    "width_ratio": 0.7123390103997557,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "be385e3ba31e",
+                    "price_iou": 0.251190574399532,
+                    "lower_delta_human_width": 0.5128907779647194,
+                    "upper_delta_human_width": -0.2359186476357486,
+                    "width_ratio": 0.251190574399532,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.251190574399532,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "be385e3ba31e",
+                  "price_iou": 0.251190574399532,
+                  "lower_delta_human_width": 0.5128907779647194,
+                  "upper_delta_human_width": -0.2359186476357486,
+                  "width_ratio": 0.251190574399532,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "atr_intersection": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 0,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 0,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "63e2325d64f3",
+                    "price_iou": 0.4289776360970891,
+                    "lower_delta_human_width": 0.4853417554630704,
+                    "upper_delta_human_width": -0.08568060843984049,
+                    "width_ratio": 0.4289776360970891,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.4289776360970891,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "63e2325d64f3",
+                  "price_iou": 0.4289776360970891,
+                  "lower_delta_human_width": 0.4853417554630704,
+                  "upper_delta_human_width": -0.08568060843984049,
+                  "width_ratio": 0.4289776360970891,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "density": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "a71011784a96",
+                    "price_iou": 0.2693193771662564,
+                    "lower_delta_human_width": 0.016466144522775766,
+                    "upper_delta_human_width": -0.7142144783109678,
+                    "width_ratio": 0.2693193771662564,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.2693193771662564,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "a71011784a96",
+                  "price_iou": 0.2693193771662564,
+                  "lower_delta_human_width": 0.016466144522775766,
+                  "upper_delta_human_width": -0.7142144783109678,
+                  "width_ratio": 0.2693193771662564,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "a71011784a96",
+                    "price_iou": 0.2693193771662564,
+                    "lower_delta_human_width": 0.016466144522775766,
+                    "upper_delta_human_width": -0.7142144783109678,
+                    "width_ratio": 0.2693193771662564,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.2693193771662564,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "a71011784a96",
+                  "price_iou": 0.2693193771662564,
+                  "lower_delta_human_width": 0.016466144522775766,
+                  "upper_delta_human_width": -0.7142144783109678,
+                  "width_ratio": 0.2693193771662564,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 9,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 9,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "a7a6a855e20c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.2883793109180912,
+                    "upper_delta_human_width": -2.071775690151646,
+                    "width_ratio": 0.21660362076644513,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "24cff8b5b73b",
+                    "price_iou": 0.2747057647095819,
+                    "lower_delta_human_width": 0.14979256886250683,
+                    "upper_delta_human_width": -0.5755016664279112,
+                    "width_ratio": 0.2747057647095819,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "0ddd84bf6977",
+                    "price_iou": 0.13443401546486677,
+                    "lower_delta_human_width": -0.11424603620245119,
+                    "upper_delta_human_width": -0.8502074311374932,
+                    "width_ratio": 0.264038605064958,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "b558d66a850a",
+                    "price_iou": 0.28580387760384846,
+                    "lower_delta_human_width": 0.4244983335720887,
+                    "upper_delta_human_width": -0.2896977888240628,
+                    "width_ratio": 0.28580387760384846,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "00f2c8b7b602",
+                    "price_iou": 0.12275526316228084,
+                    "lower_delta_human_width": 0.8575053568487325,
+                    "upper_delta_human_width": 0.1608027181929581,
+                    "width_ratio": 0.30329736134422564,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "020058aa2537",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.160802718192958,
+                    "upper_delta_human_width": 0.476353292935483,
+                    "width_ratio": 0.31555057474252485,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "fa568351c910",
+                    "price_iou": 0.2915199551559263,
+                    "lower_delta_human_width": 0.5659854016928062,
+                    "upper_delta_human_width": -0.1424946431512675,
+                    "width_ratio": 0.2915199551559263,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "a71011784a96",
+                    "price_iou": 0.2693193771662564,
+                    "lower_delta_human_width": 0.016466144522775766,
+                    "upper_delta_human_width": -0.7142144783109678,
+                    "width_ratio": 0.2693193771662564,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "113311bef341",
+                    "price_iou": 0.280199880003774,
+                    "lower_delta_human_width": 0.28578552168903215,
+                    "upper_delta_human_width": -0.43401459830719386,
+                    "width_ratio": 0.280199880003774,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.2915199551559263,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "fa568351c910",
+                  "price_iou": 0.2915199551559263,
+                  "lower_delta_human_width": 0.5659854016928062,
+                  "upper_delta_human_width": -0.1424946431512675,
+                  "width_ratio": 0.2915199551559263,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "support": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "7f328ba185e4",
+                    "price_iou": 0.15736051966088047,
+                    "lower_delta_human_width": -0.32109684465302873,
+                    "upper_delta_human_width": -0.7921115140030499,
+                    "width_ratio": 0.5289853306499788,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.15736051966088047,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "7f328ba185e4",
+                  "price_iou": 0.15736051966088047,
+                  "lower_delta_human_width": -0.32109684465302873,
+                  "upper_delta_human_width": -0.7921115140030499,
+                  "width_ratio": 0.5289853306499788,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "7f328ba185e4",
+                    "price_iou": 0.15736051966088047,
+                    "lower_delta_human_width": -0.32109684465302873,
+                    "upper_delta_human_width": -0.7921115140030499,
+                    "width_ratio": 0.5289853306499788,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.15736051966088047,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "7f328ba185e4",
+                  "price_iou": 0.15736051966088047,
+                  "lower_delta_human_width": -0.32109684465302873,
+                  "upper_delta_human_width": -0.7921115140030499,
+                  "width_ratio": 0.5289853306499788,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [
+              {
+                "human_region_id": "B003_r1",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "0e3d751e0b23",
+                    "price_iou": 0.43863603662605766,
+                    "lower_delta_human_width": -0.2691472593642065,
+                    "upper_delta_human_width": -0.4433062762576612,
+                    "width_ratio": 0.8258409831065453,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "5b94d1c48573",
+                    "price_iou": 0.48352470065035513,
+                    "lower_delta_human_width": 0.10099353581864938,
+                    "upper_delta_human_width": -0.4154817635309955,
+                    "width_ratio": 0.48352470065035513,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B003_r1",
+                    "zone_id": "7f328ba185e4",
+                    "price_iou": 0.15736051966088047,
+                    "lower_delta_human_width": -0.32109684465302873,
+                    "upper_delta_human_width": -0.7921115140030499,
+                    "width_ratio": 0.5289853306499788,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.48352470065035513,
+                "best_positive_overlap": {
+                  "human_region_id": "B003_r1",
+                  "zone_id": "5b94d1c48573",
+                  "price_iou": 0.48352470065035513,
+                  "lower_delta_human_width": 0.10099353581864938,
+                  "upper_delta_human_width": -0.4154817635309955,
+                  "width_ratio": 0.48352470065035513,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B004",
+      "human_center_count": 1,
+      "human_bottom_count": 2,
+      "human_center_judgment": "regions",
+      "methods": {
+        "r0_legacy": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "a0b8d2918693",
+                    "price_iou": 0.050680961248191755,
+                    "lower_delta_human_width": 0.6899935894427807,
+                    "upper_delta_human_width": -0.2593254493090276,
+                    "width_ratio": 0.050680961248191755,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.050680961248191755,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "a0b8d2918693",
+                  "price_iou": 0.050680961248191755,
+                  "lower_delta_human_width": 0.6899935894427807,
+                  "upper_delta_human_width": -0.2593254493090276,
+                  "width_ratio": 0.050680961248191755,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "a0b8d2918693",
+                    "price_iou": 0.050680961248191755,
+                    "lower_delta_human_width": 0.6899935894427807,
+                    "upper_delta_human_width": -0.2593254493090276,
+                    "width_ratio": 0.050680961248191755,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.050680961248191755,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "a0b8d2918693",
+                  "price_iou": 0.050680961248191755,
+                  "lower_delta_human_width": 0.6899935894427807,
+                  "upper_delta_human_width": -0.2593254493090276,
+                  "width_ratio": 0.050680961248191755,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "a0b8d2918693",
+                    "price_iou": 0.050680961248191755,
+                    "lower_delta_human_width": 0.6899935894427807,
+                    "upper_delta_human_width": -0.2593254493090276,
+                    "width_ratio": 0.050680961248191755,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.050680961248191755,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "a0b8d2918693",
+                  "price_iou": 0.050680961248191755,
+                  "lower_delta_human_width": 0.6899935894427807,
+                  "upper_delta_human_width": -0.2593254493090276,
+                  "width_ratio": 0.050680961248191755,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "atr_intersection": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "ac34e7b7464b",
+                    "price_iou": 0.050680961248191755,
+                    "lower_delta_human_width": 0.6899935894427807,
+                    "upper_delta_human_width": -0.2593254493090276,
+                    "width_ratio": 0.050680961248191755,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.050680961248191755,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "ac34e7b7464b",
+                  "price_iou": 0.050680961248191755,
+                  "lower_delta_human_width": 0.6899935894427807,
+                  "upper_delta_human_width": -0.2593254493090276,
+                  "width_ratio": 0.050680961248191755,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": false
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "ac34e7b7464b",
+                    "price_iou": 0.050680961248191755,
+                    "lower_delta_human_width": 0.6899935894427807,
+                    "upper_delta_human_width": -0.2593254493090276,
+                    "width_ratio": 0.050680961248191755,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.050680961248191755,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "ac34e7b7464b",
+                  "price_iou": 0.050680961248191755,
+                  "lower_delta_human_width": 0.6899935894427807,
+                  "upper_delta_human_width": -0.2593254493090276,
+                  "width_ratio": 0.050680961248191755,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": false
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "8fda46510590",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.7763755560049042,
+                    "upper_delta_human_width": -1.7360406091370535,
+                    "width_ratio": 0.04033494686785057,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "density": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 5,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 5,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "bd746ad25306",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.9818870819258734,
+                    "upper_delta_human_width": -1.3082321389866067,
+                    "width_ratio": 0.6736549429392666,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "09f280968ec2",
+                    "price_iou": 0.30012904586761646,
+                    "lower_delta_human_width": -0.30823213898660673,
+                    "upper_delta_human_width": -0.6073615363525987,
+                    "width_ratio": 0.700870602634008,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "c896ebea6bea",
+                    "price_iou": 0.5414052535497899,
+                    "lower_delta_human_width": 0.3926384636474013,
+                    "upper_delta_human_width": 0.12182423862782706,
+                    "width_ratio": 0.7291857749804258,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "56aa67aac864",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.121824238627827,
+                    "upper_delta_human_width": 0.8804691189174618,
+                    "width_ratio": 0.7586448802896348,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "e8762742f516",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.8804691189174618,
+                    "upper_delta_human_width": 1.6697632523707797,
+                    "width_ratio": 0.7892941334533179,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.5414052535497899,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "c896ebea6bea",
+                  "price_iou": 0.5414052535497899,
+                  "lower_delta_human_width": 0.3926384636474013,
+                  "upper_delta_human_width": 0.12182423862782706,
+                  "width_ratio": 0.7291857749804258,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 5,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 5,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "bd746ad25306",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.9818870819258734,
+                    "upper_delta_human_width": -1.3082321389866067,
+                    "width_ratio": 0.6736549429392666,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "09f280968ec2",
+                    "price_iou": 0.30012904586761646,
+                    "lower_delta_human_width": -0.30823213898660673,
+                    "upper_delta_human_width": -0.6073615363525987,
+                    "width_ratio": 0.700870602634008,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "c896ebea6bea",
+                    "price_iou": 0.5414052535497899,
+                    "lower_delta_human_width": 0.3926384636474013,
+                    "upper_delta_human_width": 0.12182423862782706,
+                    "width_ratio": 0.7291857749804258,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "56aa67aac864",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.121824238627827,
+                    "upper_delta_human_width": 0.8804691189174618,
+                    "width_ratio": 0.7586448802896348,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "e8762742f516",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.8804691189174618,
+                    "upper_delta_human_width": 1.6697632523707797,
+                    "width_ratio": 0.7892941334533179,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.5414052535497899,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "c896ebea6bea",
+                  "price_iou": 0.5414052535497899,
+                  "lower_delta_human_width": 0.3926384636474013,
+                  "upper_delta_human_width": 0.12182423862782706,
+                  "width_ratio": 0.7291857749804258,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 7,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 5,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "22c308256513",
+                    "price_iou": 0.30012904586761646,
+                    "lower_delta_human_width": -0.30823213898660673,
+                    "upper_delta_human_width": -0.6073615363525987,
+                    "width_ratio": 0.700870602634008,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "6feeed8da251",
+                    "price_iou": 0.5414052535497899,
+                    "lower_delta_human_width": 0.3926384636474013,
+                    "upper_delta_human_width": 0.12182423862782706,
+                    "width_ratio": 0.7291857749804258,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "bd746ad25306",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.9818870819258734,
+                    "upper_delta_human_width": -1.3082321389866067,
+                    "width_ratio": 0.6736549429392666,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "09f280968ec2",
+                    "price_iou": 0.30012904586761646,
+                    "lower_delta_human_width": -0.30823213898660673,
+                    "upper_delta_human_width": -0.6073615363525987,
+                    "width_ratio": 0.700870602634008,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "c896ebea6bea",
+                    "price_iou": 0.5414052535497899,
+                    "lower_delta_human_width": 0.3926384636474013,
+                    "upper_delta_human_width": 0.12182423862782706,
+                    "width_ratio": 0.7291857749804258,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.5414052535497899,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "6feeed8da251",
+                  "price_iou": 0.5414052535497899,
+                  "lower_delta_human_width": 0.3926384636474013,
+                  "upper_delta_human_width": 0.12182423862782706,
+                  "width_ratio": 0.7291857749804258,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "support": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "71af919c3b8c",
+                    "price_iou": 0.5468334837957339,
+                    "lower_delta_human_width": -0.5973028262612924,
+                    "upper_delta_human_width": -0.12654133083876545,
+                    "width_ratio": 1.470761495422527,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.5468334837957339,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "71af919c3b8c",
+                  "price_iou": 0.5468334837957339,
+                  "lower_delta_human_width": -0.5973028262612924,
+                  "upper_delta_human_width": -0.12654133083876545,
+                  "width_ratio": 1.470761495422527,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": false
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "71af919c3b8c",
+                    "price_iou": 0.5468334837957339,
+                    "lower_delta_human_width": -0.5973028262612924,
+                    "upper_delta_human_width": -0.12654133083876545,
+                    "width_ratio": 1.470761495422527,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.5468334837957339,
+                "best_positive_overlap": {
+                  "human_region_id": "B004_r2",
+                  "zone_id": "71af919c3b8c",
+                  "price_iou": 0.5468334837957339,
+                  "lower_delta_human_width": -0.5973028262612924,
+                  "upper_delta_human_width": -0.12654133083876545,
+                  "width_ratio": 1.470761495422527,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": false
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B004_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B004_r2",
+                    "zone_id": "3360ea6dfa39",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.5243352353644088,
+                    "upper_delta_human_width": -1.6075741677409263,
+                    "width_ratio": 0.9167610676234825,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B005",
+      "human_center_count": 2,
+      "human_bottom_count": 3,
+      "human_center_judgment": "regions",
+      "methods": {
+        "r0_legacy": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 7,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 7,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "7186cb23d100",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -5.362760525169303,
+                    "upper_delta_human_width": -6.330819178375306,
+                    "width_ratio": 0.03194134679399793,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "d37c2b0825c4",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -4.758430243826864,
+                    "upper_delta_human_width": -5.477346392039684,
+                    "width_ratio": 0.28108385178718037,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "2261480c4aa4",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -3.9777837281815573,
+                    "upper_delta_human_width": -4.652186505398763,
+                    "width_ratio": 0.32559722278279374,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "c8943c857e77",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -2.8649996454981683,
+                    "upper_delta_human_width": -3.6897786501050116,
+                    "width_ratio": 0.17522099539315666,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "68727aa0bdd6",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.517564877932107,
+                    "upper_delta_human_width": -1.8088300616746118,
+                    "width_ratio": 0.7087348162574951,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "7b7f9d50daee",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.9297127261544755,
+                    "upper_delta_human_width": 2.630439239403413,
+                    "width_ratio": 0.7007265132489373,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "20d250f4c871",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.1839026702885551,
+                    "upper_delta_human_width": 0.2292830540037247,
+                    "width_ratio": 0.04538038371516966,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 7,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "7186cb23d100",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -6.965550884340008,
+                    "upper_delta_human_width": -7.932471484809881,
+                    "width_ratio": 0.03307939953012606,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "d37c2b0825c4",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -6.339688645230025,
+                    "upper_delta_human_width": -7.048589929364916,
+                    "width_ratio": 0.2910987158651078,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "2261480c4aa4",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -5.531228120713747,
+                    "upper_delta_human_width": -6.19403004676292,
+                    "width_ratio": 0.33719807395082607,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "c8943c857e77",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -4.378796149098648,
+                    "upper_delta_human_width": -5.197332125366067,
+                    "width_ratio": 0.18146402373257994,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "68727aa0bdd6",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -2.9833530168924676,
+                    "upper_delta_human_width": -3.2493663663265124,
+                    "width_ratio": 0.7339866505659555,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "7b7f9d50daee",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.6223786585986155,
+                    "upper_delta_human_width": 1.3480716746949006,
+                    "width_ratio": 0.7256930160962852,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "20d250f4c871",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.1856336557898402,
+                    "upper_delta_human_width": -1.1386363937950328,
+                    "width_ratio": 0.04699726199480744,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "7b7f9d50daee",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.9297127261544755,
+                    "upper_delta_human_width": 2.630439239403413,
+                    "width_ratio": 0.7007265132489373,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "20d250f4c871",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.1839026702885551,
+                    "upper_delta_human_width": 0.2292830540037247,
+                    "width_ratio": 0.04538038371516966,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "7b7f9d50daee",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.6223786585986155,
+                    "upper_delta_human_width": 1.3480716746949006,
+                    "width_ratio": 0.7256930160962852,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "20d250f4c871",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.1856336557898402,
+                    "upper_delta_human_width": -1.1386363937950328,
+                    "width_ratio": 0.04699726199480744,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "7b7f9d50daee",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.9297127261544755,
+                    "upper_delta_human_width": 2.630439239403413,
+                    "width_ratio": 0.7007265132489373,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "20d250f4c871",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.1839026702885551,
+                    "upper_delta_human_width": 0.2292830540037247,
+                    "width_ratio": 0.04538038371516966,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "7b7f9d50daee",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.6223786585986155,
+                    "upper_delta_human_width": 1.3480716746949006,
+                    "width_ratio": 0.7256930160962852,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "20d250f4c871",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.1856336557898402,
+                    "upper_delta_human_width": -1.1386363937950328,
+                    "width_ratio": 0.04699726199480744,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "atr_intersection": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 0,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 0,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "aa94571253e9",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.0410879333025802,
+                    "upper_delta_human_width": 0.7324714263748666,
+                    "width_ratio": 0.6913834930722865,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "aa94571253e9",
+                    "price_iou": 0.28681646002083167,
+                    "lower_delta_human_width": -0.33353680383232226,
+                    "upper_delta_human_width": -0.6175196946173191,
+                    "width_ratio": 0.7160171092150032,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.28681646002083167,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r5",
+                  "zone_id": "aa94571253e9",
+                  "price_iou": 0.28681646002083167,
+                  "lower_delta_human_width": -0.33353680383232226,
+                  "upper_delta_human_width": -0.6175196946173191,
+                  "width_ratio": 0.7160171092150032,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "density": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "85b89fe3b409",
+                    "price_iou": 0.12681005890656608,
+                    "lower_delta_human_width": 0.8452536740105249,
+                    "upper_delta_human_width": 0.22030008757816757,
+                    "width_ratio": 0.37504641356764273,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "4ad389d641ee",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.6104983762539398,
+                    "upper_delta_human_width": 1.0164606757922139,
+                    "width_ratio": 0.4059622995382742,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.12681005890656608,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r2",
+                  "zone_id": "85b89fe3b409",
+                  "price_iou": 0.12681005890656608,
+                  "lower_delta_human_width": 0.8452536740105249,
+                  "upper_delta_human_width": 0.22030008757816757,
+                  "width_ratio": 0.37504641356764273,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "85b89fe3b409",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.5363485307951155,
+                    "upper_delta_human_width": -1.1479394184067737,
+                    "width_ratio": 0.3884091123883418,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "4ad389d641ee",
+                    "price_iou": 0.42042651448619284,
+                    "lower_delta_human_width": 0.2561614221220537,
+                    "upper_delta_human_width": -0.3234120633917535,
+                    "width_ratio": 0.42042651448619284,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.42042651448619284,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r5",
+                  "zone_id": "4ad389d641ee",
+                  "price_iou": 0.42042651448619284,
+                  "lower_delta_human_width": 0.2561614221220537,
+                  "upper_delta_human_width": -0.3234120633917535,
+                  "width_ratio": 0.42042651448619284,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": false
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "85b89fe3b409",
+                    "price_iou": 0.12681005890656608,
+                    "lower_delta_human_width": 0.8452536740105249,
+                    "upper_delta_human_width": 0.22030008757816757,
+                    "width_ratio": 0.37504641356764273,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "4ad389d641ee",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.6104983762539398,
+                    "upper_delta_human_width": 1.0164606757922139,
+                    "width_ratio": 0.4059622995382742,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.12681005890656608,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r2",
+                  "zone_id": "85b89fe3b409",
+                  "price_iou": 0.12681005890656608,
+                  "lower_delta_human_width": 0.8452536740105249,
+                  "upper_delta_human_width": 0.22030008757816757,
+                  "width_ratio": 0.37504641356764273,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "85b89fe3b409",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.5363485307951155,
+                    "upper_delta_human_width": -1.1479394184067737,
+                    "width_ratio": 0.3884091123883418,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "4ad389d641ee",
+                    "price_iou": 0.42042651448619284,
+                    "lower_delta_human_width": 0.2561614221220537,
+                    "upper_delta_human_width": -0.3234120633917535,
+                    "width_ratio": 0.42042651448619284,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.42042651448619284,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r5",
+                  "zone_id": "4ad389d641ee",
+                  "price_iou": 0.42042651448619284,
+                  "lower_delta_human_width": 0.2561614221220537,
+                  "upper_delta_human_width": -0.3234120633917535,
+                  "width_ratio": 0.42042651448619284,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": false
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 6,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "4533f3126331",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.2255513571979697,
+                    "upper_delta_human_width": 1.6563617971663718,
+                    "width_ratio": 0.4308104399684022,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "ce859022037d",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.6104983762539398,
+                    "upper_delta_human_width": 1.0164606757922139,
+                    "width_ratio": 0.4059622995382742,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "85b89fe3b409",
+                    "price_iou": 0.12681005890656608,
+                    "lower_delta_human_width": 0.8452536740105249,
+                    "upper_delta_human_width": 0.22030008757816757,
+                    "width_ratio": 0.37504641356764273,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.12681005890656608,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r2",
+                  "zone_id": "85b89fe3b409",
+                  "price_iou": 0.12681005890656608,
+                  "lower_delta_human_width": 0.8452536740105249,
+                  "upper_delta_human_width": 0.22030008757816757,
+                  "width_ratio": 0.37504641356764273,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 4,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "6d5916c5882b",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.9096752439711437,
+                    "upper_delta_human_width": -1.5363485307951155,
+                    "width_ratio": 0.37332671317602834,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "4533f3126331",
+                    "price_iou": 0.07979729863024435,
+                    "lower_delta_human_width": 0.8931284047624255,
+                    "upper_delta_human_width": 0.3392883853472782,
+                    "width_ratio": 0.4461599805848527,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "ce859022037d",
+                    "price_iou": 0.42042651448619284,
+                    "lower_delta_human_width": 0.2561614221220537,
+                    "upper_delta_human_width": -0.3234120633917535,
+                    "width_ratio": 0.42042651448619284,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "85b89fe3b409",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.5363485307951155,
+                    "upper_delta_human_width": -1.1479394184067737,
+                    "width_ratio": 0.3884091123883418,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.42042651448619284,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r5",
+                  "zone_id": "ce859022037d",
+                  "price_iou": 0.42042651448619284,
+                  "lower_delta_human_width": 0.2561614221220537,
+                  "upper_delta_human_width": -0.3234120633917535,
+                  "width_ratio": 0.42042651448619284,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "support": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "2e7a55460d79",
+                    "price_iou": 0.6095920250115333,
+                    "lower_delta_human_width": 0.11647596227768849,
+                    "upper_delta_human_width": -0.2739320127107782,
+                    "width_ratio": 0.6095920250115333,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.6095920250115333,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r2",
+                  "zone_id": "2e7a55460d79",
+                  "price_iou": 0.6095920250115333,
+                  "lower_delta_human_width": 0.11647596227768849,
+                  "upper_delta_human_width": -0.2739320127107782,
+                  "width_ratio": 0.6095920250115333,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "2e7a55460d79",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.291092194252398,
+                    "upper_delta_human_width": -1.6597807384209777,
+                    "width_ratio": 0.6313114558314203,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "2e7a55460d79",
+                    "price_iou": 0.6095920250115333,
+                    "lower_delta_human_width": 0.11647596227768849,
+                    "upper_delta_human_width": -0.2739320127107782,
+                    "width_ratio": 0.6095920250115333,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.6095920250115333,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r2",
+                  "zone_id": "2e7a55460d79",
+                  "price_iou": 0.6095920250115333,
+                  "lower_delta_human_width": 0.11647596227768849,
+                  "upper_delta_human_width": -0.2739320127107782,
+                  "width_ratio": 0.6095920250115333,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "2e7a55460d79",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.291092194252398,
+                    "upper_delta_human_width": -1.6597807384209777,
+                    "width_ratio": 0.6313114558314203,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 3,
+            "human_regions": [
+              {
+                "human_region_id": "B005_r2",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "df2fc5a368f7",
+                    "price_iou": 0.2659952098442914,
+                    "lower_delta_human_width": 0.1904726820767762,
+                    "upper_delta_human_width": 2.0433905873609746,
+                    "width_ratio": 2.8529179052841984,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "9d4db18f46de",
+                    "price_iou": 0.04195198730805419,
+                    "lower_delta_human_width": 0.9462963200246008,
+                    "upper_delta_human_width": 0.28012243093639505,
+                    "width_ratio": 0.33382611091179415,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r2",
+                    "zone_id": "2e7a55460d79",
+                    "price_iou": 0.6095920250115333,
+                    "lower_delta_human_width": 0.11647596227768849,
+                    "upper_delta_human_width": -0.2739320127107782,
+                    "width_ratio": 0.6095920250115333,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.6095920250115333,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r2",
+                  "zone_id": "2e7a55460d79",
+                  "price_iou": 0.6095920250115333,
+                  "lower_delta_human_width": 0.11647596227768849,
+                  "upper_delta_human_width": -0.2739320127107782,
+                  "width_ratio": 0.6095920250115333,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              },
+              {
+                "human_region_id": "B005_r5",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "df2fc5a368f7",
+                    "price_iou": 0.33845920644500344,
+                    "lower_delta_human_width": -1.2144590117526304,
+                    "upper_delta_human_width": 0.7401067998956072,
+                    "width_ratio": 2.9545658116482376,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "9d4db18f46de",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.43170579050500363,
+                    "upper_delta_human_width": -1.085985637636733,
+                    "width_ratio": 0.3457201528682707,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B005_r5",
+                    "zone_id": "2e7a55460d79",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -1.291092194252398,
+                    "upper_delta_human_width": -1.6597807384209777,
+                    "width_ratio": 0.6313114558314203,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.33845920644500344,
+                "best_positive_overlap": {
+                  "human_region_id": "B005_r5",
+                  "zone_id": "df2fc5a368f7",
+                  "price_iou": 0.33845920644500344,
+                  "lower_delta_human_width": -1.2144590117526304,
+                  "upper_delta_human_width": 0.7401067998956072,
+                  "width_ratio": 2.9545658116482376,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": false
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        }
+      }
+    },
+    {
+      "case_id": "B006",
+      "human_center_count": 1,
+      "human_bottom_count": 1,
+      "human_center_judgment": "regions",
+      "methods": {
+        "r0_legacy": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 18,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 18,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "0bdc6ab092da",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -10.137587013168707,
+                    "upper_delta_human_width": -11.12185002088679,
+                    "width_ratio": 0.01573699228191626,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "bb4f7b5486bd",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -9.839843119194851,
+                    "upper_delta_human_width": -10.701357587113987,
+                    "width_ratio": 0.13848553208086317,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "9eb40d69ddfa",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -9.455231027824816,
+                    "upper_delta_human_width": -10.294814467590447,
+                    "width_ratio": 0.1604165602343682,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "774d5fec9bfd",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -8.906980052887262,
+                    "upper_delta_human_width": -9.820651462239047,
+                    "width_ratio": 0.08632859064821707,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "f4400801dbca",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -8.2431204268568,
+                    "upper_delta_human_width": -8.89393808319102,
+                    "width_ratio": 0.3491823436657786,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "5bb53d0468d6",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -6.052017660200726,
+                    "upper_delta_human_width": -6.706780879740211,
+                    "width_ratio": 0.34523678046051565,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "2f53d7aa5b4b",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -6.912150438948068,
+                    "upper_delta_human_width": -7.889792247451578,
+                    "width_ratio": 0.02235819149649056,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "150903895ef5",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -6.785234822512107,
+                    "upper_delta_human_width": -7.578322987761913,
+                    "width_ratio": 0.206911834750194,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "2c4b25e1bea4",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -7.592537425578002,
+                    "upper_delta_human_width": -8.467267874804152,
+                    "width_ratio": 0.12526955077384958,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "7a68be01a379",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -8.318028995032972,
+                    "upper_delta_human_width": -9.05610175250583,
+                    "width_ratio": 0.2619272425271407,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "c270eac4fddf",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -5.021567315658181,
+                    "upper_delta_human_width": -5.285287307019197,
+                    "width_ratio": 0.7362800086389839,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "3bcbae8d8283",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -3.061999551351614,
+                    "upper_delta_human_width": -3.8050405784321106,
+                    "width_ratio": 0.2569589729195032,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "84783903a8a8",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 3.336906013628881,
+                    "upper_delta_human_width": 2.8169892946137574,
+                    "width_ratio": 0.48008328098487635,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "ed7abbfab91f",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 8.103200457939172,
+                    "upper_delta_human_width": 9.154088603614142,
+                    "width_ratio": 2.0508881456749686,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "219af1ba7ce3",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 6.583512374246038,
+                    "upper_delta_human_width": 7.017545311403742,
+                    "width_ratio": 1.4340329371577036,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "df59baf81901",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.381752903608671,
+                    "upper_delta_human_width": 2.2514551559815414,
+                    "width_ratio": 0.8697022523728707,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "3efd876885b9",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": -0.4001104585197044,
+                    "upper_delta_human_width": -1.0857744170771533,
+                    "width_ratio": 0.31433604144255106,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "b5d19ad5f363",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.4785527200428192,
+                    "upper_delta_human_width": 2.427484739544362,
+                    "width_ratio": 0.9489320195015427,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "b5d19ad5f363",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.4785527200428192,
+                    "upper_delta_human_width": 2.427484739544362,
+                    "width_ratio": 0.9489320195015427,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 1,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "b5d19ad5f363",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.4785527200428192,
+                    "upper_delta_human_width": 2.427484739544362,
+                    "width_ratio": 0.9489320195015427,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  }
+                ],
+                "maximum_price_iou": 0.0,
+                "best_positive_overlap": null,
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": true
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "atr_intersection": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "7de9756f26c0",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.5119167449535584,
+                    "upper_delta_human_width": 1.3964063661158168,
+                    "width_ratio": 0.8844896211622584,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "0735b3a66f33",
+                    "price_iou": 0.6805400527917802,
+                    "lower_delta_human_width": 0.244313524873136,
+                    "upper_delta_human_width": -0.07514642233508373,
+                    "width_ratio": 0.6805400527917802,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.6805400527917802,
+                "best_positive_overlap": {
+                  "human_region_id": "B006_r1",
+                  "zone_id": "0735b3a66f33",
+                  "price_iou": 0.6805400527917802,
+                  "lower_delta_human_width": 0.244313524873136,
+                  "upper_delta_human_width": -0.07514642233508373,
+                  "width_ratio": 0.6805400527917802,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "7de9756f26c0",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.5119167449535584,
+                    "upper_delta_human_width": 1.3964063661158168,
+                    "width_ratio": 0.8844896211622584,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "0735b3a66f33",
+                    "price_iou": 0.6805400527917802,
+                    "lower_delta_human_width": 0.244313524873136,
+                    "upper_delta_human_width": -0.07514642233508373,
+                    "width_ratio": 0.6805400527917802,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.6805400527917802,
+                "best_positive_overlap": {
+                  "human_region_id": "B006_r1",
+                  "zone_id": "0735b3a66f33",
+                  "price_iou": 0.6805400527917802,
+                  "lower_delta_human_width": 0.244313524873136,
+                  "upper_delta_human_width": -0.07514642233508373,
+                  "width_ratio": 0.6805400527917802,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "7de9756f26c0",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.5119167449535584,
+                    "upper_delta_human_width": 1.3964063661158168,
+                    "width_ratio": 0.8844896211622584,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "0735b3a66f33",
+                    "price_iou": 0.6805400527917802,
+                    "lower_delta_human_width": 0.244313524873136,
+                    "upper_delta_human_width": -0.07514642233508373,
+                    "width_ratio": 0.6805400527917802,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.6805400527917802,
+                "best_positive_overlap": {
+                  "human_region_id": "B006_r1",
+                  "zone_id": "0735b3a66f33",
+                  "price_iou": 0.6805400527917802,
+                  "lower_delta_human_width": 0.244313524873136,
+                  "upper_delta_human_width": -0.07514642233508373,
+                  "width_ratio": 0.6805400527917802,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "density": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "330125988e9c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.9392003045381188,
+                    "upper_delta_human_width": 1.4883148798963528,
+                    "width_ratio": 0.5491145753582339,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "b512a28dfef2",
+                    "price_iou": 0.4780372828033676,
+                    "lower_delta_human_width": 0.17986137991271134,
+                    "upper_delta_human_width": -0.34210133728392106,
+                    "width_ratio": 0.4780372828033676,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.4780372828033676,
+                "best_positive_overlap": {
+                  "human_region_id": "B006_r1",
+                  "zone_id": "b512a28dfef2",
+                  "price_iou": 0.4780372828033676,
+                  "lower_delta_human_width": 0.17986137991271134,
+                  "upper_delta_human_width": -0.34210133728392106,
+                  "width_ratio": 0.4780372828033676,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 2,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 2,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "330125988e9c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.9392003045381188,
+                    "upper_delta_human_width": 1.4883148798963528,
+                    "width_ratio": 0.5491145753582339,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "b512a28dfef2",
+                    "price_iou": 0.4780372828033676,
+                    "lower_delta_human_width": 0.17986137991271134,
+                    "upper_delta_human_width": -0.34210133728392106,
+                    "width_ratio": 0.4780372828033676,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.4780372828033676,
+                "best_positive_overlap": {
+                  "human_region_id": "B006_r1",
+                  "zone_id": "b512a28dfef2",
+                  "price_iou": 0.4780372828033676,
+                  "lower_delta_human_width": 0.17986137991271134,
+                  "upper_delta_human_width": -0.34210133728392106,
+                  "width_ratio": 0.4780372828033676,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 7,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 3,
+                "pairs": [
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "7a45b841dc3d",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 2.7711360700957113,
+                    "upper_delta_human_width": 2.3538608503824716,
+                    "width_ratio": 0.5827247802867604,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "330125988e9c",
+                    "price_iou": 0.0,
+                    "lower_delta_human_width": 1.9392003045381188,
+                    "upper_delta_human_width": 1.4883148798963528,
+                    "width_ratio": 0.5491145753582339,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": false
+                  },
+                  {
+                    "human_region_id": "B006_r1",
+                    "zone_id": "b512a28dfef2",
+                    "price_iou": 0.4780372828033676,
+                    "lower_delta_human_width": 0.17986137991271134,
+                    "upper_delta_human_width": -0.34210133728392106,
+                    "width_ratio": 0.4780372828033676,
+                    "centroid_error": null,
+                    "centroid_error_atr": null,
+                    "confirmed_in_human_interval": true
+                  }
+                ],
+                "maximum_price_iou": 0.4780372828033676,
+                "best_positive_overlap": {
+                  "human_region_id": "B006_r1",
+                  "zone_id": "b512a28dfef2",
+                  "price_iou": 0.4780372828033676,
+                  "lower_delta_human_width": 0.17986137991271134,
+                  "upper_delta_human_width": -0.34210133728392106,
+                  "width_ratio": 0.4780372828033676,
+                  "centroid_error": null,
+                  "centroid_error_atr": null,
+                  "confirmed_in_human_interval": true
+                },
+                "no_candidate": false,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        },
+        "support": {
+          "end_inventory": {
+            "case_candidate_inventory_count": 0,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "end_window": {
+            "case_candidate_inventory_count": 0,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          },
+          "historical_window": {
+            "case_candidate_inventory_count": 1,
+            "human_regions": [
+              {
+                "human_region_id": "B006_r1",
+                "candidate_count": 0,
+                "pairs": [],
+                "maximum_price_iou": null,
+                "best_positive_overlap": null,
+                "no_candidate": true,
+                "candidates_but_no_positive_price_overlap": false
+              }
+            ],
+            "manual_none_algorithm_output_disagreement": false
+          }
+        }
+      }
+    }
+  ],
+  "new_fits": 0,
+  "parameter_searches": 0,
+  "independent_test_outcomes_computed": 0
+}
