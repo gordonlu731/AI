@@ -1,5 +1,5 @@
 {
-  "stage": "B001_first_real_annotation_received_and_algorithm_comparison_delivered",
+  "stage": "first_six_blind_annotations_complete_descriptive_summary_delivered",
   "cases": [
     {
       "case_id": "B001",
@@ -8,54 +8,84 @@
       "algorithm_revealed": true,
       "center_score": null,
       "bottom_score": null,
-      "center_comparison": "interval_and_count_descriptions_available",
+      "center_comparison": "end_inventory_end_window_and_historical_window_descriptions",
       "human_centroid": "unavailable_not_provided",
       "human_correctness_judgments": "pending_after_reveal",
-      "bottom_comparison": "region_retained_and_double_bottom_predicates_explained"
+      "bottom_comparison": "region_retained_and_double_bottom_predicates_explained",
+      "first_review_receipt": "feedback-B001-v1/receipt.json"
     },
     {
       "case_id": "B002",
       "delivered_order": 2,
-      "reviewed": false,
-      "algorithm_revealed": false,
+      "reviewed": true,
+      "algorithm_revealed": true,
       "center_score": null,
-      "bottom_score": null
+      "bottom_score": null,
+      "center_comparison": "end_inventory_end_window_and_historical_window_descriptions",
+      "human_centroid": "unavailable_not_provided",
+      "human_correctness_judgments": "pending_after_reveal",
+      "bottom_comparison": "region_retained_and_double_bottom_predicates_explained",
+      "first_review_receipt": "first-six-v1/receipt.json"
     },
     {
       "case_id": "B003",
       "delivered_order": 3,
-      "reviewed": false,
-      "algorithm_revealed": false,
+      "reviewed": true,
+      "algorithm_revealed": true,
       "center_score": null,
-      "bottom_score": null
+      "bottom_score": null,
+      "center_comparison": "end_inventory_end_window_and_historical_window_descriptions",
+      "human_centroid": "unavailable_not_provided",
+      "human_correctness_judgments": "pending_after_reveal",
+      "bottom_comparison": "region_retained_and_double_bottom_predicates_explained",
+      "first_review_receipt": "first-six-v1/receipt.json"
     },
     {
       "case_id": "B004",
       "delivered_order": 4,
-      "reviewed": false,
-      "algorithm_revealed": false,
+      "reviewed": true,
+      "algorithm_revealed": true,
       "center_score": null,
-      "bottom_score": null
+      "bottom_score": null,
+      "center_comparison": "end_inventory_end_window_and_historical_window_descriptions",
+      "human_centroid": "unavailable_not_provided",
+      "human_correctness_judgments": "pending_after_reveal",
+      "bottom_comparison": "region_retained_and_double_bottom_predicates_explained",
+      "first_review_receipt": "first-six-v1/receipt.json"
     },
     {
       "case_id": "B005",
       "delivered_order": 5,
-      "reviewed": false,
-      "algorithm_revealed": false,
+      "reviewed": true,
+      "algorithm_revealed": true,
       "center_score": null,
-      "bottom_score": null
+      "bottom_score": null,
+      "center_comparison": "end_inventory_end_window_and_historical_window_descriptions",
+      "human_centroid": "unavailable_not_provided",
+      "human_correctness_judgments": "pending_after_reveal",
+      "bottom_comparison": "region_retained_and_double_bottom_predicates_explained",
+      "first_review_receipt": "first-six-v1/receipt.json"
     },
     {
       "case_id": "B006",
       "delivered_order": 6,
-      "reviewed": false,
-      "algorithm_revealed": false,
+      "reviewed": true,
+      "algorithm_revealed": true,
       "center_score": null,
-      "bottom_score": null
+      "bottom_score": null,
+      "center_comparison": "end_inventory_end_window_and_historical_window_descriptions",
+      "human_centroid": "unavailable_not_provided",
+      "human_correctness_judgments": "pending_after_reveal",
+      "bottom_comparison": "region_retained_and_double_bottom_predicates_explained",
+      "first_review_receipt": "first-six-v1/receipt.json"
     }
   ],
   "remaining_registered_cases": "withheld",
   "known_case_in_blind_scores": false,
-  "reviewed_case_count": 1,
-  "latest_receipt": "feedback-B001-v1/receipt.json"
+  "reviewed_case_count": 6,
+  "latest_receipt": "first-six-v1/receipt.json",
+  "new_first_review_case_count": 5,
+  "descriptive_summary": "first-six-v1/agreement-summary.json",
+  "registered_case_count": 12,
+  "manual_correctness_judgments": "pending"
 }

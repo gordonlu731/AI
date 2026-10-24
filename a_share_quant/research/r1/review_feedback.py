@@ -73,6 +73,19 @@ def validate_annotations(payload, counts):
     return reviewed
 
 
+def upload_changes(current, previous, counts):
+    """Unique-case progress: a repeated export is not another blind review."""
+    reviewed = validate_annotations(current, counts)
+    old = {c['case_id']: c for c in validate_annotations(previous, counts)} if previous else {}
+    now = {c['case_id']: c for c in reviewed}
+    if set(old) - set(now):
+        raise ValueError('previously reviewed cases cannot silently disappear from cumulative export')
+    return {'new_first_review_case_ids': sorted(set(now) - set(old)),
+            'unchanged_previous_case_ids': sorted(cid for cid in old if now[cid] == old[cid]),
+            'post_reveal_revision_case_ids': sorted(cid for cid in old if now[cid] != old[cid]),
+            'unique_reviewed_case_count': len(now)}
+
+
 def interval_metrics(human, algorithm):
     """All-pairs description, NOT a new replacement for the frozen scorer.
 
@@ -110,7 +123,7 @@ def describe_method(humans, zones, count, judgment='regions'):
             'automatic_correct_false_detection_labels': 'not_assigned'}
 
 
-def overlay_chart(bars, snapshot, case, zones, method, pdf, output):
+def overlay_chart(bars, snapshot, case, zones, method, pdf, output, historical_zones=()):
     from matplotlib.patches import Rectangle
     import matplotlib.pyplot as plt
     fig, meta = draw_figure(bars, case['case_id'])
@@ -120,7 +133,7 @@ def overlay_chart(bars, snapshot, case, zones, method, pdf, output):
     if method:
         total = len(zones)
         recent = sum(1 <= z['confirmed_k'] <= len(bars) for z in zones)
-        fig.text(.5, .936, f'全部保留 {total} 个；本窗口内新确认 {recent} 个｜未绘制窗外价格区域，完整清单另附', ha='center', fontsize=8.5)
+        fig.text(.5, .936, f'末日保留 {total} 个；窗内新确认且仍保留 {recent} 个｜灰色示意历史终止区间，完整清单另附', ha='center', fontsize=8.5)
     start = snapshot.index - len(bars) + 1
     scale = 100 / bars[0].close
     for ax, panel in zip((fig.axes[0], fig.axes[2]), meta['panels']):
@@ -142,6 +155,16 @@ def overlay_chart(bars, snapshot, case, zones, method, pdf, output):
                     color='#69717c', linewidth=.8, alpha=.75)
             for p in visible:
                 ax.scatter(p.confirmed_index - start + 1, p.price * scale, marker='x', s=17, color='#85630a', linewidths=.7)
+            terminated = [z for z in historical_zones if not z['valid'] and
+                          1 <= z['confirmed_k'] <= len(bars) and z['invalid_k'] is not None and z['invalid_k'] >= 1]
+            # Fixed newest-eight display cap, never selected using human overlap.
+            for z in sorted(terminated, key=lambda z: z['confirmed_k'])[-8:]:
+                left, right = max(panel['first_k'], z['confirmed_k']), min(len(bars), z['invalid_k'])
+                if right < left or z['upper'] < panel['p_min'] or z['lower'] > panel['p_max']:
+                    continue
+                for value, style in ((z['lower'], '-.'), (z['upper'], '-.'), (z['centroid'], ':')):
+                    ax.plot([left, right], [value, value], color='#8c8c8c', linestyle=style, alpha=.55, linewidth=.7)
+                ax.text(left, z['upper'], z['display_id'], fontsize=6.5, color='#777777', clip_on=True)
             for z in zones:
                 left = max(panel['first_k'], z['confirmed_k'])
                 if left > len(bars) or z['upper'] < panel['p_min'] or z['lower'] > panel['p_max']:
@@ -155,17 +178,19 @@ def overlay_chart(bars, snapshot, case, zones, method, pdf, output):
         # Overlays never change the original scale, time window or normalization.
         ax.set_xlim(panel['x_min'], panel['x_max'])
         ax.set_ylim(panel['p_min'], panel['p_max'])
-    fig.text(.5, .043, '紫虚框：人工中枢；棕点框：人工底部；蓝实线：算法上下沿，点线：算法重心；淡虚线：窗前已确认', ha='center', fontsize=8)
+    fig.text(.5, .043, '紫框：人工中枢；棕框：人工底部；蓝线：末日保留区间；点线：重心；灰点划线：历史终止（最多8条）', ha='center', fontsize=8)
     fig.text(.5, .030, '算法横段是截点保存的区间，并非逐日重演；灰线为已确认极值连接，× 标确认所在 K；无未来行情', ha='center', fontsize=8)
     fig.savefig(output, dpi=240, metadata={'Software': 'R1 reviewed-case comparison'})
     pdf.savefig(fig)
     plt.close(fig)
 
 
-def report_lines(case, public=False):
+def report_lines(case, public=False, reviewed_ids=None):
     cid, human = case['case_id'], case['human']
+    reviewed_ids = reviewed_ids or [cid]
+    pending = [c for c in CASE_IDS if c not in reviewed_ids]
     lines = [f'# {cid}｜真实人工标注与冻结算法的第一次对照', '',
-        '只揭示本样本。B002–B006 未评审，继续隐藏；B007–B012 暂未展示。',
+        '首批已归档标注：' + '、'.join(reviewed_ids) + '。' + ('未评审继续隐藏：' + '、'.join(pending) + '。' if pending else '首批六张均已标注。') + 'B007–B012 暂未展示。',
         '本次是结构识别一致性描述，不是收益验证。参数、独立测试和 PR #2 均不变。', '',
         '## 已收到的人工意见', human['notes'],
         f"中枢 {sum(r['type'] == 'center' for r in human['regions'])} 个，底部区域 {sum(r['type'] == 'bottom' for r in human['regions'])} 个。",
@@ -178,7 +203,7 @@ def report_lines(case, public=False):
         '|---|---:|---:|---:|']
     for method in MAIN_METHODS:
         d = case['methods'][method]
-        ids = {z['zone_id'] for z in d['zones'] if 1 <= z['confirmed_k'] <= 180}
+        ids = {z['zone_id'] for z in d['zones'] if 1 <= z['confirmed_k'] <= case.get('bar_count', 180)}
         best = max((pair['price_iou'] for pair in d['pairs'] if pair['zone_id'] in ids), default=None)
         overlap = f'{best:.3f}' if best is not None else 'unavailable'
         lines.append(f"| {NAMES[method]} | {d['all_retained_count']} | {d['confirmed_in_visible_window_count']} | {overlap} |")
@@ -212,7 +237,7 @@ def report_lines(case, public=False):
             f"R0 下跌能量比 {num(v['down_energy_ratio'])}（要求 ≤0.8）、二低收复 {pct(v['close_over_second_low'])}（要求 ≥6%）、当日收涨 {v['close_rising']}。通过与拒绝项分别保存；R0 与 R1 的跌幅窗口不同，不混用数值。"]
     lines += ['', '## 待你的二次审阅',
         '请对四种算法分别记录：正确、偏高、偏低、遗漏、误识别或不确定，可附对应 Z 编号。算法揭示后的补充与首轮盲标分开保存。当前这些人工正确性判断仍 pending；不由程序代填。',
-        '本轮只完成 B001 的首次真实人工输入与位置/数量描述，不能推广到其他股票、年份或预测能力。供应商行情仍未核验历史时点版本。']
+        f'本单例报告仅描述 {cid} 的位置/数量；首批汇总也不构成跨股票、年份或预测能力的验证。供应商行情仍未核验历史时点版本。']
     return lines
 
 
@@ -223,12 +248,15 @@ def main():
     p.add_argument('--private-audit', required=True, type=Path)
     p.add_argument('--output', required=True, type=Path)
     p.add_argument('--public', required=True, type=Path)
+    p.add_argument('--previous-annotations', type=Path, help='last genuine cumulative export, to distinguish repeated/revised cases')
     args = p.parse_args()
     packet = json.loads((args.original_packet / 'packet_manifest.json').read_text())
     counts = {r['case_id']: r['bar_count'] for r in packet['cases']}
     source = args.annotations.read_bytes()
     payload = json.loads(source)
     reviewed = validate_annotations(payload, counts)
+    previous = json.loads(args.previous_annotations.read_bytes()) if args.previous_annotations else None
+    changes = upload_changes(payload, previous, counts)
     if not reviewed:
         p.error('no real reviewed samples: no algorithms will be revealed')
     if args.output.exists() or args.public.exists():
@@ -273,7 +301,7 @@ def main():
                 if key.endswith('_index'):
                     value = b.pop(key)
                     b[key.replace('_index', '_k')] = value - start + 1 if value is not None else None
-        local_case = {'case_id': cid, 'human': case, 'methods': {}, 'bottom_diagnostics': bottom}
+        local_case = {'case_id': cid, 'bar_count': len(view), 'human': case, 'methods': {}, 'bottom_diagnostics': bottom}
         public_case = {'case_id': cid, 'human_center_count': len(human_centers),
                        'human_bottom_count': sum(r['type'] == 'bottom' for r in case['regions']),
                        'human_center_judgment': case['center_judgment'], 'methods': {},
@@ -283,23 +311,27 @@ def main():
             overlay_chart(view, snapshot, case, [], None, pdf, paths[-1])
             for method in MAIN_METHODS:
                 label = 'ABCD'[masked_methods(cid).index(method)]
-                zones = []
+                zones, history = [], []
                 for j, z in enumerate(sorted(snapshot.zones[method], key=lambda z: z.confirmed_index)):
-                    if not z.valid:
-                        continue
                     zone = {'zone_id': hashlib.sha256(f'{cid}:{label}:{z.id}'.encode()).hexdigest()[:12],
                             'display_id': f'Z{j + 1:02d}', 'algorithm_label': label,
                             'lower': z.lower * scale, 'upper': z.upper * scale, 'centroid': z.centroid * scale,
                             'formed_k': z.formed_index - start + 1, 'confirmed_k': z.confirmed_index - start + 1,
                             'confirmation_delay': z.confirmed_index - z.formed_index,
-                            'status': z.status, 'role': z.role, 'atr_units': snapshot.atr * scale if snapshot.atr else None}
+                            'status': z.status, 'role': z.role, 'valid': z.valid,
+                            'invalid_k': z.invalid_index - start + 1 if z.invalid_index is not None else None,
+                            'last_test_k': z.last_test_index - start + 1 if z.last_test_index is not None else None,
+                            'atr_units': snapshot.atr * scale if snapshot.atr else None}
+                    history.append(zone)
+                    if not z.valid:
+                        continue
                     zones.append(zone)
                     inventory.append({'case_id': cid, 'method': method, **zone})
                 description = describe_method(human_centers, zones, len(view), case['center_judgment'])
-                local_case['methods'][method] = {'zones': zones, **description}
+                local_case['methods'][method] = {'zones': zones, 'all_zone_history': history, **description}
                 public_case['methods'][method] = description
                 paths.append(args.output / f'{cid}-{method}.png')
-                overlay_chart(view, snapshot, case, zones, method, pdf, paths[-1])
+                overlay_chart(view, snapshot, case, zones, method, pdf, paths[-1], history)
                 # Do not assign centroid errors to uncertain/no-center judgments.
                 public_case['methods'][method]['comparison_scope'] = case['center_judgment']
                 if case['center_judgment'] == 'uncertain':
@@ -311,8 +343,8 @@ def main():
     write_json(args.output / 'all-retained-zones.json', inventory)
     write_json(args.public / 'comparison-derived.json', summary)
     for case in result:
-        (args.output / (case['case_id'] + '-report.md')).write_text('\n'.join(report_lines(case)) + '\n')
-        (args.public / (case['case_id'] + '-report.md')).write_text('\n'.join(report_lines(case, public=True)) + '\n')
+        (args.output / (case['case_id'] + '-report.md')).write_text('\n'.join(report_lines(case, reviewed_ids=[c['case_id'] for c in reviewed])) + '\n')
+        (args.public / (case['case_id'] + '-report.md')).write_text('\n'.join(report_lines(case, public=True, reviewed_ids=[c['case_id'] for c in reviewed])) + '\n')
     receipt = {'input_sha256': hashlib.sha256(source).hexdigest(), 'received_at_utc': received,
                'exported_at_user_device': payload.get('exported_at'), 'input_bytes': len(source),
                'history_entries_preserved': len(payload['history']), 'source_origin': 'user_attachment',
@@ -323,6 +355,9 @@ def main():
                'new_parameter_searches': 0, 'new_model_fits': 0, 'independent_test_outcomes_computed': 0,
                'matching': 'all-pairs descriptive interval overlap; not frozen one-to-one scoring; no correctness assigned',
                'human_centroids_imputed': 0, 'files': [{'name': p.name, 'sha256': sha256(p)} for p in sorted(args.output.iterdir()) if p.is_file()]}
+    receipt['upload_changes'] = changes
+    receipt['previous_annotations_sha256'] = sha256(args.previous_annotations) if args.previous_annotations else None
+    receipt['historical_display'] = 'newest eight terminated zones confirmed in visible window; full history retained locally'
     receipt['working_tree_dirty'] = bool(subprocess.check_output(['git', 'status', '--porcelain'], cwd=ROOT, text=True))
     receipt['source_code_sha256'] = {str(p.relative_to(ROOT)): sha256(p) for p in [Path(__file__), ROOT / 'research/r1/mobile_review.py'] + list((ROOT / 'src/ashare_quant/r1').glob('*.py'))}
     write_json(args.public / 'receipt.json', receipt)
