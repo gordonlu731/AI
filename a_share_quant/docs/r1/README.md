@@ -74,4 +74,4 @@ with gzip.open('reports/r1/R1-S1-incremental/incremental_metrics.json.gz', 'rt')
 
 CSV 同理用 gzip.open 和 csv.DictReader。`publication_manifest.json` 的 source_sha256 对应解压字节，published_sha256 对应仓库文件；审计原文件名可能不带 .gz，这是无损发布格式映射，不是丢失文件。
 
-当前人工结果 pending；不要用程序假填正确/误识别。按人工评审文档收集真实表单后，输出新版本评分，保留原表与所有错误。
+已收到 B001 首轮真实手机标注并仅为该样本揭示四算法；B002–B006 仍未审阅。B001 空重心保持缺失，仅做区间与数量描述，算法正确/误识别的真人判断仍 pending，不用程序代填。最新状态见 [反馈记录](../../reports/human_review_2026-10-24/feedback-B001-v1/README.md)，原 R1 评分/报告文件保留历史状态，不覆盖。

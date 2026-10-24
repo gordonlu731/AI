@@ -1,0 +1,417 @@
+[
+  {
+    "case_id": "B001",
+    "human_center_count": 1,
+    "human_bottom_count": 1,
+    "human_center_judgment": "regions",
+    "methods": {
+      "r0_legacy": {
+        "human_center_count": 1,
+        "all_retained_count": 21,
+        "all_retained_count_minus_human": 20,
+        "confirmed_in_visible_window_count": 2,
+        "window_confirmation_count_minus_human": 1,
+        "pairs": [
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "0e1764d54bdd",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -3.9311378920285276,
+            "upper_delta_human_width": -4.60012805447283,
+            "width_ratio": 0.33100983755569796,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "3ddec1c8dac1",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -2.4579622413685547,
+            "upper_delta_human_width": -3.036015635253599,
+            "width_ratio": 0.4219466061149559,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "dbe800a96804",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -0.8294707045436884,
+            "upper_delta_human_width": -1.256994416505709,
+            "width_ratio": 0.5724762880379795,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "4e4c88f22b6d",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -1.6045155252720313,
+            "upper_delta_human_width": -2.172956477366477,
+            "width_ratio": 0.4315590479055541,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "f45e56fb36fe",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -2.4103859922793403,
+            "upper_delta_human_width": -3.3619456909838195,
+            "width_ratio": 0.04844030129552097,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "3eb910fd2fb0",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -3.0797428829083624,
+            "upper_delta_human_width": -4.044513572875257,
+            "width_ratio": 0.035229310033105414,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "5049bdebb896",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -2.7277387368918733,
+            "upper_delta_human_width": -3.4005962201015034,
+            "width_ratio": 0.3271425167903696,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "b1fd5f3d25e6",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -1.6556799933445907,
+            "upper_delta_human_width": -2.49788044932471,
+            "width_ratio": 0.15779954401988053,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "4dea205fdd8c",
+            "price_iou": 0.29719071900249966,
+            "lower_delta_human_width": -0.1484222797753833,
+            "upper_delta_human_width": -0.658699556955064,
+            "width_ratio": 0.4897227228203193,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "4acdc2b6d6e0",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -1.2149295428063032,
+            "upper_delta_human_width": -2.138750452589809,
+            "width_ratio": 0.07617909021649397,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "2c26a586ea5c",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -2.7231994859738133,
+            "upper_delta_human_width": -3.3694730830646726,
+            "width_ratio": 0.35372640290914087,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "c5482383cfed",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -2.1262861810646396,
+            "upper_delta_human_width": -2.8112486034736874,
+            "width_ratio": 0.31503757759095224,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "20205a93c359",
+            "price_iou": 0.0,
+            "lower_delta_human_width": -0.8550819206099189,
+            "upper_delta_human_width": -1.435031817155315,
+            "width_ratio": 0.420050103454604,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "e55e5492876f",
+            "price_iou": 0.13409518981190305,
+            "lower_delta_human_width": 0.318970724292321,
+            "upper_delta_human_width": -0.546934085895776,
+            "width_ratio": 0.13409518981190305,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "533f90ce4ad0",
+            "price_iou": 0.03216370940233857,
+            "lower_delta_human_width": 0.9670974750498602,
+            "upper_delta_human_width": 0.02297047080482157,
+            "width_ratio": 0.055872995754961324,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "5759f497f62f",
+            "price_iou": 0.18269587445968996,
+            "lower_delta_human_width": -0.052131401463480456,
+            "upper_delta_human_width": -0.8077799335631303,
+            "width_ratio": 0.24435146790035014,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "e4e9b5d94f37",
+            "price_iou": 0.0,
+            "lower_delta_human_width": 2.749386590975422,
+            "upper_delta_human_width": 1.8346254751267064,
+            "width_ratio": 0.08523888415128462,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "f47c3456f931",
+            "price_iou": 0.0,
+            "lower_delta_human_width": 4.573498711812922,
+            "upper_delta_human_width": 3.931502025248318,
+            "width_ratio": 0.3580033134353963,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "04e0cbd8a500",
+            "price_iou": 0.0,
+            "lower_delta_human_width": 2.5728538455811183,
+            "upper_delta_human_width": 2.1341271341271333,
+            "width_ratio": 0.5612732885460149,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "a5c7700e365a",
+            "price_iou": 0.0,
+            "lower_delta_human_width": 1.7137620773984394,
+            "upper_delta_human_width": 1.2177625813989472,
+            "width_ratio": 0.5040005040005078,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": false
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "80c6a0ec9c1c",
+            "price_iou": 0.09736373372736933,
+            "lower_delta_human_width": 0.8603975876703166,
+            "upper_delta_human_width": -0.04223867860231413,
+            "width_ratio": 0.09736373372736933,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": true
+          }
+        ],
+        "centroid_fields": "unavailable_human_centroid_missing",
+        "human_algorithm_judgments": "pending",
+        "automatic_correct_false_detection_labels": "not_assigned",
+        "comparison_scope": "regions"
+      },
+      "atr_intersection": {
+        "human_center_count": 1,
+        "all_retained_count": 1,
+        "all_retained_count_minus_human": 0,
+        "confirmed_in_visible_window_count": 1,
+        "window_confirmation_count_minus_human": 0,
+        "pairs": [
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "4cb2b1c4485b",
+            "price_iou": 0.3780003780003767,
+            "lower_delta_human_width": 0.48812448812449005,
+            "upper_delta_human_width": -0.1338751338751332,
+            "width_ratio": 0.3780003780003767,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": true
+          }
+        ],
+        "centroid_fields": "unavailable_human_centroid_missing",
+        "human_algorithm_judgments": "pending",
+        "automatic_correct_false_detection_labels": "not_assigned",
+        "comparison_scope": "regions"
+      },
+      "density": {
+        "human_center_count": 1,
+        "all_retained_count": 3,
+        "all_retained_count_minus_human": 2,
+        "confirmed_in_visible_window_count": 3,
+        "window_confirmation_count_minus_human": 2,
+        "pairs": [
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "e4ab68556c0c",
+            "price_iou": 0.0,
+            "lower_delta_human_width": 1.3448258814968879,
+            "upper_delta_human_width": 0.7052225435750594,
+            "width_ratio": 0.3603966620781716,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": true
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "c65903da43b5",
+            "price_iou": 0.14505373299636806,
+            "lower_delta_human_width": 0.8303001858110793,
+            "upper_delta_human_width": 0.16991000978354456,
+            "width_ratio": 0.3396098239724652,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": true
+          },
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "c7d8df38d78a",
+            "price_iou": 0.3264223606040603,
+            "lower_delta_human_width": 0.5038778252070191,
+            "upper_delta_human_width": -0.16969981418892063,
+            "width_ratio": 0.3264223606040603,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": true
+          }
+        ],
+        "centroid_fields": "unavailable_human_centroid_missing",
+        "human_algorithm_judgments": "pending",
+        "automatic_correct_false_detection_labels": "not_assigned",
+        "comparison_scope": "regions"
+      },
+      "support": {
+        "human_center_count": 1,
+        "all_retained_count": 1,
+        "all_retained_count_minus_human": 0,
+        "confirmed_in_visible_window_count": 1,
+        "window_confirmation_count_minus_human": 0,
+        "pairs": [
+          {
+            "human_region_id": "B001_r1",
+            "zone_id": "2dba9bdd30b5",
+            "price_iou": 0.764076218621674,
+            "lower_delta_human_width": 0.1806841806841817,
+            "upper_delta_human_width": -0.05523960069414436,
+            "width_ratio": 0.764076218621674,
+            "centroid_error": null,
+            "centroid_error_atr": null,
+            "confirmed_in_human_interval": true
+          }
+        ],
+        "centroid_fields": "unavailable_human_centroid_missing",
+        "human_algorithm_judgments": "pending",
+        "automatic_correct_false_detection_labels": "not_assigned",
+        "comparison_scope": "regions"
+      }
+    },
+    "bottom_diagnostics": {
+      "fixed_r1": {
+        "phase": "confirmed_shape_rejected",
+        "bottom_shape": 0,
+        "bottom_depth": 0.24461538461538457,
+        "first_rebound": 0.062457569585879114,
+        "second_low_difference": -0.05566870332654461,
+        "bottom_confirmation_age": 0,
+        "reasons": [
+          "retest_outside_band",
+          "first_rebound_too_small"
+        ],
+        "first_low_k": 137,
+        "rebound_k": 138,
+        "second_low_k": 167,
+        "second_low_confirmed_k": 180
+      },
+      "atr_r1": {
+        "phase": "confirmed_shape_rejected",
+        "bottom_shape": 0,
+        "bottom_depth": 0.24319912948857458,
+        "first_rebound": 0.05966930265995685,
+        "second_low_difference": 0.012221423436376888,
+        "bottom_confirmation_age": 0,
+        "reasons": [
+          "first_rebound_too_small",
+          "bottoms_too_close"
+        ],
+        "first_low_k": 167,
+        "rebound_k": 169,
+        "second_low_k": 174,
+        "second_low_confirmed_k": 180
+      },
+      "r0": {
+        "has_required_last_four": true,
+        "last_pivot_kinds": [
+          "high",
+          "low",
+          "high",
+          "low",
+          "high",
+          "low"
+        ],
+        "rejections": [
+          "rr_below_min",
+          "not_deep_decline",
+          "weak_first_rebound",
+          "retest_outside_band"
+        ],
+        "emitted": false,
+        "eligible": false,
+        "rr": 0.15905686185787102,
+        "required_rr": 2.0,
+        "values": {
+          "drawdown": 0.1539345203905802,
+          "required_drawdown": 0.3,
+          "first_rebound": 0.062457569585879114,
+          "required_rebound": 0.08,
+          "second_low_difference": -0.05566870332654461,
+          "allowed_absolute_difference": 0.05,
+          "down_energy_ratio": 0.28579653527842963,
+          "maximum_ratio": 0.8,
+          "close_over_second_low": 0.07692307692307687,
+          "required_recovery": 0.06,
+          "close_rising": true
+        }
+      }
+    },
+    "manual_correctness_judgments": "pending_after_reveal"
+  }
+]

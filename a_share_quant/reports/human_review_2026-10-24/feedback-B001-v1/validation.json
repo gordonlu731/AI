@@ -1,0 +1,29 @@
+{
+  "tests_passed": 61,
+  "raw_input_byte_identical": true,
+  "revisions_preserved": 15,
+  "revealed_case_ids": [
+    "B001"
+  ],
+  "withheld_case_ids": [
+    "B002",
+    "B003",
+    "B004",
+    "B005",
+    "B006"
+  ],
+  "frozen_asof_snapshot_reproduced": true,
+  "full_pair_records_preserved": 26,
+  "human_centroids_imputed": 0,
+  "human_correctness_judgments": "pending",
+  "price_pdf_pages": 5,
+  "png_dimensions": [
+    2160,
+    3360
+  ],
+  "draft_and_final_structure_and_pair_results_equal": true,
+  "public_derivatives_have_no_complete_price_intervals": true,
+  "new_fits": 0,
+  "new_parameter_searches": 0,
+  "independent_test_outcomes_computed": 0
+}

@@ -1,13 +1,17 @@
 {
-  "stage": "awaiting_real_human_annotations",
+  "stage": "B001_first_real_annotation_received_and_algorithm_comparison_delivered",
   "cases": [
     {
       "case_id": "B001",
       "delivered_order": 1,
-      "reviewed": false,
-      "algorithm_revealed": false,
+      "reviewed": true,
+      "algorithm_revealed": true,
       "center_score": null,
-      "bottom_score": null
+      "bottom_score": null,
+      "center_comparison": "interval_and_count_descriptions_available",
+      "human_centroid": "unavailable_not_provided",
+      "human_correctness_judgments": "pending_after_reveal",
+      "bottom_comparison": "region_retained_and_double_bottom_predicates_explained"
     },
     {
       "case_id": "B002",
@@ -51,5 +55,7 @@
     }
   ],
   "remaining_registered_cases": "withheld",
-  "known_case_in_blind_scores": false
+  "known_case_in_blind_scores": false,
+  "reviewed_case_count": 1,
+  "latest_receipt": "feedback-B001-v1/receipt.json"
 }
