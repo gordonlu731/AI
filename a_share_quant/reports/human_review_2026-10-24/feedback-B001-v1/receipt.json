@@ -1,0 +1,80 @@
+{
+  "input_sha256": "96b6e108b888487d8b7a5e24dd445f4d4c256a3f3ac3af5badb9424cb3251d2f",
+  "received_at_utc": "2026-10-24T04:10:57.010860+00:00",
+  "exported_at_user_device": "2026-10-24T04:01:08.943Z",
+  "input_bytes": 11315,
+  "history_entries_preserved": 15,
+  "source_origin": "user_attachment",
+  "reviewed_case_ids": [
+    "B001"
+  ],
+  "withheld_case_ids": [
+    "B002",
+    "B003",
+    "B004",
+    "B005",
+    "B006"
+  ],
+  "code_base_commit": "277d4e5c70b608afeb7b93bfb391d1fb38f67d9e",
+  "preregister_sha256": "f7eb69cdc8f233a157d324c2468d1895ab1245516ad9163f7af75f01b8a33956",
+  "frozen_snapshot_reproduced": true,
+  "new_parameter_searches": 0,
+  "new_model_fits": 0,
+  "independent_test_outcomes_computed": 0,
+  "matching": "all-pairs descriptive interval overlap; not frozen one-to-one scoring; no correctness assigned",
+  "human_centroids_imputed": 0,
+  "files": [
+    {
+      "name": "B001-atr_intersection.png",
+      "sha256": "313b6ecb1d1e940883ee2e6668702ac018e2e848c795acac0fed432eb62881c5"
+    },
+    {
+      "name": "B001-comparison.pdf",
+      "sha256": "8170d562fd0ce4706ab8f63970fc6bec0459daf3a019c49057820866a98eda86"
+    },
+    {
+      "name": "B001-density.png",
+      "sha256": "720b7223c5148a0dcb0cc9fbc9e72fc9c0416a98dac68a0712d3d4ca014d4d3f"
+    },
+    {
+      "name": "B001-human.png",
+      "sha256": "bf3bef5bc0c672da64d3f02ccfb359f6d763f08205f691441bd86d71ddd433db"
+    },
+    {
+      "name": "B001-r0_legacy.png",
+      "sha256": "7fcb7d1381b2dec6b0cc5e0a44d7a1f9bb97dafc38fdca1ad99474f8c9e3ce9e"
+    },
+    {
+      "name": "B001-report.md",
+      "sha256": "396251388fa1026a07da591b1c257bc33d9c5c52d77ed0ea0815596023ca0489"
+    },
+    {
+      "name": "B001-support.png",
+      "sha256": "73e6cc33ab7b627001ffb6ca83b3ec4cce018c3ef2b7c00d6f0ac3ea1d817686"
+    },
+    {
+      "name": "all-retained-zones.json",
+      "sha256": "2aef93a8ac56c97525b9542b0c9b56289f4180f01a18648d620d0c17cb54f6a6"
+    },
+    {
+      "name": "comparison-full.json",
+      "sha256": "d9ae2b7022297055db62edd1192e82b3011e86f34d84a607dc0d43c12042e447"
+    },
+    {
+      "name": "original-annotations.json",
+      "sha256": "96b6e108b888487d8b7a5e24dd445f4d4c256a3f3ac3af5badb9424cb3251d2f"
+    }
+  ],
+  "working_tree_dirty": true,
+  "source_code_sha256": {
+    "research/r1/review_feedback.py": "05c405bdc72c23fcf4d701c4554dd932fac1aeee0337be2e50fb9fcac18ed10d",
+    "research/r1/mobile_review.py": "31fdbd923c36afe414c6aa35dd8e0602028433a3cccac22dc36849c83c7663f7",
+    "src/ashare_quant/r1/models.py": "f8fbaea6124266a8ead73df2b3cd8c26af1a73a7b50e9deb070b74f0e87d6303",
+    "src/ashare_quant/r1/outcomes.py": "27b079c813884e7aefba8fd281ddbffe7a833c33deef2a5bb94dab341a49fb64",
+    "src/ashare_quant/r1/__init__.py": "f38c0e5763db270cbfb57f316494db412c12b53c335350fd53a19a6b237f233b",
+    "src/ashare_quant/r1/features.py": "47c8b57ea1e30acbbc16235ca96eea3ffd1ad5184c5895e80e308ce2bc2742fc",
+    "src/ashare_quant/r1/review.py": "4f8ec63fcbbf01235e4c8ce3873b6be40c695c40c2b504417787ab5677376d6c",
+    "src/ashare_quant/r1/io.py": "628c26081a24025774fc54f87df430659f6568ba47ad07d59bd218cfacd2fb90",
+    "src/ashare_quant/r1/structures.py": "5004314a7fc97a8a71facf8f18f65d50df26074bc423680005ea6213e5a1ce43"
+  }
+}
