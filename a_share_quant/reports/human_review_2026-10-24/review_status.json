@@ -25,7 +25,11 @@
       "human_centroid": "unavailable_not_provided",
       "human_correctness_judgments": "pending_after_reveal",
       "bottom_comparison": "region_retained_and_double_bottom_predicates_explained",
-      "first_review_receipt": "first-six-v1/receipt.json"
+      "first_review_receipt": "first-six-v1/receipt.json",
+      "semantic_clarification": "clarifications/B002-strength-v1.json",
+      "interpreted_structure_presence": "some_consolidation_exists",
+      "interpreted_strategy_center_eligibility": false,
+      "disagreement_classification": "strength_filter_disagreement_to_check"
     },
     {
       "case_id": "B003",
@@ -87,5 +91,6 @@
   "new_first_review_case_count": 5,
   "descriptive_summary": "first-six-v1/agreement-summary.json",
   "registered_case_count": 12,
-  "manual_correctness_judgments": "pending"
+  "manual_correctness_judgments": "pending",
+  "latest_semantic_clarification": "clarifications/B002-strength-v1.json"
 }

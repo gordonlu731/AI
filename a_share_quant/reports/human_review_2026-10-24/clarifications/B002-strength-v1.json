@@ -1,0 +1,28 @@
+{
+  "case_id": "B002",
+  "type": "post_reveal_semantic_clarification",
+  "user_reply_verbatim": "2",
+  "question_options": {
+    "1": "完全没有可识别的整理结构",
+    "2": "有整理区域，但太弱，不纳入你的策略中枢"
+  },
+  "selected_option": "2",
+  "archived_at_utc": "2026-10-24T12:43:40.170733+00:00",
+  "initial_annotation_sha256": "adfc0a7dc0369edd4240f921b5406df8c3f814194bb9a7cecb276d3e1d431d29",
+  "original_center_judgment": "none",
+  "interpretation": {
+    "some_consolidation_exists": true,
+    "strategy_eligible_center": false,
+    "reason": "insufficient_perceived_strength"
+  },
+  "disagreement_classification": "strength_filter_disagreement_to_check",
+  "structural_false_detection_judgment": "not_determined",
+  "per_algorithm_correctness_judgments": "pending",
+  "new_human_price_regions": 0,
+  "new_numeric_thresholds": 0,
+  "original_annotations_or_statistics_overwritten": false,
+  "applies_to_other_cases": false,
+  "new_fits": 0,
+  "parameter_searches": 0,
+  "independent_test_outcomes_computed": 0
+}
