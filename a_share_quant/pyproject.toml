@@ -11,6 +11,8 @@ dependencies = []
 
 [project.optional-dependencies]
 research = ["numpy==2.3.5", "matplotlib==3.10.8"]
+review = ["matplotlib==3.10.8", "pypdf==6.10.0"]
+review-check = ["matplotlib==3.10.8", "pypdf==6.10.0", "playwright==1.62.0"]
 
 [project.scripts]
 ashare-quant = "ashare_quant.__main__:main"

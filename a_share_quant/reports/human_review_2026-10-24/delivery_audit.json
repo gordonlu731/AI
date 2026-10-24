@@ -1,0 +1,97 @@
+{
+  "r1_base_commit": "cceef64bd72883aa82f5c4ca3a60acddf3787b92",
+  "batch_id": "R1-human-B001-B006-v1",
+  "frozen_source_preregister_and_r1_reports_unchanged": true,
+  "new_parameter_searches": 0,
+  "new_model_fits": 0,
+  "independent_test_outcomes_computed": 0,
+  "real_human_annotations": 0,
+  "algorithm_reveal": "waiting_for_real_annotations_per_case",
+  "files": [
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/B005.png",
+      "bytes": 222266,
+      "sha256": "faebbcd63590541c053196afb9028e47b8da3b2516e6df142d8a9d96f96fd9c0"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/B004.png",
+      "bytes": 230270,
+      "sha256": "f94ec576cdab45010cbcff3fabe4a188aef1c26d19031068b63ee424bfb36be3"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/B001.png",
+      "bytes": 224882,
+      "sha256": "382476140ea530ad42f59f8ac559f2a8aed5de2e089792c81230125881f70b07"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/packet_manifest.json",
+      "bytes": 1740,
+      "sha256": "fd84311c58dac3e5edff0e2332b195d4dba65dc200733eba0ef8058cab5c599a"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/人工区域表.csv",
+      "bytes": 336,
+      "sha256": "e5744b6c03665c5e1511afb6a7cb102729cd5e63c581e6647f561874f875a35f"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/B006.png",
+      "bytes": 216055,
+      "sha256": "c9eff0a3241f578f45a0502e8f1690351d34ad40f0943e0945d367b012253ba2"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/first-six-blank-mobile.pdf",
+      "bytes": 181435,
+      "sha256": "87e1c02c5eae1ed8bd3f06a5fb20e45daa6f2ac2827d997a3c651f7d25020954"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/B003.png",
+      "bytes": 213254,
+      "sha256": "6ec669eddf908350678e3bfbdc3292436287063d171c91c40ecb330c41024a30"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/手机标注.html",
+      "bytes": 1797053,
+      "sha256": "352394c85324ea879607093aa2437cbb5597a2568cba321442c74a991a176c79"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/使用说明.txt",
+      "bytes": 1072,
+      "sha256": "e5484b1052cb806a491cd70828792e96e53751613f5c8f377ed545c295ad37f9"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only/B002.png",
+      "bytes": 226317,
+      "sha256": "cb02829d41a851c088a199c46c53c4dfde39037aebe828d93ca8ae72b19ef779"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/batch1-human-only.zip",
+      "bytes": 2315493,
+      "sha256": "82f45805295792a705ff21c8b74c37f4e9c3c22e1c429a057442c4e08f13f6e2"
+    },
+    {
+      "local_relative_path": "reports/local/mobile-review-2026-10-24/known-case-separate/精华制药_2026年9至10月_结构诊断.pdf",
+      "bytes": 408916,
+      "sha256": "0ef584111d03033e71884ae06258bf41e923b748ec19f27a71775be50610fc2f"
+    },
+    {
+      "local_relative_path": "research/r1/mobile_review.py",
+      "bytes": 10822,
+      "sha256": "31fdbd923c36afe414c6aa35dd8e0602028433a3cccac22dc36849c83c7663f7"
+    },
+    {
+      "local_relative_path": "research/r1/mobile_annotator.html",
+      "bytes": 16041,
+      "sha256": "b57195bc950bc2c513dc78abe07b1501f4c6361a541339983483a29c9fc58aba"
+    },
+    {
+      "local_relative_path": "research/r1/check_mobile_review.py",
+      "bytes": 7383,
+      "sha256": "98b9d2a7089329355e7a32510965bb1cde51733ac16cd0148d0e4f9c96b27635"
+    },
+    {
+      "local_relative_path": "research/r1/known_case_2026_autumn.py",
+      "bytes": 10441,
+      "sha256": "28d980361b23515087b11920d07af0cab1a85881bd6b382e7d81e225de428b5d"
+    }
+  ]
+}

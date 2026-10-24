@@ -1,0 +1,55 @@
+{
+  "stage": "awaiting_real_human_annotations",
+  "cases": [
+    {
+      "case_id": "B001",
+      "delivered_order": 1,
+      "reviewed": false,
+      "algorithm_revealed": false,
+      "center_score": null,
+      "bottom_score": null
+    },
+    {
+      "case_id": "B002",
+      "delivered_order": 2,
+      "reviewed": false,
+      "algorithm_revealed": false,
+      "center_score": null,
+      "bottom_score": null
+    },
+    {
+      "case_id": "B003",
+      "delivered_order": 3,
+      "reviewed": false,
+      "algorithm_revealed": false,
+      "center_score": null,
+      "bottom_score": null
+    },
+    {
+      "case_id": "B004",
+      "delivered_order": 4,
+      "reviewed": false,
+      "algorithm_revealed": false,
+      "center_score": null,
+      "bottom_score": null
+    },
+    {
+      "case_id": "B005",
+      "delivered_order": 5,
+      "reviewed": false,
+      "algorithm_revealed": false,
+      "center_score": null,
+      "bottom_score": null
+    },
+    {
+      "case_id": "B006",
+      "delivered_order": 6,
+      "reviewed": false,
+      "algorithm_revealed": false,
+      "center_score": null,
+      "bottom_score": null
+    }
+  ],
+  "remaining_registered_cases": "withheld",
+  "known_case_in_blind_scores": false
+}

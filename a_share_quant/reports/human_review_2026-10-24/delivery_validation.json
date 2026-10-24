@@ -1,0 +1,15 @@
+{
+  "first_six_order_verified": true,
+  "png_dimensions": [
+    2160,
+    3360
+  ],
+  "future_dates_in_visible_bars": 0,
+  "pdf_pages": 6,
+  "algorithm_or_identity_in_first_stage": false,
+  "android_chromium_emulation": "passed touch drawing, multiple regions, null centroid, no-center, review and JSON export",
+  "physical_android_device_tested": false,
+  "real_human_annotations_received": 0,
+  "external_network_requests_by_annotator": 0,
+  "synthetic_browser_test_excluded_from_review": true
+}
